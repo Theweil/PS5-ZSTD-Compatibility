@@ -204,7 +204,8 @@ for (const [id, n] of sourceCounts) if (n !== 1) fail(`duplicate source record i
 const covered = new Set(tests.flatMap((t) => t.source_record_ids));
 for (const id of expected) if (!covered.has(id)) fail(`original record ${id} is not represented by any test report (silent data loss)`);
 // Verbatim archive check: sources.json must reproduce the markdown exactly.
-const md = fs.readFileSync(path.join(ROOT, 'docs/source-data-original.md'), 'utf8');
+const md = fs.readFileSync(path.join(ROOT, 'docs/source-data-original.md'), 'utf8')
+  .replace(/\r\n/g, '\n');
 const blocks = [...md.matchAll(/```text\n([\s\S]*?)\n```/g)].map((m) => m[1].split('\n').filter((l) => l.trim()));
 if (blocks.length !== 2) fail('docs/source-data-original.md must contain exactly 2 verbatim text blocks');
 else {
