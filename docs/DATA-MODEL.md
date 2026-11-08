@@ -28,9 +28,45 @@
 | `skus[]` | 来自 PPSA 列的**正式 SKU**；`confidence: "confirmed"` |
 | `candidate_skus[]` | 仅出现在备注中的疑似编号；`confidence: "unconfirmed"`，**永远不会**并入 `skus` |
 | `aliases[]` | 别名 / 机翻名 / 社区译名（含问题表带来的别名） |
-| `description` / `notes` | 说明与维护者备注 |
+| `description` | **面向读者的游戏说明**，语言中立；`string` 或 `null` |
+| `description_zh` / `description_en` | 可选的双语游戏说明；网站按当前语言优先取对应字段，回退到 `description` |
+| `notes` | **维护者备注**：迁移说明、数据质量提示、与原始清单的关系 |
 | `game_identification` | `confirmed` / `uncertain` / `unidentified` |
+
+> 三个「说明」类字段的区别：`description*` 是给读者看的客观简介；`notes` 是给维护者看的处理说明；
+> `title_original` 与 `tests.json` 的 `notes` 是**原始资料的逐字转录，禁止改写**（CI 会逐行比对存档）。
 | `source_record_ids[]` | 该游戏关联的全部原始记录 ID |
+
+### 修改游戏描述说明（最常见的一次数据变更）
+
+1. 打开 `data/games.json`，按 **`id`** 定位目标游戏（不要按数组下标，顺序可能变动）。
+2. 填写说明字段，三者都是 `string` 或 `null`：
+
+   | 想写什么 | 改哪个字段 |
+   | --- | --- |
+   | 中文说明 | `description_zh` |
+   | 英文说明 | `description_en` |
+   | 不分语言的通用事实 | `description` |
+   | 删除说明 | 把值改回 `null`（**不要删掉 `description` 这个键**，它是 Schema 的必填字段） |
+
+3. 只写可核验的客观事实或你自己的原创描述；不要复制官方商店文案、论坛原文或第三方享有版权的内容（见 `DATA-LICENSE.md`）。
+4. `npm test` → `npm run dev` → 打开该游戏详情，切换中英文确认显示。
+5. 在 `CHANGELOG.md` 追加一条，例如：`- 更新 astro-bot 的游戏说明（仅描述变更，不涉及测试结论）`。
+6. 提交 → PR → 合并 `main` → Pages 自动发布；网站刷新即生效，**不需要改任何 HTML 或 JS**。
+
+示例（仅演示字段格式，内容请勿照抄）：
+
+```json
+{
+  "id": "astro-bot",
+  "description": null,
+  "description_zh": "由社区补充的中文游戏说明。",
+  "description_en": "Community-written English description."
+}
+```
+
+> 只写了中文说明时，中文界面正常显示，英文界面会显示中文内容并明确标注 `Description (Chinese only)`，**不会编造译文**。
+> 修改说明不影响聚合状态与统计，因此**无需**运行 `npm run stats -- --write`；但 `npm test` 仍必须跑（Schema 会校验字段类型）。
 
 ### SKU 规则
 
@@ -119,7 +155,7 @@
 
 Three layers, never conflated: **95 verbatim source rows** → **91 distinct game entities** → **96 independent test reports**. `sources.json` is the machine-readable mirror of `docs/source-data-original.md`; every `raw_line` must match the Markdown byte-for-byte (CI enforces this).
 
-`games.json` holds one record per game with confirmed `skus[]` (from the PPSA column only) and `candidate_skus[]` (numbers found only in notes, always `unconfirmed`). Regions are never inferred; unlabelled PPSAs use `UNKNOWN`, missing PPSAs use `null` + `ppsa_status: "missing"`.
+`games.json` holds one record per game with confirmed `skus[]` (from the PPSA column only) and `candidate_skus[]` (numbers found only in notes, always `unconfirmed`). Regions are never inferred; unlabelled PPSAs use `UNKNOWN`, missing PPSAs use `null` + `ppsa_status: "missing"`. To edit a game description, set `description_zh` / `description_en` (or the language-neutral `description`) on that game's `id`, then run `npm test`, add a `CHANGELOG.md` entry and open a PR; the site reads the JSON at runtime, so no HTML changes are needed.
 
 `tests.json` holds one record per independent report. All original community rows have `tested_at: null`, `verification: "community_report"` and no invented firmware/converter/runtime values. The problem table has no compression column, so all ten rows keep `compression: "unknown"` with a `zstd_issue_scope` context flag that is **not** counted as test data.
 

@@ -51,6 +51,7 @@ export function normalise(value) {
 export function searchableText(game, tests) {
   const parts = [
     game.title_zh, game.title_en, game.title_original,
+    game.description, game.description_zh, game.description_en, game.notes,
     ...(game.aliases || []),
     ...(game.skus || []).map((s) => s.ppsa),
     ...(game.candidate_skus || []).flatMap((s) => [s.ppsa, s.raw]),
