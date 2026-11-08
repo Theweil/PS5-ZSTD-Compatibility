@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theweil.github.io/PS5-ZSTD-Compatibility/schema/regions.schema.json",
+  "title": "PS5 ZSTD Compatibility Database — region codes",
+  "description": "Validates data/regions.json. Region codes are only assigned when the original data states the region; UNKNOWN must not be inferred away.",
+  "type": "object",
+  "required": ["regions"],
+  "additionalProperties": false,
+  "properties": {
+    "regions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["code", "label_zh", "label_en", "note"],
+        "additionalProperties": false,
+        "properties": {
+          "code": { "type": "string", "enum": ["HK", "US", "EU", "JP", "AS", "MULTI", "UNKNOWN"] },
+          "label_zh": { "type": "string" },
+          "label_en": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

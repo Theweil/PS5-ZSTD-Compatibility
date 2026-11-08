@@ -1,0 +1,8 @@
+# Keep the verbatim source archive and all data files byte-stable (LF) across
+# platforms; CI compares docs/source-data-original.md line-by-line with
+# data/sources.json, so CRLF conversion would be a false validation failure.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary

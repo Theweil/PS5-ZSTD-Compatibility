@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theweil.github.io/PS5-ZSTD-Compatibility/schema/source.schema.json",
+  "title": "PS5 ZSTD Compatibility Database — verbatim source records",
+  "description": "Validates data/sources.json. raw_line and raw.* must be byte-for-byte copies of docs/source-data-original.md.",
+  "type": "object",
+  "required": ["meta", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": { "type": "object" },
+    "records": {
+      "type": "array",
+      "minItems": 95,
+      "items": { "$ref": "#/definitions/record" }
+    }
+  },
+  "definitions": {
+    "record": {
+      "type": "object",
+      "required": ["source_record_id", "source_table", "row_number", "raw_line", "raw"],
+      "additionalProperties": false,
+      "properties": {
+        "source_record_id": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" },
+        "source_table": { "type": "string", "enum": ["pass", "problem"] },
+        "row_number": { "type": "integer", "minimum": 1 },
+        "raw_line": { "type": "string", "minLength": 1 },
+        "raw": {
+          "type": "object",
+          "required": ["game", "ppsa", "tester", "notes"],
+          "additionalProperties": false,
+          "properties": {
+            "game": { "type": "string" },
+            "ppsa": { "type": "string" },
+            "compression": { "type": "string" },
+            "symptom": { "type": "string" },
+            "tester": { "type": "string" },
+            "notes": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

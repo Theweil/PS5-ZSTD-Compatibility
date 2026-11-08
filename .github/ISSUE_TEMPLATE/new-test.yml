@@ -1,0 +1,179 @@
+name: "新增测试报告 / Submit a new test report"
+description: "提交一次独立的 PS5 游戏 ZSTD / LZ4 转换与运行测试。未知项请填 unknown，不要猜测。"
+title: "[New Test] "
+labels: ["new-test", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 新增独立测试报告 / New independent test report
+
+        本表单**不会**自动修改正式数据库。提交后由管理员核实，再更新 JSON、通过数据校验、经 Pull Request 审核合并，最后自动发布到网站。
+
+        **每条独立测试都必须单独提交一次**（同一游戏不同测试者 / 不同压缩格式请分别提交）。
+        请只填写事实性元数据：不要上传 PKG、游戏文件、密钥、截图正文或任何受版权保护的内容；证据请提供合法来源链接。
+
+        Use `unknown` for anything you did not observe. Never guess a PPSA, firmware or version.
+
+  - type: input
+    id: game_zh
+    attributes:
+      label: "游戏中文名 / Chinese title"
+      description: "没有官方中文名时填 unknown 或留空。"
+      placeholder: "例如：羊蹄山之魂"
+    validations:
+      required: false
+
+  - type: input
+    id: game_en
+    attributes:
+      label: "游戏英文名 / English title"
+      description: "必填，用于去重与检索。"
+      placeholder: "例如：Ghost of Yotei"
+    validations:
+      required: true
+
+  - type: input
+    id: ppsa
+    attributes:
+      label: "PPSA"
+      description: "完整编号，如 PPSA26344。多个地区 SKU 请全部列出；未提供填 unknown / 待确认。"
+      placeholder: "PPSA26344"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: "地区 / Region"
+      description: "只选择原始资料明确给出的地区；不确定选「未注明」。"
+      options:
+        - "HK / 港服（中国香港）"
+        - "US / 美服"
+        - "EU / 欧服"
+        - "JP / 日服"
+        - "AS / 亚服"
+        - "MULTI / 多地区"
+        - "UNKNOWN / 未注明"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compression
+    attributes:
+      label: "压缩格式 / Compression"
+      description: "ZSTD 与 LZ4 必须分开报告；一条报告只能对应一种格式。"
+      options:
+        - "zstd"
+        - "lz4"
+        - "unknown / 未注明"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: "测试结果 / Result"
+      options:
+        - "pass / 成功"
+        - "fail / 失败"
+        - "partial / 部分成功或存在明显限制"
+        - "unknown / 无法判断"
+    validations:
+      required: true
+
+  - type: input
+    id: ps5_firmware
+    attributes:
+      label: "PS5 固件版本 / PS5 firmware"
+      placeholder: "unknown"
+    validations:
+      required: false
+
+  - type: input
+    id: game_version
+    attributes:
+      label: "游戏版本 / Game version"
+      placeholder: "例如：01.018 / unknown"
+    validations:
+      required: false
+
+  - type: input
+    id: converter
+    attributes:
+      label: "转换器名称与版本 / Converter + version"
+      placeholder: "例如：ampr-emu-ng 0.3.3 / unknown"
+    validations:
+      required: false
+
+  - type: input
+    id: runtime_version
+    attributes:
+      label: "运行库名称与版本 / Runtime + version"
+      placeholder: "例如：libSceAmpr-0.3.3.sprx / unknown"
+    validations:
+      required: false
+
+  - type: input
+    id: mount_tool
+    attributes:
+      label: "挂载工具 / Mount tool"
+      placeholder: "unknown"
+    validations:
+      required: false
+
+  - type: input
+    id: tested_at
+    attributes:
+      label: "测试日期 / Test date"
+      description: "格式 YYYY-MM-DD；未记录请填 unknown，不要补造日期。"
+      placeholder: "2026-11-08"
+    validations:
+      required: false
+
+  - type: input
+    id: tester
+    attributes:
+      label: "测试者 / Tester"
+      description: "社区昵称即可；多人共同测试请用 / 分隔。"
+      placeholder: "例如：hmh715"
+    validations:
+      required: true
+
+  - type: textarea
+    id: symptom
+    attributes:
+      label: "症状 / Symptoms (仅失败或部分成功时)"
+      description: "如卡 logo、黑屏、signal 11、无法运行等。"
+      placeholder: "unknown"
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "证据链接 / Evidence links"
+      description: "只放合法来源链接（自建图床、公开日志片段等）。不要粘贴或上传第三方享有版权的截图、日志全文或游戏文件。"
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "备注 / Notes"
+      description: "任何需要保留的原始描述、SKU 线索、与其他报告的关系等。"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "提交确认 / Confirmation"
+      options:
+        - label: "我确认以上信息来自我实际观察到的结果，未推测或编造未知字段。"
+          required: true
+        - label: "我确认未上传任何游戏文件、PKG、密钥或第三方享有版权的内容。"
+          required: true
+        - label: "我理解这条报告不会自动修改数据库，需要管理员核实与 PR 审核。"
+          required: true

@@ -1,0 +1,19 @@
+{
+  "name": "ps5-zstd-compatibility-database",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Community-maintained PS5 ZSTD/LZ4 game compatibility database (static site + JSON data).",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "stats": "node scripts/generate-stats.mjs",
+    "stats:check": "node scripts/generate-stats.mjs --check",
+    "build": "node scripts/build-site.mjs",
+    "dev": "node scripts/build-site.mjs && node scripts/serve.mjs",
+    "test": "npm run validate && npm run stats:check && npm run build"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

@@ -1,0 +1,67 @@
+name: Validate data
+
+# Runs on every Pull Request, on data/structure changes pushed to the default
+# branch, and on demand. No secrets needed; read-only token permissions.
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - 'site/**'
+      - 'docs/source-data-original.md'
+      - 'README.md'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: JSON syntax + JSON Schema + integrity + 95-record coverage
+        run: npm run validate
+
+      - name: README statistics must match data/*.json
+        run: npm run stats:check
+
+      - name: Build static site (also verifies the JSON -> site pipeline)
+        run: npm run build
+
+      - name: Built artifact integrity
+        run: |
+          test -f dist/index.html
+          for f in games.json tests.json sources.json regions.json updates.json; do
+            test -f "dist/data/$f" || { echo "missing dist/data/$f"; exit 1; }
+          done
+          node -e "
+            const fs=require('fs');
+            const s=JSON.parse(fs.readFileSync('dist/data/sources.json','utf8'));
+            if(s.records.length!==95){console.error('expected 95 source records, got '+s.records.length);process.exit(1)}
+            console.log('artifact contains 95 verbatim source records');
+          "
+
+      - name: Summary
+        run: npm run stats
