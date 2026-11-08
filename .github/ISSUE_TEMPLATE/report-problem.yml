@@ -1,0 +1,124 @@
+name: "报告兼容性问题 / Report a compatibility problem"
+description: "报告卡 logo、黑屏、运行失败、崩溃等问题。已有游戏的失败报告会作为独立记录保留，不会覆盖之前的通过报告。"
+title: "[Problem] "
+labels: ["problem-report", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 报告兼容性问题 / Report a compatibility problem
+
+        - **相反结果不会被覆盖**：即使该游戏已有通过报告，本问题报告也会作为独立记录保留，并触发 `conflict` 或 `needs_confirmation`。
+        - **压缩格式不明时请选 unknown**：不要因为本数据库以 ZSTD 为主就默认填写 ZSTD。
+        - 请勿上传 PKG、游戏文件、密钥或第三方享有版权的内容；日志/截图请使用合法来源链接或文字描述。
+
+        Opposing reports are retained; nothing is overwritten. Choose `unknown` if the compression format was not observed.
+
+  - type: input
+    id: game
+    attributes:
+      label: "游戏名称 / Game title"
+      description: "中文名或英文名均可，建议同时提供。"
+      placeholder: "例如：宇宙机器人 / ASTRO BOT"
+    validations:
+      required: true
+
+  - type: input
+    id: ppsa
+    attributes:
+      label: "PPSA"
+      description: "未提供填 unknown / 待确认，不要猜测。"
+      placeholder: "PPSA21567"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compression
+    attributes:
+      label: "压缩格式 / Compression"
+      options:
+        - "zstd"
+        - "lz4"
+        - "unknown / 未注明"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: "问题类型 / Problem type"
+      options:
+        - "卡 logo / Stuck on logo"
+        - "黑屏 / Black screen"
+        - "运行失败 / Launch failure"
+        - "崩溃 / signal 11 / Crash"
+        - "无法运行 / Unplayable"
+        - "部分功能异常 / Partial functionality"
+        - "待确认 / Needs confirmation"
+        - "其他 / Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: symptom
+    attributes:
+      label: "问题表现 / Observed behaviour"
+      description: "请描述具体现象、出现阶段、是否有报错文字。"
+      placeholder: "启动后停留在 logo，无法进入主菜单"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: "测试环境 / Test environment"
+      description: "PS5 固件、游戏版本、地区 SKU、主机型号等。未知填 unknown。"
+      placeholder: "PS5 固件 unknown / 游戏版本 01.000 / 港服"
+    validations:
+      required: true
+
+  - type: input
+    id: converter_runtime
+    attributes:
+      label: "转换器与运行库版本 / Converter & runtime versions"
+      placeholder: "例如：ampr-emu-ng 0.3.3 + libSceAmpr-0.3.3.sprx / unknown"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: "是否能够重复出现 / Reproducible"
+      options:
+        - "是 / Yes"
+        - "否 / No"
+        - "未测试 / Not tested"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "日志或截图链接 / Logs or screenshots"
+      description: "只提供合法来源链接或必要的文字摘录；不要复制第三方享有版权的原文或完整截图文件。"
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "其他备注 / Additional notes"
+      description: "例如：其他测试者的相反结果、疑似不同 SKU、转换后小文件数量等。"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "提交确认 / Confirmation"
+      options:
+        - label: "我确认未推测或编造压缩格式、PPSA、固件与版本信息。"
+          required: true
+        - label: "我确认未上传任何游戏文件、PKG、密钥或第三方享有版权的内容。"
+          required: true

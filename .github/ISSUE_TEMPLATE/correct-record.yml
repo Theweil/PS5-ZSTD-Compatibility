@@ -1,0 +1,100 @@
+name: "修正数据库记录 / Correct an existing record"
+description: "修正错误的游戏名称、PPSA、地区标注或测试数据。修正必须给出原数据、建议数据与来源。"
+title: "[Correction] "
+labels: ["record-correction", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 修正数据库 / Correct an existing record
+
+        - 修正**必须**提供「原数据 → 建议数据 → 修改理由 → 相关来源」四要素。
+        - 原始存档 `docs/source-data-original.md` **永不修改**；修正只发生在 `data/*.json`，并在 `CHANGELOG.md` 中记录。
+        - 疑似但未经核实的 SKU 只能作为 `candidate_skus`（`confidence: unconfirmed`），不得提升为正式 SKU。
+        - 不擅自"更正"原始清单中明确标注为「未识别」「存疑」的游戏名称。
+
+        Never edit the verbatim archive. Corrections apply to `data/*.json` only and must be logged.
+
+  - type: input
+    id: game
+    attributes:
+      label: "游戏名称 / Game title"
+      placeholder: "例如：圣兽之王 / Unicorn Overlord"
+    validations:
+      required: true
+
+  - type: input
+    id: ppsa
+    attributes:
+      label: "原始 PPSA / Existing PPSA"
+      description: "填写当前数据库中的 PPSA；若无 PPSA 填 unknown / 待确认。"
+      placeholder: "PPSA09894"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: fields
+    attributes:
+      label: "需要修改的字段 / Fields to change"
+      options:
+        - label: "游戏中文名 / Chinese title"
+        - label: "游戏英文名 / English title"
+        - label: "PPSA / 地区 SKU"
+        - label: "别名 / Aliases"
+        - label: "压缩格式 / Compression"
+        - label: "测试结果 / Result"
+        - label: "测试环境（固件 / 版本 / 转换器 / 运行库）"
+        - label: "测试者 / Tester"
+        - label: "备注 / Notes"
+        - label: "其他 / Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: "原数据 / Current value"
+      description: "逐字引用当前 JSON 中的值，或给出 source_record_ids（如 P-075）。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: "建议的数据 / Proposed value"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "修改理由 / Reason"
+      description: "说明为什么当前值有误，以及新值如何得到验证。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: "相关来源 / Sources"
+      description: "官方商店页面、合法公开资料链接或可核验的证据描述；不要复制第三方享有版权的内容。"
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "其他备注 / Additional notes"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "提交确认 / Confirmation"
+      options:
+        - label: "我确认新数据有可核验来源，不是猜测或机翻推断。"
+          required: true
+        - label: "我理解原始存档不会被修改，修正需经核实、数据校验与 PR 审核。"
+          required: true

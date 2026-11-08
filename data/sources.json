@@ -1,0 +1,1251 @@
+{
+  "meta": {
+    "description": "PS5 ZSTD Compatibility Database — verbatim source archive (machine readable).",
+    "source_document": "docs/source-data-original.md",
+    "pass_table_count": 85,
+    "problem_table_count": 10,
+    "total_count": 95,
+    "id_ranges": {
+      "pass": "P-001..P-085",
+      "problem": "F-001..F-010"
+    },
+    "notice": "raw_line 与 raw.* 均为原始表格逐字内容，不得编辑。"
+  },
+  "records": [
+    {
+      "source_record_id": "P-001",
+      "source_table": "pass",
+      "row_number": 1,
+      "raw_line": "1|空之轨迹 the 1st Trails in the Sky 1st|PPSA30117(港)|zstd|nisec_eric|美服 28465",
+      "raw": {
+        "game": "空之轨迹 the 1st Trails in the Sky 1st",
+        "ppsa": "PPSA30117(港)",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "美服 28465"
+      }
+    },
+    {
+      "source_record_id": "P-002",
+      "source_table": "pass",
+      "row_number": 2,
+      "raw_line": "2|空之轨迹 the 2nd Trails in the Sky 2nd|PPSA35304(港)|zstd|nisec_eric|2026-09-17 发售，简中",
+      "raw": {
+        "game": "空之轨迹 the 2nd Trails in the Sky 2nd",
+        "ppsa": "PPSA35304(港)",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "2026-09-17 发售，简中"
+      }
+    },
+    {
+      "source_record_id": "P-003",
+      "source_table": "pass",
+      "row_number": 3,
+      "raw_line": "3|控制：共振 CONTROL: Resonant|PPSA34547|zstd|热心群友|“控制：共振”即港服官方标题；原帖主未知",
+      "raw": {
+        "game": "控制：共振 CONTROL: Resonant",
+        "ppsa": "PPSA34547",
+        "compression": "zstd",
+        "tester": "热心群友",
+        "notes": "“控制：共振”即港服官方标题；原帖主未知"
+      }
+    },
+    {
+      "source_record_id": "P-004",
+      "source_table": "pass",
+      "row_number": 4,
+      "raw_line": "4|eFootball™（胜利11人） eFootball|PPSA03071(港)|zstd|nisec_eric|免费 Live 版",
+      "raw": {
+        "game": "eFootball™（胜利11人） eFootball",
+        "ppsa": "PPSA03071(港)",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "免费 Live 版"
+      }
+    },
+    {
+      "source_record_id": "P-005",
+      "source_table": "pass",
+      "row_number": 5,
+      "raw_line": "5|双影奇境 Split Fiction|PPSA08560|zstd|nisec_eric / hmh715|“分裂小说”系机翻已正名",
+      "raw": {
+        "game": "双影奇境 Split Fiction",
+        "ppsa": "PPSA08560",
+        "compression": "zstd",
+        "tester": "nisec_eric / hmh715",
+        "notes": "“分裂小说”系机翻已正名"
+      }
+    },
+    {
+      "source_record_id": "P-006",
+      "source_table": "pass",
+      "row_number": 6,
+      "raw_line": "6|鬼武者：剑之道 Onimusha: Way of the Sword|PPSA27836|zstd|nisec_eric / fdong|01.000 / 42G（fdong）",
+      "raw": {
+        "game": "鬼武者：剑之道 Onimusha: Way of the Sword",
+        "ppsa": "PPSA27836",
+        "compression": "zstd",
+        "tester": "nisec_eric / fdong",
+        "notes": "01.000 / 42G（fdong）"
+      }
+    },
+    {
+      "source_record_id": "P-007",
+      "source_table": "pass",
+      "row_number": 7,
+      "raw_line": "7|EA SPORTS FC 27|PPSA34015|zstd|reddit / hmh715|—",
+      "raw": {
+        "game": "EA SPORTS FC 27",
+        "ppsa": "PPSA34015",
+        "compression": "zstd",
+        "tester": "reddit / hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-008",
+      "source_table": "pass",
+      "row_number": 8,
+      "raw_line": "8|跑车浪漫旅 7（GT7） Gran Turismo 7|PPSA01317(美)/01318(亚)|zstd|nisec_eric|—",
+      "raw": {
+        "game": "跑车浪漫旅 7（GT7） Gran Turismo 7",
+        "ppsa": "PPSA01317(美)/01318(亚)",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-009",
+      "source_table": "pass",
+      "row_number": 9,
+      "raw_line": "9|怪物猎人：荒野 Monster Hunter Wilds|PPSA07862(美)|zstd|椒盐洋芋|—",
+      "raw": {
+        "game": "怪物猎人：荒野 Monster Hunter Wilds",
+        "ppsa": "PPSA07862(美)",
+        "compression": "zstd",
+        "tester": "椒盐洋芋",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-010",
+      "source_table": "pass",
+      "row_number": 10,
+      "raw_line": "10|人中之龙 极3（如龙3极） Yakuza Kiwami 3 & Dark Ties|PPSA30223|zstd|椒盐洋芋|含 3 外传 Dark Ties",
+      "raw": {
+        "game": "人中之龙 极3（如龙3极） Yakuza Kiwami 3 & Dark Ties",
+        "ppsa": "PPSA30223",
+        "compression": "zstd",
+        "tester": "椒盐洋芋",
+        "notes": "含 3 外传 Dark Ties"
+      }
+    },
+    {
+      "source_record_id": "P-011",
+      "source_table": "pass",
+      "row_number": 11,
+      "raw_line": "11|WRC Generations（WRC：世代） WRC Generations|PPSA07580(美)/07579(欧)|zstd|椒盐洋芋|无官方中文",
+      "raw": {
+        "game": "WRC Generations（WRC：世代） WRC Generations",
+        "ppsa": "PPSA07580(美)/07579(欧)",
+        "compression": "zstd",
+        "tester": "椒盐洋芋",
+        "notes": "无官方中文"
+      }
+    },
+    {
+      "source_record_id": "P-012",
+      "source_table": "pass",
+      "row_number": 12,
+      "raw_line": "12|浪人崛起 Rise of the Ronin|PPSA04539(美)|zstd|铉的小恶魔|—",
+      "raw": {
+        "game": "浪人崛起 Rise of the Ronin",
+        "ppsa": "PPSA04539(美)",
+        "compression": "zstd",
+        "tester": "铉的小恶魔",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-013",
+      "source_table": "pass",
+      "row_number": 13,
+      "raw_line": "13|乐一通：古怪运动世界 Looney Tunes: Wacky World of Sports|PPSA19563|zstd|nisec_eric|原“华纳群星”系机翻；官方无中文",
+      "raw": {
+        "game": "乐一通：古怪运动世界 Looney Tunes: Wacky World of Sports",
+        "ppsa": "PPSA19563",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "原“华纳群星”系机翻；官方无中文"
+      }
+    },
+    {
+      "source_record_id": "P-014",
+      "source_table": "pass",
+      "row_number": 14,
+      "raw_line": "14|高达破坏者4（官中：GUNDAM 创坏者4） Gundam Breaker 4|PPSA08065(美)|zstd|nisec_eric|—",
+      "raw": {
+        "game": "高达破坏者4（官中：GUNDAM 创坏者4） Gundam Breaker 4",
+        "ppsa": "PPSA08065(美)",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-015",
+      "source_table": "pass",
+      "row_number": 15,
+      "raw_line": "15|空战奇兵8：希孚之翼（皇牌空战8） ACE COMBAT 8: Wings of Theve|PPSA24913|zstd|bmoon|“空战奇兵”为系列官方中文",
+      "raw": {
+        "game": "空战奇兵8：希孚之翼（皇牌空战8） ACE COMBAT 8: Wings of Theve",
+        "ppsa": "PPSA24913",
+        "compression": "zstd",
+        "tester": "bmoon",
+        "notes": "“空战奇兵”为系列官方中文"
+      }
+    },
+    {
+      "source_record_id": "P-016",
+      "source_table": "pass",
+      "row_number": 16,
+      "raw_line": "16|对马岛之魂 导演剪辑版 Ghost of Tsushima DC|PPSA02225(美)/03210(亚)|zstd|bmoon|—",
+      "raw": {
+        "game": "对马岛之魂 导演剪辑版 Ghost of Tsushima DC",
+        "ppsa": "PPSA02225(美)/03210(亚)",
+        "compression": "zstd",
+        "tester": "bmoon",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-017",
+      "source_table": "pass",
+      "row_number": 17,
+      "raw_line": "17|刺客信条：黑旗 同步重置 AC IV Black Flag: Resynced|PPSA28183|zstd|bmoon|官方繁中《刺客教條：黑旗 同步重置》",
+      "raw": {
+        "game": "刺客信条：黑旗 同步重置 AC IV Black Flag: Resynced",
+        "ppsa": "PPSA28183",
+        "compression": "zstd",
+        "tester": "bmoon",
+        "notes": "官方繁中《刺客教條：黑旗 同步重置》"
+      }
+    },
+    {
+      "source_record_id": "P-018",
+      "source_table": "pass",
+      "row_number": 18,
+      "raw_line": "18|剑星 Stellar Blade|PPSA13197|zstd|bmoon / hmh715|官方中文名“剑星”（“星刃”非官方）",
+      "raw": {
+        "game": "剑星 Stellar Blade",
+        "ppsa": "PPSA13197",
+        "compression": "zstd",
+        "tester": "bmoon / hmh715",
+        "notes": "官方中文名“剑星”（“星刃”非官方）"
+      }
+    },
+    {
+      "source_record_id": "P-019",
+      "source_table": "pass",
+      "row_number": 19,
+      "raw_line": "19|眩晕2 Vertigo 2|PPSA18102|zstd|kuramafly|PSVR2 必须，无中文",
+      "raw": {
+        "game": "眩晕2 Vertigo 2",
+        "ppsa": "PPSA18102",
+        "compression": "zstd",
+        "tester": "kuramafly",
+        "notes": "PSVR2 必须，无中文"
+      }
+    },
+    {
+      "source_record_id": "P-020",
+      "source_table": "pass",
+      "row_number": 20,
+      "raw_line": "20|巨兽贝西摩斯 Skydance's BEHEMOTH|PPSA04962|zstd|kuramafly|PSVR2，官方无中文标题",
+      "raw": {
+        "game": "巨兽贝西摩斯 Skydance's BEHEMOTH",
+        "ppsa": "PPSA04962",
+        "compression": "zstd",
+        "tester": "kuramafly",
+        "notes": "PSVR2，官方无中文标题"
+      }
+    },
+    {
+      "source_record_id": "P-021",
+      "source_table": "pass",
+      "row_number": 21,
+      "raw_line": "21|绝对魔权 Absolum|PPSA30856|zstd|nisec_eric|“绝对魔权”为官方中文",
+      "raw": {
+        "game": "绝对魔权 Absolum",
+        "ppsa": "PPSA30856",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "“绝对魔权”为官方中文"
+      }
+    },
+    {
+      "source_record_id": "P-022",
+      "source_table": "pass",
+      "row_number": 22,
+      "raw_line": "22|哈迪斯2 Hades II|PPSA36082|zstd|nisec_eric|官方无中文标题",
+      "raw": {
+        "game": "哈迪斯2 Hades II",
+        "ppsa": "PPSA36082",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "官方无中文标题"
+      }
+    },
+    {
+      "source_record_id": "P-023",
+      "source_table": "pass",
+      "row_number": 23,
+      "raw_line": "23|PRAGMATA（识质存在/实质存在） Pragmata|PPSA02530|zstd|nisec_eric|01.300.000 / 35G；官方无中文，两译名均为社区译",
+      "raw": {
+        "game": "PRAGMATA（识质存在/实质存在） Pragmata",
+        "ppsa": "PPSA02530",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "01.300.000 / 35G；官方无中文，两译名均为社区译"
+      }
+    },
+    {
+      "source_record_id": "P-024",
+      "source_table": "pass",
+      "row_number": 24,
+      "raw_line": "24|亰都幻都 -樱花幻舞-（京都幻都） KYOTO XANADU -the Blooming Phantom-|PPSA36992|zstd|nisec_eric|Falcom 新作；官方用字为“亰”",
+      "raw": {
+        "game": "亰都幻都 -樱花幻舞-（京都幻都） KYOTO XANADU -the Blooming Phantom-",
+        "ppsa": "PPSA36992",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "Falcom 新作；官方用字为“亰”"
+      }
+    },
+    {
+      "source_record_id": "P-025",
+      "source_table": "pass",
+      "row_number": 25,
+      "raw_line": "25|维纳斯璀璨假期（奶牌维纳斯假期） DOA Xtreme Venus Vacation PRISM|PPSA25411(日)|zstd|q751733367q|日服 ID（Koei 官方中文），港服 ID 未能核实",
+      "raw": {
+        "game": "维纳斯璀璨假期（奶牌维纳斯假期） DOA Xtreme Venus Vacation PRISM",
+        "ppsa": "PPSA25411(日)",
+        "compression": "zstd",
+        "tester": "q751733367q",
+        "notes": "日服 ID（Koei 官方中文），港服 ID 未能核实"
+      }
+    },
+    {
+      "source_record_id": "P-026",
+      "source_table": "pass",
+      "row_number": 26,
+      "raw_line": "26|严阵以待 Ready or Not|PPSA18605|zstd|q751733367q|通用中文名（原“严正以待”有误）",
+      "raw": {
+        "game": "严阵以待 Ready or Not",
+        "ppsa": "PPSA18605",
+        "compression": "zstd",
+        "tester": "q751733367q",
+        "notes": "通用中文名（原“严正以待”有误）"
+      }
+    },
+    {
+      "source_record_id": "P-027",
+      "source_table": "pass",
+      "row_number": 27,
+      "raw_line": "27|黑神话：悟空（黑悟空） Black Myth: Wukong|PPSA23226|zstd|快上楼 / hmh715|—",
+      "raw": {
+        "game": "黑神话：悟空（黑悟空） Black Myth: Wukong",
+        "ppsa": "PPSA23226",
+        "compression": "zstd",
+        "tester": "快上楼 / hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-028",
+      "source_table": "pass",
+      "row_number": 28,
+      "raw_line": "28|007：初露锋芒 007 First Light|PPSA11386|zstd|fdong|01.018 / 50G",
+      "raw": {
+        "game": "007：初露锋芒 007 First Light",
+        "ppsa": "PPSA11386",
+        "compression": "zstd",
+        "tester": "fdong",
+        "notes": "01.018 / 50G"
+      }
+    },
+    {
+      "source_record_id": "P-029",
+      "source_table": "pass",
+      "row_number": 29,
+      "raw_line": "29|艾尔登法环 Elden Ring|PPSA04608|zstd|fdong|01.018.001 / 90G",
+      "raw": {
+        "game": "艾尔登法环 Elden Ring",
+        "ppsa": "PPSA04608",
+        "compression": "zstd",
+        "tester": "fdong",
+        "notes": "01.018.001 / 90G"
+      }
+    },
+    {
+      "source_record_id": "P-030",
+      "source_table": "pass",
+      "row_number": 30,
+      "raw_line": "30|⚠️ 共鸣瘟疫传说传承（未识别） 疑 A Plague Tale 系列|PPSA30601|zstd|fdong|01.002.000 / 66G；唯一未能识别的名称，建议核对原始下载名",
+      "raw": {
+        "game": "⚠️ 共鸣瘟疫传说传承（未识别） 疑 A Plague Tale 系列",
+        "ppsa": "PPSA30601",
+        "compression": "zstd",
+        "tester": "fdong",
+        "notes": "01.002.000 / 66G；唯一未能识别的名称，建议核对原始下载名"
+      }
+    },
+    {
+      "source_record_id": "P-031",
+      "source_table": "pass",
+      "row_number": 31,
+      "raw_line": "31|匹诺曹的谎言（全DLC） Lies of P|PPSA10621|zstd|fdong|01.012 / 53G",
+      "raw": {
+        "game": "匹诺曹的谎言（全DLC） Lies of P",
+        "ppsa": "PPSA10621",
+        "compression": "zstd",
+        "tester": "fdong",
+        "notes": "01.012 / 53G"
+      }
+    },
+    {
+      "source_record_id": "P-032",
+      "source_table": "pass",
+      "row_number": 32,
+      "raw_line": "32|人中之龙7：光与暗的去向（如龙7） Yakuza: Like a Dragon|PPSA02690|zstd|fdong|01.003 / 43G",
+      "raw": {
+        "game": "人中之龙7：光与暗的去向（如龙7） Yakuza: Like a Dragon",
+        "ppsa": "PPSA02690",
+        "compression": "zstd",
+        "tester": "fdong",
+        "notes": "01.003 / 43G"
+      }
+    },
+    {
+      "source_record_id": "P-033",
+      "source_table": "pass",
+      "row_number": 33,
+      "raw_line": "33|死亡搁浅2：冥滩之上 Death Stranding 2|PPSA02015|zstd|nisec_eric|01.013 / 96G",
+      "raw": {
+        "game": "死亡搁浅2：冥滩之上 Death Stranding 2",
+        "ppsa": "PPSA02015",
+        "compression": "zstd",
+        "tester": "nisec_eric",
+        "notes": "01.013 / 96G"
+      }
+    },
+    {
+      "source_record_id": "P-034",
+      "source_table": "pass",
+      "row_number": 34,
+      "raw_line": "34|羊蹄山之魂 Ghost of Yotei|PPSA26344|zstd|zhangyun111|官方简中；GitHub 反馈均失败；问题表亦收录",
+      "raw": {
+        "game": "羊蹄山之魂 Ghost of Yotei",
+        "ppsa": "PPSA26344",
+        "compression": "zstd",
+        "tester": "zhangyun111",
+        "notes": "官方简中；GitHub 反馈均失败；问题表亦收录"
+      }
+    },
+    {
+      "source_record_id": "P-035",
+      "source_table": "pass",
+      "row_number": 35,
+      "raw_line": "35|歧路旅人0 Octopath Traveler 0|PPSA28495(港)|zstd|zylcw1122|日服 28492",
+      "raw": {
+        "game": "歧路旅人0 Octopath Traveler 0",
+        "ppsa": "PPSA28495(港)",
+        "compression": "zstd",
+        "tester": "zylcw1122",
+        "notes": "日服 28492"
+      }
+    },
+    {
+      "source_record_id": "P-036",
+      "source_table": "pass",
+      "row_number": 36,
+      "raw_line": "36|零 ～红蝶～ REMAKE Fatal Frame II: Crimson Butterfly Remake|PPSA32803(亚)|zstd|zylcw1122|欧美日 32802",
+      "raw": {
+        "game": "零 ～红蝶～ REMAKE Fatal Frame II: Crimson Butterfly Remake",
+        "ppsa": "PPSA32803(亚)",
+        "compression": "zstd",
+        "tester": "zylcw1122",
+        "notes": "欧美日 32802"
+      }
+    },
+    {
+      "source_record_id": "P-037",
+      "source_table": "pass",
+      "row_number": 37,
+      "raw_line": "37|生化危机4 重制版 黄金版 RE4 Remake Gold|PPSA07411(美)|zstd|zylcw1122|美服本体/黄金同 ID；亚服黄金版 09418",
+      "raw": {
+        "game": "生化危机4 重制版 黄金版 RE4 Remake Gold",
+        "ppsa": "PPSA07411(美)",
+        "compression": "zstd",
+        "tester": "zylcw1122",
+        "notes": "美服本体/黄金同 ID；亚服黄金版 09418"
+      }
+    },
+    {
+      "source_record_id": "P-038",
+      "source_table": "pass",
+      "row_number": 38,
+      "raw_line": "38|最终幻想：共鸣 FINAL FANTASY RESONANCE|PPSA34140(亚)|zstd|zylcw1122|国际版 31544；简中",
+      "raw": {
+        "game": "最终幻想：共鸣 FINAL FANTASY RESONANCE",
+        "ppsa": "PPSA34140(亚)",
+        "compression": "zstd",
+        "tester": "zylcw1122",
+        "notes": "国际版 31544；简中"
+      }
+    },
+    {
+      "source_record_id": "P-039",
+      "source_table": "pass",
+      "row_number": 39,
+      "raw_line": "39|空洞骑士 Hollow Knight: Voidheart Ed.|PPSA34971|zstd|zylcw1122 / hmh715|—",
+      "raw": {
+        "game": "空洞骑士 Hollow Knight: Voidheart Ed.",
+        "ppsa": "PPSA34971",
+        "compression": "zstd",
+        "tester": "zylcw1122 / hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-040",
+      "source_table": "pass",
+      "row_number": 40,
+      "raw_line": "40|人中之龙8（如龙8） Like a Dragon: Infinite Wealth|PPSA06435(美)|zstd|zylcw1122|—",
+      "raw": {
+        "game": "人中之龙8（如龙8） Like a Dragon: Infinite Wealth",
+        "ppsa": "PPSA06435(美)",
+        "compression": "zstd",
+        "tester": "zylcw1122",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-041",
+      "source_table": "pass",
+      "row_number": 41,
+      "raw_line": "41|生化危机9：安魂曲（生化9） Resident Evil Requiem|PPSA30803|zstd|jhmai1212 / hmh715|—",
+      "raw": {
+        "game": "生化危机9：安魂曲（生化9） Resident Evil Requiem",
+        "ppsa": "PPSA30803",
+        "compression": "zstd",
+        "tester": "jhmai1212 / hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-042",
+      "source_table": "pass",
+      "row_number": 42,
+      "raw_line": "42|沙罗周期（SAROS） SAROS|PPSA07634(港)|zstd|jhmai1212|“沙罗周期”即官方中文，非机翻；美服 07632",
+      "raw": {
+        "game": "沙罗周期（SAROS） SAROS",
+        "ppsa": "PPSA07634(港)",
+        "compression": "zstd",
+        "tester": "jhmai1212",
+        "notes": "“沙罗周期”即官方中文，非机翻；美服 07632"
+      }
+    },
+    {
+      "source_record_id": "P-043",
+      "source_table": "pass",
+      "row_number": 43,
+      "raw_line": "43|街头霸王6（街霸6） Street Fighter 6|PPSA02632|zstd|yueliang137|—",
+      "raw": {
+        "game": "街头霸王6（街霸6） Street Fighter 6",
+        "ppsa": "PPSA02632",
+        "compression": "zstd",
+        "tester": "yueliang137",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-044",
+      "source_table": "pass",
+      "row_number": 44,
+      "raw_line": "44|金刚狼 Marvel's Wolverine|PPSA03671|zstd / LZ4|tiga6367 / hmh715|tiga6367 版本存疑（zstd），hmh715 为 LZ4；问题表亦收录",
+      "raw": {
+        "game": "金刚狼 Marvel's Wolverine",
+        "ppsa": "PPSA03671",
+        "compression": "zstd / LZ4",
+        "tester": "tiga6367 / hmh715",
+        "notes": "tiga6367 版本存疑（zstd），hmh715 为 LZ4；问题表亦收录"
+      }
+    },
+    {
+      "source_record_id": "P-045",
+      "source_table": "pass",
+      "row_number": 45,
+      "raw_line": "45|王国之心3 ⚠️ KINGDOM HEARTS Collection [I～III]|PPSA35901(美)|zstd|chenlidong|KH3 无 PS5 独立版（PS4=CUSA15072），所测疑为此合集",
+      "raw": {
+        "game": "王国之心3 ⚠️ KINGDOM HEARTS Collection [I～III]",
+        "ppsa": "PPSA35901(美)",
+        "compression": "zstd",
+        "tester": "chenlidong",
+        "notes": "KH3 无 PS5 独立版（PS4=CUSA15072），所测疑为此合集"
+      }
+    },
+    {
+      "source_record_id": "P-046",
+      "source_table": "pass",
+      "row_number": 46,
+      "raw_line": "46|恶魔城：贝尔蒙特诅咒 Castlevania: Belmont's Curse|PPSA35399|zstd|zgp_110|官方无中文标题，社区译名",
+      "raw": {
+        "game": "恶魔城：贝尔蒙特诅咒 Castlevania: Belmont's Curse",
+        "ppsa": "PPSA35399",
+        "compression": "zstd",
+        "tester": "zgp_110",
+        "notes": "官方无中文标题，社区译名"
+      }
+    },
+    {
+      "source_record_id": "P-047",
+      "source_table": "pass",
+      "row_number": 47,
+      "raw_line": "47|胡闹厨房：全都好吃 Overcooked! All You Can Eat|PPSA01528|zstd|hmh715|中文名 zylcw1122",
+      "raw": {
+        "game": "胡闹厨房：全都好吃 Overcooked! All You Can Eat",
+        "ppsa": "PPSA01528",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "中文名 zylcw1122"
+      }
+    },
+    {
+      "source_record_id": "P-048",
+      "source_table": "pass",
+      "row_number": 48,
+      "raw_line": "48|使命召唤：黑色行动冷战 COD: Black Ops Cold War|PPSA02053|zstd|hmh715|—",
+      "raw": {
+        "game": "使命召唤：黑色行动冷战 COD: Black Ops Cold War",
+        "ppsa": "PPSA02053",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-049",
+      "source_table": "pass",
+      "row_number": 49,
+      "raw_line": "49|索尼克：未知边境 Sonic Frontiers|PPSA03831|zstd|hmh715|01.041.000",
+      "raw": {
+        "game": "索尼克：未知边境 Sonic Frontiers",
+        "ppsa": "PPSA03831",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "01.041.000"
+      }
+    },
+    {
+      "source_record_id": "P-050",
+      "source_table": "pass",
+      "row_number": 50,
+      "raw_line": "50|忍者神龟：考瓦邦加合集 TMNT: The Cowabunga Collection|PPSA04489|zstd|hmh715|官方无中文",
+      "raw": {
+        "game": "忍者神龟：考瓦邦加合集 TMNT: The Cowabunga Collection",
+        "ppsa": "PPSA04489",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "官方无中文"
+      }
+    },
+    {
+      "source_record_id": "P-051",
+      "source_table": "pass",
+      "row_number": 51,
+      "raw_line": "51|TIEBREAK 大满贯版（ATP/WTA） TIEBREAK – Grand Slam Edition|PPSA14453|zstd|hmh715|官方无中文",
+      "raw": {
+        "game": "TIEBREAK 大满贯版（ATP/WTA） TIEBREAK – Grand Slam Edition",
+        "ppsa": "PPSA14453",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "官方无中文"
+      }
+    },
+    {
+      "source_record_id": "P-052",
+      "source_table": "pass",
+      "row_number": 52,
+      "raw_line": "52|魂斗罗：加鲁加行动 Contra: Operation Galuga|PPSA15368|zstd|hmh715|—",
+      "raw": {
+        "game": "魂斗罗：加鲁加行动 Contra: Operation Galuga",
+        "ppsa": "PPSA15368",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-053",
+      "source_table": "pass",
+      "row_number": 53,
+      "raw_line": "53|富甲天下11 Richman 11|PPSA16960|zstd|hmh715|—",
+      "raw": {
+        "game": "富甲天下11 Richman 11",
+        "ppsa": "PPSA16960",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-054",
+      "source_table": "pass",
+      "row_number": 54,
+      "raw_line": "54|宇宙机器人 ASTRO BOT|PPSA21567|LZ4|hmh715|问题表亦收录（卡 logo，结果冲突）",
+      "raw": {
+        "game": "宇宙机器人 ASTRO BOT",
+        "ppsa": "PPSA21567",
+        "compression": "LZ4",
+        "tester": "hmh715",
+        "notes": "问题表亦收录（卡 logo，结果冲突）"
+      }
+    },
+    {
+      "source_record_id": "P-055",
+      "source_table": "pass",
+      "row_number": 55,
+      "raw_line": "55|使命召唤：现代战争2 COD: Modern Warfare 2|PPSA23015|zstd|hmh715|—",
+      "raw": {
+        "game": "使命召唤：现代战争2 COD: Modern Warfare 2",
+        "ppsa": "PPSA23015",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-056",
+      "source_table": "pass",
+      "row_number": 56,
+      "raw_line": "56|乐高旅行者 LEGO Voyagers|PPSA23732|zstd|hmh715|粉丝译名，官方无中文",
+      "raw": {
+        "game": "乐高旅行者 LEGO Voyagers",
+        "ppsa": "PPSA23732",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "粉丝译名，官方无中文"
+      }
+    },
+    {
+      "source_record_id": "P-057",
+      "source_table": "pass",
+      "row_number": 57,
+      "raw_line": "57|使命召唤：现代战争3 COD: Modern Warfare 3|PPSA24266|zstd|hmh715|—",
+      "raw": {
+        "game": "使命召唤：现代战争3 COD: Modern Warfare 3",
+        "ppsa": "PPSA24266",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-058",
+      "source_table": "pass",
+      "row_number": 58,
+      "raw_line": "58|航海王：海贼无双4 One Piece: Pirate Warriors 4|PPSA27500|zstd|hmh715|Steam 官中“ONE PIECE 海贼无双4”",
+      "raw": {
+        "game": "航海王：海贼无双4 One Piece: Pirate Warriors 4",
+        "ppsa": "PPSA27500",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "Steam 官中“ONE PIECE 海贼无双4”"
+      }
+    },
+    {
+      "source_record_id": "P-059",
+      "source_table": "pass",
+      "row_number": 59,
+      "raw_line": "59|星球大战：银河赛车手 Star Wars: Galactic Racer|PPSA28416|zstd|hmh715|官方简中即“银河赛车手”",
+      "raw": {
+        "game": "星球大战：银河赛车手 Star Wars: Galactic Racer",
+        "ppsa": "PPSA28416",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "官方简中即“银河赛车手”"
+      }
+    },
+    {
+      "source_record_id": "P-060",
+      "source_table": "pass",
+      "row_number": 60,
+      "raw_line": "60|寂静岭：Townfall SILENT HILL: Townfall|PPSA33286|zstd|hmh715|“落镇”系机翻勿用，官方无中文",
+      "raw": {
+        "game": "寂静岭：Townfall SILENT HILL: Townfall",
+        "ppsa": "PPSA33286",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "“落镇”系机翻勿用，官方无中文"
+      }
+    },
+    {
+      "source_record_id": "P-061",
+      "source_table": "pass",
+      "row_number": 61,
+      "raw_line": "61|玩具总动员3：完整版 Toy Story 3: Complete Edition|PPSA33626|zstd|hmh715|2026-10 复刻，官方无中文",
+      "raw": {
+        "game": "玩具总动员3：完整版 Toy Story 3: Complete Edition",
+        "ppsa": "PPSA33626",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "2026-10 复刻，官方无中文"
+      }
+    },
+    {
+      "source_record_id": "P-062",
+      "source_table": "pass",
+      "row_number": 62,
+      "raw_line": "62|双人成行 It Takes Two|PPSA02424|zstd|hmh715|01.500.000",
+      "raw": {
+        "game": "双人成行 It Takes Two",
+        "ppsa": "PPSA02424",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "01.500.000"
+      }
+    },
+    {
+      "source_record_id": "P-063",
+      "source_table": "pass",
+      "row_number": 63,
+      "raw_line": "63|最后生还者 第一部 The Last of Us Part I|PPSA07644|zstd|hmh715|即“美末日1”；问题表待确认（结果冲突）",
+      "raw": {
+        "game": "最后生还者 第一部 The Last of Us Part I",
+        "ppsa": "PPSA07644",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "即“美末日1”；问题表待确认（结果冲突）"
+      }
+    },
+    {
+      "source_record_id": "P-064",
+      "source_table": "pass",
+      "row_number": 64,
+      "raw_line": "64|索尼克赛车：交叉世界 Sonic Racing: CrossWorlds|PPSA08804|zstd|hmh715|官方名“交叉世界”（原“跨世界”有误）",
+      "raw": {
+        "game": "索尼克赛车：交叉世界 Sonic Racing: CrossWorlds",
+        "ppsa": "PPSA08804",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "官方名“交叉世界”（原“跨世界”有误）"
+      }
+    },
+    {
+      "source_record_id": "P-065",
+      "source_table": "pass",
+      "row_number": 65,
+      "raw_line": "65|乐高蝙蝠侠：黑暗骑士之遗 LEGO Batman: Legacy of the Dark Knight|PPSA16833|zstd|hmh715|2026-05-26 新作，非 2008 老乐高蝙蝠侠",
+      "raw": {
+        "game": "乐高蝙蝠侠：黑暗骑士之遗 LEGO Batman: Legacy of the Dark Knight",
+        "ppsa": "PPSA16833",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "2026-05-26 新作，非 2008 老乐高蝙蝠侠"
+      }
+    },
+    {
+      "source_record_id": "P-066",
+      "source_table": "pass",
+      "row_number": 66,
+      "raw_line": "66|刺客信条：影 Assassin's Creed Shadows|PPSA20397|zstd|hmh715|—",
+      "raw": {
+        "game": "刺客信条：影 Assassin's Creed Shadows",
+        "ppsa": "PPSA20397",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-067",
+      "source_table": "pass",
+      "row_number": 67,
+      "raw_line": "67|NBA 2K27|PPSA35889|zstd|hmh715|—",
+      "raw": {
+        "game": "NBA 2K27",
+        "ppsa": "PPSA35889",
+        "compression": "zstd",
+        "tester": "hmh715",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-068",
+      "source_table": "pass",
+      "row_number": 68,
+      "raw_line": "68|阿喀琉斯：幸存者 Achilles: Survivor|PPSA30454|zstd|aiwo1986|—",
+      "raw": {
+        "game": "阿喀琉斯：幸存者 Achilles: Survivor",
+        "ppsa": "PPSA30454",
+        "compression": "zstd",
+        "tester": "aiwo1986",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-069",
+      "source_table": "pass",
+      "row_number": 69,
+      "raw_line": "69|奥特罗斯 Ultros|PPSA16280|zstd|aiwo1986|—",
+      "raw": {
+        "game": "奥特罗斯 Ultros",
+        "ppsa": "PPSA16280",
+        "compression": "zstd",
+        "tester": "aiwo1986",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-070",
+      "source_table": "pass",
+      "row_number": 70,
+      "raw_line": "70|换影循迹 Bionic Bay|PPSA23767|zstd|aiwo1986|—",
+      "raw": {
+        "game": "换影循迹 Bionic Bay",
+        "ppsa": "PPSA23767",
+        "compression": "zstd",
+        "tester": "aiwo1986",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-071",
+      "source_table": "pass",
+      "row_number": 71,
+      "raw_line": "71|九山：狼之城 Kusan: City of Wolves|PPSA29617|zstd|aiwo1986|—",
+      "raw": {
+        "game": "九山：狼之城 Kusan: City of Wolves",
+        "ppsa": "PPSA29617",
+        "compression": "zstd",
+        "tester": "aiwo1986",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-072",
+      "source_table": "pass",
+      "row_number": 72,
+      "raw_line": "72|魔骑少女 The Knight Witch|PPSA08045|zstd|aiwo1986|—",
+      "raw": {
+        "game": "魔骑少女 The Knight Witch",
+        "ppsa": "PPSA08045",
+        "compression": "zstd",
+        "tester": "aiwo1986",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-073",
+      "source_table": "pass",
+      "row_number": 73,
+      "raw_line": "73|全面战争模拟器 Totally Accurate Battle Simulator|PPSA06081|zstd|aiwo1986|—",
+      "raw": {
+        "game": "全面战争模拟器 Totally Accurate Battle Simulator",
+        "ppsa": "PPSA06081",
+        "compression": "zstd",
+        "tester": "aiwo1986",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "P-074",
+      "source_table": "pass",
+      "row_number": 74,
+      "raw_line": "74|光与影：33号远征队 Clair Obscur: Expedition 33|PPSA17599|zstd|rjwnjc|TGA2025 年度最佳；编号来源飞龙口袋（单源）",
+      "raw": {
+        "game": "光与影：33号远征队 Clair Obscur: Expedition 33",
+        "ppsa": "PPSA17599",
+        "compression": "zstd",
+        "tester": "rjwnjc",
+        "notes": "TGA2025 年度最佳；编号来源飞龙口袋（单源）"
+      }
+    },
+    {
+      "source_record_id": "P-075",
+      "source_table": "pass",
+      "row_number": 75,
+      "raw_line": "75|圣兽之王 Unicorn Overlord|PPSA09894|zstd|zylcw1122|Sony 官方页另见 PPSA20318（疑另一 SKU）",
+      "raw": {
+        "game": "圣兽之王 Unicorn Overlord",
+        "ppsa": "PPSA09894",
+        "compression": "zstd",
+        "tester": "zylcw1122",
+        "notes": "Sony 官方页另见 PPSA20318（疑另一 SKU）"
+      }
+    },
+    {
+      "source_record_id": "P-076",
+      "source_table": "pass",
+      "row_number": 76,
+      "raw_line": "76|地狱之刃2：塞娜的传说 Senua's Saga: Hellblade II|PPSA25991(港)|zstd|mukecool|Xbox 官方简中《地狱之刃 II：塞娜的献祭》；PKG 档案名“塞娜的史诗”",
+      "raw": {
+        "game": "地狱之刃2：塞娜的传说 Senua's Saga: Hellblade II",
+        "ppsa": "PPSA25991(港)",
+        "compression": "zstd",
+        "tester": "mukecool",
+        "notes": "Xbox 官方简中《地狱之刃 II：塞娜的献祭》；PKG 档案名“塞娜的史诗”"
+      }
+    },
+    {
+      "source_record_id": "P-077",
+      "source_table": "pass",
+      "row_number": 77,
+      "raw_line": "77|生化危机2 重制版 Resident Evil 2|PPSA04290(港)|zstd|mukecool|PS5 原生版；PSN 港服名保留英文",
+      "raw": {
+        "game": "生化危机2 重制版 Resident Evil 2",
+        "ppsa": "PPSA04290(港)",
+        "compression": "zstd",
+        "tester": "mukecool",
+        "notes": "PS5 原生版；PSN 港服名保留英文"
+      }
+    },
+    {
+      "source_record_id": "P-078",
+      "source_table": "pass",
+      "row_number": 78,
+      "raw_line": "78|生化危机3 重制版 Resident Evil 3|PPSA03954(港)|zstd|mukecool|PS5 原生版；PSN 港服名保留英文",
+      "raw": {
+        "game": "生化危机3 重制版 Resident Evil 3",
+        "ppsa": "PPSA03954(港)",
+        "compression": "zstd",
+        "tester": "mukecool",
+        "notes": "PS5 原生版；PSN 港服名保留英文"
+      }
+    },
+    {
+      "source_record_id": "P-079",
+      "source_table": "pass",
+      "row_number": 79,
+      "raw_line": "79|生灵重塑 REANIMAL|PPSA23372(港)|zstd|mukecool|“生灵重塑”即 Steam 官方简中名（Tarsier/THQ Nordic）；试玩 PPSA29683",
+      "raw": {
+        "game": "生灵重塑 REANIMAL",
+        "ppsa": "PPSA23372(港)",
+        "compression": "zstd",
+        "tester": "mukecool",
+        "notes": "“生灵重塑”即 Steam 官方简中名（Tarsier/THQ Nordic）；试玩 PPSA29683"
+      }
+    },
+    {
+      "source_record_id": "P-080",
+      "source_table": "pass",
+      "row_number": 80,
+      "raw_line": "80|战锤40K：星际战士2 Warhammer 40,000: Space Marine 2|PPSA04451(港/欧)|zstd|mukecool|美服 04452；飞龙口袋黄金档为美服 04452",
+      "raw": {
+        "game": "战锤40K：星际战士2 Warhammer 40,000: Space Marine 2",
+        "ppsa": "PPSA04451(港/欧)",
+        "compression": "zstd",
+        "tester": "mukecool",
+        "notes": "美服 04452；飞龙口袋黄金档为美服 04452"
+      }
+    },
+    {
+      "source_record_id": "P-081",
+      "source_table": "pass",
+      "row_number": 81,
+      "raw_line": "81|死亡回归 Returnal|PPSA01287(港)|zstd|www14213|亚服 SKU HP9000-PPSA01287",
+      "raw": {
+        "game": "死亡回归 Returnal",
+        "ppsa": "PPSA01287(港)",
+        "compression": "zstd",
+        "tester": "www14213",
+        "notes": "亚服 SKU HP9000-PPSA01287"
+      }
+    },
+    {
+      "source_record_id": "P-082",
+      "source_table": "pass",
+      "row_number": 82,
+      "raw_line": "82|恶魔之魂 重制版 Demon's Souls|PPSA01340(港)|zstd|www14213|亚服 SKU HP9000-PPSA01340",
+      "raw": {
+        "game": "恶魔之魂 重制版 Demon's Souls",
+        "ppsa": "PPSA01340(港)",
+        "compression": "zstd",
+        "tester": "www14213",
+        "notes": "亚服 SKU HP9000-PPSA01340"
+      }
+    },
+    {
+      "source_record_id": "P-083",
+      "source_table": "pass",
+      "row_number": 83,
+      "raw_line": "83|消逝的光芒2 人与仁之战 Dying Light 2 Stay Human|PPSA02261(港)|zstd|mukecool|0.3.2 下转换报错（见修订记录）；换 ampr-emu-ng 0.3.3 后成功运行——首个 0.3.3 成功案例",
+      "raw": {
+        "game": "消逝的光芒2 人与仁之战 Dying Light 2 Stay Human",
+        "ppsa": "PPSA02261(港)",
+        "compression": "zstd",
+        "tester": "mukecool",
+        "notes": "0.3.2 下转换报错（见修订记录）；换 ampr-emu-ng 0.3.3 后成功运行——首个 0.3.3 成功案例"
+      }
+    },
+    {
+      "source_record_id": "P-084",
+      "source_table": "pass",
+      "row_number": 84,
+      "raw_line": "84|WRC 10 FIA 世界汽车拉力锦标赛 WRC 10 FIA World Rally Championship|PPSA03589|zstd|椒盐洋芋|0.3.2 黑屏（问题表原条目）；更新 libSceAmpr-0.3.3.sprx 后正常运行——0.3.3 成功案例；PPSA 为测试者提供",
+      "raw": {
+        "game": "WRC 10 FIA 世界汽车拉力锦标赛 WRC 10 FIA World Rally Championship",
+        "ppsa": "PPSA03589",
+        "compression": "zstd",
+        "tester": "椒盐洋芋",
+        "notes": "0.3.2 黑屏（问题表原条目）；更新 libSceAmpr-0.3.3.sprx 后正常运行——0.3.3 成功案例；PPSA 为测试者提供"
+      }
+    },
+    {
+      "source_record_id": "P-085",
+      "source_table": "pass",
+      "row_number": 85,
+      "raw_line": "85|明末：渊虚之羽 WUCHANG: Fallen Feathers|PPSA09518|zstd|wupeng2|官方简中名“明末：渊虚之羽”；SKU UP4040-PPSA09518（含豪华版同 ID）",
+      "raw": {
+        "game": "明末：渊虚之羽 WUCHANG: Fallen Feathers",
+        "ppsa": "PPSA09518",
+        "compression": "zstd",
+        "tester": "wupeng2",
+        "notes": "官方简中名“明末：渊虚之羽”；SKU UP4040-PPSA09518（含豪华版同 ID）"
+      }
+    },
+    {
+      "source_record_id": "F-001",
+      "source_table": "problem",
+      "row_number": 1,
+      "raw_line": "1|宇宙机器人（小机器人2） ASTRO BOT|PPSA21567|卡 logo|nisec_eric|GitHub issue 追踪中；有人用 0.5.2 转换成功但小文件数 > 40000；与 P-054 冲突（hmh715 LZ4 通过）",
+      "raw": {
+        "game": "宇宙机器人（小机器人2） ASTRO BOT",
+        "ppsa": "PPSA21567",
+        "symptom": "卡 logo",
+        "tester": "nisec_eric",
+        "notes": "GitHub issue 追踪中；有人用 0.5.2 转换成功但小文件数 > 40000；与 P-054 冲突（hmh715 LZ4 通过）"
+      }
+    },
+    {
+      "source_record_id": "F-002",
+      "source_table": "problem",
+      "row_number": 2,
+      "raw_line": "2|羊蹄山之魂 Ghost of Yotei|PPSA26344|卡 logo|nisec_eric|与 P-034 冲突（zhangyun111 通过，GitHub 均失败）",
+      "raw": {
+        "game": "羊蹄山之魂 Ghost of Yotei",
+        "ppsa": "PPSA26344",
+        "symptom": "卡 logo",
+        "tester": "nisec_eric",
+        "notes": "与 P-034 冲突（zhangyun111 通过，GitHub 均失败）"
+      }
+    },
+    {
+      "source_record_id": "F-003",
+      "source_table": "problem",
+      "row_number": 3,
+      "raw_line": "3|金刚狼 Marvel's Wolverine|PPSA03671|黑屏|nisec_eric|与 P-044 冲突（tiga6367 存疑 / hmh715 LZ4 通过）",
+      "raw": {
+        "game": "金刚狼 Marvel's Wolverine",
+        "ppsa": "PPSA03671",
+        "symptom": "黑屏",
+        "tester": "nisec_eric",
+        "notes": "与 P-044 冲突（tiga6367 存疑 / hmh715 LZ4 通过）"
+      }
+    },
+    {
+      "source_record_id": "F-004",
+      "source_table": "problem",
+      "row_number": 4,
+      "raw_line": "4|赤色沙漠 Crimson Desert|—|黑屏|nisec_eric|—",
+      "raw": {
+        "game": "赤色沙漠 Crimson Desert",
+        "ppsa": "—",
+        "symptom": "黑屏",
+        "tester": "nisec_eric",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "F-005",
+      "source_table": "problem",
+      "row_number": 5,
+      "raw_line": "5|瑞奇与叮当：时空跳转 Ratchet & Clank: Rift Apart|—|黑屏|nisec_eric|官方中文名“时空跳转”",
+      "raw": {
+        "game": "瑞奇与叮当：时空跳转 Ratchet & Clank: Rift Apart",
+        "ppsa": "—",
+        "symptom": "黑屏",
+        "tester": "nisec_eric",
+        "notes": "官方中文名“时空跳转”"
+      }
+    },
+    {
+      "source_record_id": "F-006",
+      "source_table": "problem",
+      "row_number": 6,
+      "raw_line": "6|战神：诸神黄昏 God of War Ragnarök|—|黑屏|nisec_eric|官方中文名“诸神黄昏”",
+      "raw": {
+        "game": "战神：诸神黄昏 God of War Ragnarök",
+        "ppsa": "—",
+        "symptom": "黑屏",
+        "tester": "nisec_eric",
+        "notes": "官方中文名“诸神黄昏”"
+      }
+    },
+    {
+      "source_record_id": "F-007",
+      "source_table": "problem",
+      "row_number": 7,
+      "raw_line": "7|最后生还者 第一部（美末日1） The Last of Us Part I|PPSA07644|待确认|nisec_eric|外网称可运行；P-063 hmh715 通过",
+      "raw": {
+        "game": "最后生还者 第一部（美末日1） The Last of Us Part I",
+        "ppsa": "PPSA07644",
+        "symptom": "待确认",
+        "tester": "nisec_eric",
+        "notes": "外网称可运行；P-063 hmh715 通过"
+      }
+    },
+    {
+      "source_record_id": "F-008",
+      "source_table": "problem",
+      "row_number": 8,
+      "raw_line": "8|忍者龙剑传4 Ninja Gaiden 4|—|运行失败|www14213|—",
+      "raw": {
+        "game": "忍者龙剑传4 Ninja Gaiden 4",
+        "ppsa": "—",
+        "symptom": "运行失败",
+        "tester": "www14213",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "F-009",
+      "source_table": "problem",
+      "row_number": 9,
+      "raw_line": "9|尘埃5 DIRT 5|PPSA01551|无法运行|yttx1228|—",
+      "raw": {
+        "game": "尘埃5 DIRT 5",
+        "ppsa": "PPSA01551",
+        "symptom": "无法运行",
+        "tester": "yttx1228",
+        "notes": "—"
+      }
+    },
+    {
+      "source_record_id": "F-010",
+      "source_table": "problem",
+      "row_number": 10,
+      "raw_line": "10|仁王３ Nioh 3|PPSA32786(港)/32785(欧)|signal 11 出错|kofdaibin|港服页 SKU 直出；试玩为 PPSA34974/34975",
+      "raw": {
+        "game": "仁王３ Nioh 3",
+        "ppsa": "PPSA32786(港)/32785(欧)",
+        "symptom": "signal 11 出错",
+        "tester": "kofdaibin",
+        "notes": "港服页 SKU 直出；试玩为 PPSA34974/34975"
+      }
+    }
+  ]
+}

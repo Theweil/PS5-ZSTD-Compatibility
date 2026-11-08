@@ -1,0 +1,3124 @@
+{
+  "meta": {
+    "description": "Game base records. One record per distinct game, not per test.",
+    "platform": "PS5"
+  },
+  "games": [
+    {
+      "id": "trails-in-the-sky-1st",
+      "title_zh": "空之轨迹 the 1st",
+      "title_en": "Trails in the Sky 1st",
+      "title_original": "空之轨迹 the 1st Trails in the Sky 1st",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA30117",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-001"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA28465",
+          "raw": "美服 28465",
+          "region": "US",
+          "confidence": "unconfirmed",
+          "reason": "来自原始备注，仅作候选，未经核实，不得作为正式 SKU",
+          "source_record_ids": [
+            "P-001"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-001"
+      ]
+    },
+    {
+      "id": "trails-in-the-sky-2nd",
+      "title_zh": "空之轨迹 the 2nd",
+      "title_en": "Trails in the Sky 2nd",
+      "title_original": "空之轨迹 the 2nd Trails in the Sky 2nd",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA35304",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-002"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "原始备注注明 2026-09-17 发售、简中；该日期为发售信息，不是测试日期。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-002"
+      ]
+    },
+    {
+      "id": "control-resonant",
+      "title_zh": "控制：共振",
+      "title_en": "CONTROL: Resonant",
+      "title_original": "控制：共振 CONTROL: Resonant",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA34547",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-003"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "“控制：共振”为港服官方标题；原帖主未知。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-003"
+      ]
+    },
+    {
+      "id": "efootball",
+      "title_zh": "eFootball™（胜利11人）",
+      "title_en": "eFootball",
+      "title_original": "eFootball™（胜利11人） eFootball",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA03071",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-004"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "胜利11人"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-004"
+      ]
+    },
+    {
+      "id": "split-fiction",
+      "title_zh": "双影奇境",
+      "title_en": "Split Fiction",
+      "title_original": "双影奇境 Split Fiction",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA08560",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-005"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "分裂小说（机翻，已正名）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-005"
+      ]
+    },
+    {
+      "id": "onimusha-way-of-the-sword",
+      "title_zh": "鬼武者：剑之道",
+      "title_en": "Onimusha: Way of the Sword",
+      "title_original": "鬼武者：剑之道 Onimusha: Way of the Sword",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA27836",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-006"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-006"
+      ]
+    },
+    {
+      "id": "ea-sports-fc-27",
+      "title_zh": null,
+      "title_en": "EA SPORTS FC 27",
+      "title_original": "EA SPORTS FC 27",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA34015",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-007"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-007"
+      ]
+    },
+    {
+      "id": "gran-turismo-7",
+      "title_zh": "跑车浪漫旅 7",
+      "title_en": "Gran Turismo 7",
+      "title_original": "跑车浪漫旅 7（GT7） Gran Turismo 7",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA01317",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-008"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        },
+        {
+          "ppsa": "PPSA01318",
+          "regions": [
+            "AS"
+          ],
+          "region_raw": "亚",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-008"
+          ],
+          "region_labels": [
+            "亚服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "GT7",
+        "跑车浪漫旅7（GT7）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-008"
+      ]
+    },
+    {
+      "id": "monster-hunter-wilds",
+      "title_zh": "怪物猎人：荒野",
+      "title_en": "Monster Hunter Wilds",
+      "title_original": "怪物猎人：荒野 Monster Hunter Wilds",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA07862",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-009"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-009"
+      ]
+    },
+    {
+      "id": "yakuza-kiwami-3-dark-ties",
+      "title_zh": "人中之龙 极3",
+      "title_en": "Yakuza Kiwami 3 & Dark Ties",
+      "title_original": "人中之龙 极3（如龙3极） Yakuza Kiwami 3 & Dark Ties",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA30223",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-010"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "如龙3极"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-010"
+      ]
+    },
+    {
+      "id": "wrc-generations",
+      "title_zh": "WRC Generations（WRC：世代）",
+      "title_en": "WRC Generations",
+      "title_original": "WRC Generations（WRC：世代） WRC Generations",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA07580",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-011"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        },
+        {
+          "ppsa": "PPSA07579",
+          "regions": [
+            "EU"
+          ],
+          "region_raw": "欧",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-011"
+          ],
+          "region_labels": [
+            "欧服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "WRC：世代"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-011"
+      ]
+    },
+    {
+      "id": "rise-of-the-ronin",
+      "title_zh": "浪人崛起",
+      "title_en": "Rise of the Ronin",
+      "title_original": "浪人崛起 Rise of the Ronin",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA04539",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-012"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-012"
+      ]
+    },
+    {
+      "id": "looney-tunes-wacky-world-of-sports",
+      "title_zh": "乐一通：古怪运动世界",
+      "title_en": "Looney Tunes: Wacky World of Sports",
+      "title_original": "乐一通：古怪运动世界 Looney Tunes: Wacky World of Sports",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA19563",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-013"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "华纳群星（机翻）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-013"
+      ]
+    },
+    {
+      "id": "gundam-breaker-4",
+      "title_zh": "高达破坏者4",
+      "title_en": "Gundam Breaker 4",
+      "title_original": "高达破坏者4（官中：GUNDAM 创坏者4） Gundam Breaker 4",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA08065",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-014"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "GUNDAM 创坏者4（官方中文）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-014"
+      ]
+    },
+    {
+      "id": "ace-combat-8-wings-of-theve",
+      "title_zh": "空战奇兵8：希孚之翼",
+      "title_en": "ACE COMBAT 8: Wings of Theve",
+      "title_original": "空战奇兵8：希孚之翼（皇牌空战8） ACE COMBAT 8: Wings of Theve",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA24913",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-015"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "皇牌空战8"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-015"
+      ]
+    },
+    {
+      "id": "ghost-of-tsushima-directors-cut",
+      "title_zh": "对马岛之魂 导演剪辑版",
+      "title_en": "Ghost of Tsushima DC",
+      "title_original": "对马岛之魂 导演剪辑版 Ghost of Tsushima DC",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02225",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-016"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        },
+        {
+          "ppsa": "PPSA03210",
+          "regions": [
+            "AS"
+          ],
+          "region_raw": "亚",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-016"
+          ],
+          "region_labels": [
+            "亚服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Ghost of Tsushima Director's Cut"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-016"
+      ]
+    },
+    {
+      "id": "ac4-black-flag-resynced",
+      "title_zh": "刺客信条：黑旗 同步重置",
+      "title_en": "AC IV Black Flag: Resynced",
+      "title_original": "刺客信条：黑旗 同步重置 AC IV Black Flag: Resynced",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA28183",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-017"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "刺客教條：黑旗 同步重置"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-017"
+      ]
+    },
+    {
+      "id": "stellar-blade",
+      "title_zh": "剑星",
+      "title_en": "Stellar Blade",
+      "title_original": "剑星 Stellar Blade",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA13197",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-018"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "星刃（非官方）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-018"
+      ]
+    },
+    {
+      "id": "vertigo-2",
+      "title_zh": "眩晕2",
+      "title_en": "Vertigo 2",
+      "title_original": "眩晕2 Vertigo 2",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA18102",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-019"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-019"
+      ]
+    },
+    {
+      "id": "skydances-behemoth",
+      "title_zh": "巨兽贝西摩斯",
+      "title_en": "Skydance's BEHEMOTH",
+      "title_original": "巨兽贝西摩斯 Skydance's BEHEMOTH",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA04962",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-020"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-020"
+      ]
+    },
+    {
+      "id": "absolum",
+      "title_zh": "绝对魔权",
+      "title_en": "Absolum",
+      "title_original": "绝对魔权 Absolum",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA30856",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-021"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-021"
+      ]
+    },
+    {
+      "id": "hades-ii",
+      "title_zh": "哈迪斯2",
+      "title_en": "Hades II",
+      "title_original": "哈迪斯2 Hades II",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA36082",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-022"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-022"
+      ]
+    },
+    {
+      "id": "pragmata",
+      "title_zh": "PRAGMATA",
+      "title_en": "Pragmata",
+      "title_original": "PRAGMATA（识质存在/实质存在） Pragmata",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02530",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-023"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "识质存在（社区译）",
+        "实质存在（社区译）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-023"
+      ]
+    },
+    {
+      "id": "kyoto-xanadu",
+      "title_zh": "亰都幻都 -樱花幻舞-",
+      "title_en": "KYOTO XANADU -the Blooming Phantom-",
+      "title_original": "亰都幻都 -樱花幻舞-（京都幻都） KYOTO XANADU -the Blooming Phantom-",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA36992",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-024"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "京都幻都"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-024"
+      ]
+    },
+    {
+      "id": "doa-xtreme-venus-vacation-prism",
+      "title_zh": "维纳斯璀璨假期",
+      "title_en": "DOA Xtreme Venus Vacation PRISM",
+      "title_original": "维纳斯璀璨假期（奶牌维纳斯假期） DOA Xtreme Venus Vacation PRISM",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA25411",
+          "regions": [
+            "JP"
+          ],
+          "region_raw": "日",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-025"
+          ],
+          "region_labels": [
+            "日服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "奶牌维纳斯假期"
+      ],
+      "description": null,
+      "notes": "仅日服 PPSA；原始备注明确港服 ID 未能核实，不得虚构。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-025"
+      ]
+    },
+    {
+      "id": "ready-or-not",
+      "title_zh": "严阵以待",
+      "title_en": "Ready or Not",
+      "title_original": "严阵以待 Ready or Not",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA18605",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-026"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "严正以待（有误）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-026"
+      ]
+    },
+    {
+      "id": "black-myth-wukong",
+      "title_zh": "黑神话：悟空",
+      "title_en": "Black Myth: Wukong",
+      "title_original": "黑神话：悟空（黑悟空） Black Myth: Wukong",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA23226",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-027"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "黑悟空"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-027"
+      ]
+    },
+    {
+      "id": "007-first-light",
+      "title_zh": "007：初露锋芒",
+      "title_en": "007 First Light",
+      "title_original": "007：初露锋芒 007 First Light",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA11386",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-028"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-028"
+      ]
+    },
+    {
+      "id": "elden-ring",
+      "title_zh": "艾尔登法环",
+      "title_en": "Elden Ring",
+      "title_original": "艾尔登法环 Elden Ring",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA04608",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-029"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-029"
+      ]
+    },
+    {
+      "id": "unidentified-p-030",
+      "title_zh": null,
+      "title_en": null,
+      "title_original": "⚠️ 共鸣瘟疫传说传承（未识别） 疑 A Plague Tale 系列",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA30601",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-030"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "共鸣瘟疫传说传承（未识别）"
+      ],
+      "description": null,
+      "notes": "原始清单中唯一未能识别的游戏名称，且原文含“疑 A Plague Tale 系列”线索。不得自行猜测并替换为某款游戏；建议核对原始下载名。",
+      "game_identification": "unidentified",
+      "source_record_ids": [
+        "P-030"
+      ]
+    },
+    {
+      "id": "lies-of-p",
+      "title_zh": "匹诺曹的谎言（全DLC）",
+      "title_en": "Lies of P",
+      "title_original": "匹诺曹的谎言（全DLC） Lies of P",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA10621",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-031"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-031"
+      ]
+    },
+    {
+      "id": "yakuza-like-a-dragon",
+      "title_zh": "人中之龙7：光与暗的去向",
+      "title_en": "Yakuza: Like a Dragon",
+      "title_original": "人中之龙7：光与暗的去向（如龙7） Yakuza: Like a Dragon",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02690",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-032"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "如龙7"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-032"
+      ]
+    },
+    {
+      "id": "death-stranding-2",
+      "title_zh": "死亡搁浅2：冥滩之上",
+      "title_en": "Death Stranding 2",
+      "title_original": "死亡搁浅2：冥滩之上 Death Stranding 2",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02015",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-033"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-033"
+      ]
+    },
+    {
+      "id": "ghost-of-yotei",
+      "title_zh": "羊蹄山之魂",
+      "title_en": "Ghost of Yotei",
+      "title_original": "羊蹄山之魂 Ghost of Yotei",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA26344",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-034"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "P-034 为 zhangyun111 的通过报告；F-002 为 nisec_eric 的卡 logo 报告。两条报告同时保留，聚合状态为冲突。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-034",
+        "F-002"
+      ]
+    },
+    {
+      "id": "octopath-traveler-0",
+      "title_zh": "歧路旅人0",
+      "title_en": "Octopath Traveler 0",
+      "title_original": "歧路旅人0 Octopath Traveler 0",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA28495",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-035"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA28492",
+          "raw": "日服 28492",
+          "region": "JP",
+          "confidence": "unconfirmed",
+          "reason": "来自原始备注，仅作候选，未经核实，不得作为正式 SKU",
+          "source_record_ids": [
+            "P-035"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-035"
+      ]
+    },
+    {
+      "id": "fatal-frame-ii-crimson-butterfly-remake",
+      "title_zh": "零 ～红蝶～ REMAKE",
+      "title_en": "Fatal Frame II: Crimson Butterfly Remake",
+      "title_original": "零 ～红蝶～ REMAKE Fatal Frame II: Crimson Butterfly Remake",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA32803",
+          "regions": [
+            "AS"
+          ],
+          "region_raw": "亚",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-036"
+          ],
+          "region_labels": [
+            "亚服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA32802",
+          "raw": "欧美日 32802",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "来自原始备注，仅作候选，未经核实，不得作为正式 SKU",
+          "source_record_ids": [
+            "P-036"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-036"
+      ]
+    },
+    {
+      "id": "re4-remake-gold",
+      "title_zh": "生化危机4 重制版 黄金版",
+      "title_en": "RE4 Remake Gold",
+      "title_original": "生化危机4 重制版 黄金版 RE4 Remake Gold",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA07411",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-037"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA09418",
+          "raw": "亚服黄金版 09418",
+          "region": "AS",
+          "confidence": "unconfirmed",
+          "reason": "备注中的亚服黄金版编号，不得与原始美服 PPSA07411 合并",
+          "source_record_ids": [
+            "P-037"
+          ]
+        }
+      ],
+      "aliases": [
+        "Resident Evil 4 Remake Gold"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-037"
+      ]
+    },
+    {
+      "id": "final-fantasy-resonance",
+      "title_zh": "最终幻想：共鸣",
+      "title_en": "FINAL FANTASY RESONANCE",
+      "title_original": "最终幻想：共鸣 FINAL FANTASY RESONANCE",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA34140",
+          "regions": [
+            "AS"
+          ],
+          "region_raw": "亚",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-038"
+          ],
+          "region_labels": [
+            "亚服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA31544",
+          "raw": "国际版 31544",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "来自原始备注，仅作候选，未经核实，不得作为正式 SKU",
+          "source_record_ids": [
+            "P-038"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-038"
+      ]
+    },
+    {
+      "id": "hollow-knight-voidheart-edition",
+      "title_zh": "空洞骑士",
+      "title_en": "Hollow Knight: Voidheart Ed.",
+      "title_original": "空洞骑士 Hollow Knight: Voidheart Ed.",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA34971",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-039"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Hollow Knight"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-039"
+      ]
+    },
+    {
+      "id": "like-a-dragon-infinite-wealth",
+      "title_zh": "人中之龙8",
+      "title_en": "Like a Dragon: Infinite Wealth",
+      "title_original": "人中之龙8（如龙8） Like a Dragon: Infinite Wealth",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA06435",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-040"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "如龙8"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-040"
+      ]
+    },
+    {
+      "id": "resident-evil-requiem",
+      "title_zh": "生化危机9：安魂曲",
+      "title_en": "Resident Evil Requiem",
+      "title_original": "生化危机9：安魂曲（生化9） Resident Evil Requiem",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA30803",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-041"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "生化9"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-041"
+      ]
+    },
+    {
+      "id": "saros",
+      "title_zh": "沙罗周期",
+      "title_en": "SAROS",
+      "title_original": "沙罗周期（SAROS） SAROS",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA07634",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-042"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA07632",
+          "raw": "美服 07632",
+          "region": "US",
+          "confidence": "unconfirmed",
+          "reason": "来自原始备注，仅作候选，未经核实，不得作为正式 SKU",
+          "source_record_ids": [
+            "P-042"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-042"
+      ]
+    },
+    {
+      "id": "street-fighter-6",
+      "title_zh": "街头霸王6",
+      "title_en": "Street Fighter 6",
+      "title_original": "街头霸王6（街霸6） Street Fighter 6",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02632",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-043"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "街霸6"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-043"
+      ]
+    },
+    {
+      "id": "marvels-wolverine",
+      "title_zh": "金刚狼",
+      "title_en": "Marvel's Wolverine",
+      "title_original": "金刚狼 Marvel's Wolverine",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA03671",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-044"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "P-044 含 zstd 与 LZ4 两种格式信息，已拆分为两条独立测试报告；F-003 为独立黑屏报告。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-044",
+        "F-003"
+      ]
+    },
+    {
+      "id": "kingdom-hearts-collection-i-iii",
+      "title_zh": null,
+      "title_en": "KINGDOM HEARTS Collection [I～III]",
+      "title_original": "王国之心3 ⚠️ KINGDOM HEARTS Collection [I～III]",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA35901",
+          "regions": [
+            "US"
+          ],
+          "region_raw": "美",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-045"
+          ],
+          "region_labels": [
+            "美服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "王国之心3（原始标注，存疑）",
+        "KH3"
+      ],
+      "description": null,
+      "notes": "原始备注：KH3 无 PS5 独立版（PS4=CUSA15072），所测疑为此合集。未确认所测实体，不得擅自更正名称。",
+      "game_identification": "uncertain",
+      "source_record_ids": [
+        "P-045"
+      ]
+    },
+    {
+      "id": "castlevania-belmonts-curse",
+      "title_zh": "恶魔城：贝尔蒙特诅咒",
+      "title_en": "Castlevania: Belmont's Curse",
+      "title_original": "恶魔城：贝尔蒙特诅咒 Castlevania: Belmont's Curse",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA35399",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-046"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "官方无中文标题，中文名为社区译名。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-046"
+      ]
+    },
+    {
+      "id": "overcooked-all-you-can-eat",
+      "title_zh": "胡闹厨房：全都好吃",
+      "title_en": "Overcooked! All You Can Eat",
+      "title_original": "胡闹厨房：全都好吃 Overcooked! All You Can Eat",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA01528",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-047"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-047"
+      ]
+    },
+    {
+      "id": "cod-black-ops-cold-war",
+      "title_zh": "使命召唤：黑色行动冷战",
+      "title_en": "COD: Black Ops Cold War",
+      "title_original": "使命召唤：黑色行动冷战 COD: Black Ops Cold War",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02053",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-048"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Call of Duty: Black Ops Cold War"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-048"
+      ]
+    },
+    {
+      "id": "sonic-frontiers",
+      "title_zh": "索尼克：未知边境",
+      "title_en": "Sonic Frontiers",
+      "title_original": "索尼克：未知边境 Sonic Frontiers",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA03831",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-049"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-049"
+      ]
+    },
+    {
+      "id": "tmnt-cowabunga-collection",
+      "title_zh": "忍者神龟：考瓦邦加合集",
+      "title_en": "TMNT: The Cowabunga Collection",
+      "title_original": "忍者神龟：考瓦邦加合集 TMNT: The Cowabunga Collection",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA04489",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-050"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-050"
+      ]
+    },
+    {
+      "id": "tiebreak-grand-slam-edition",
+      "title_zh": "TIEBREAK 大满贯版",
+      "title_en": "TIEBREAK – Grand Slam Edition",
+      "title_original": "TIEBREAK 大满贯版（ATP/WTA） TIEBREAK – Grand Slam Edition",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA14453",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-051"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "ATP/WTA"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-051"
+      ]
+    },
+    {
+      "id": "contra-operation-galuga",
+      "title_zh": "魂斗罗：加鲁加行动",
+      "title_en": "Contra: Operation Galuga",
+      "title_original": "魂斗罗：加鲁加行动 Contra: Operation Galuga",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA15368",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-052"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-052"
+      ]
+    },
+    {
+      "id": "richman-11",
+      "title_zh": "富甲天下11",
+      "title_en": "Richman 11",
+      "title_original": "富甲天下11 Richman 11",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA16960",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-053"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-053"
+      ]
+    },
+    {
+      "id": "astro-bot",
+      "title_zh": "宇宙机器人",
+      "title_en": "ASTRO BOT",
+      "title_original": "宇宙机器人 ASTRO BOT",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA21567",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-054"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "小机器人2",
+        "宇宙机器人（小机器人2）"
+      ],
+      "description": null,
+      "notes": "P-054 为 hmh715 的 LZ4 通过报告；F-001 为 nisec_eric 的卡 logo 报告。两者压缩格式不同/不明，不得混算。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-054",
+        "F-001"
+      ]
+    },
+    {
+      "id": "cod-modern-warfare-2",
+      "title_zh": "使命召唤：现代战争2",
+      "title_en": "COD: Modern Warfare 2",
+      "title_original": "使命召唤：现代战争2 COD: Modern Warfare 2",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA23015",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-055"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Call of Duty: Modern Warfare 2"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-055"
+      ]
+    },
+    {
+      "id": "lego-voyagers",
+      "title_zh": "乐高旅行者",
+      "title_en": "LEGO Voyagers",
+      "title_original": "乐高旅行者 LEGO Voyagers",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA23732",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-056"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "中文名为粉丝译名，官方无中文。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-056"
+      ]
+    },
+    {
+      "id": "cod-modern-warfare-3",
+      "title_zh": "使命召唤：现代战争3",
+      "title_en": "COD: Modern Warfare 3",
+      "title_original": "使命召唤：现代战争3 COD: Modern Warfare 3",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA24266",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-057"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Call of Duty: Modern Warfare 3"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-057"
+      ]
+    },
+    {
+      "id": "one-piece-pirate-warriors-4",
+      "title_zh": "航海王：海贼无双4",
+      "title_en": "One Piece: Pirate Warriors 4",
+      "title_original": "航海王：海贼无双4 One Piece: Pirate Warriors 4",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA27500",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-058"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "ONE PIECE 海贼无双4（Steam 官中）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-058"
+      ]
+    },
+    {
+      "id": "star-wars-galactic-racer",
+      "title_zh": "星球大战：银河赛车手",
+      "title_en": "Star Wars: Galactic Racer",
+      "title_original": "星球大战：银河赛车手 Star Wars: Galactic Racer",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA28416",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-059"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-059"
+      ]
+    },
+    {
+      "id": "silent-hill-townfall",
+      "title_zh": "寂静岭：Townfall",
+      "title_en": "SILENT HILL: Townfall",
+      "title_original": "寂静岭：Townfall SILENT HILL: Townfall",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA33286",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-060"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "落镇（机翻，勿用）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-060"
+      ]
+    },
+    {
+      "id": "toy-story-3-complete-edition",
+      "title_zh": "玩具总动员3：完整版",
+      "title_en": "Toy Story 3: Complete Edition",
+      "title_original": "玩具总动员3：完整版 Toy Story 3: Complete Edition",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA33626",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-061"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "原始备注：2026-10 复刻，官方无中文。该日期为发售信息，不是测试日期。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-061"
+      ]
+    },
+    {
+      "id": "it-takes-two",
+      "title_zh": "双人成行",
+      "title_en": "It Takes Two",
+      "title_original": "双人成行 It Takes Two",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02424",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-062"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-062"
+      ]
+    },
+    {
+      "id": "the-last-of-us-part-i",
+      "title_zh": "最后生还者 第一部",
+      "title_en": "The Last of Us Part I",
+      "title_original": "最后生还者 第一部 The Last of Us Part I",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA07644",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-063"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "美末日1",
+        "最后生还者 第一部（美末日1）"
+      ],
+      "description": null,
+      "notes": "P-063 为 hmh715 的通过报告；F-007 为 nisec_eric 的待确认报告。两者必须同时保留。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-063",
+        "F-007"
+      ]
+    },
+    {
+      "id": "sonic-racing-crossworlds",
+      "title_zh": "索尼克赛车：交叉世界",
+      "title_en": "Sonic Racing: CrossWorlds",
+      "title_original": "索尼克赛车：交叉世界 Sonic Racing: CrossWorlds",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA08804",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-064"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "跨世界（有误）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-064"
+      ]
+    },
+    {
+      "id": "lego-batman-legacy-of-the-dark-knight",
+      "title_zh": "乐高蝙蝠侠：黑暗骑士之遗",
+      "title_en": "LEGO Batman: Legacy of the Dark Knight",
+      "title_original": "乐高蝙蝠侠：黑暗骑士之遗 LEGO Batman: Legacy of the Dark Knight",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA16833",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-065"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "原始备注：2026-05-26 新作，非 2008 老乐高蝙蝠侠。该日期为发售信息，不是测试日期。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-065"
+      ]
+    },
+    {
+      "id": "assassins-creed-shadows",
+      "title_zh": "刺客信条：影",
+      "title_en": "Assassin's Creed Shadows",
+      "title_original": "刺客信条：影 Assassin's Creed Shadows",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA20397",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-066"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-066"
+      ]
+    },
+    {
+      "id": "nba-2k27",
+      "title_zh": null,
+      "title_en": "NBA 2K27",
+      "title_original": "NBA 2K27",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA35889",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-067"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-067"
+      ]
+    },
+    {
+      "id": "achilles-survivor",
+      "title_zh": "阿喀琉斯：幸存者",
+      "title_en": "Achilles: Survivor",
+      "title_original": "阿喀琉斯：幸存者 Achilles: Survivor",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA30454",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-068"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-068"
+      ]
+    },
+    {
+      "id": "ultros",
+      "title_zh": "奥特罗斯",
+      "title_en": "Ultros",
+      "title_original": "奥特罗斯 Ultros",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA16280",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-069"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-069"
+      ]
+    },
+    {
+      "id": "bionic-bay",
+      "title_zh": "换影循迹",
+      "title_en": "Bionic Bay",
+      "title_original": "换影循迹 Bionic Bay",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA23767",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-070"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-070"
+      ]
+    },
+    {
+      "id": "kusan-city-of-wolves",
+      "title_zh": "九山：狼之城",
+      "title_en": "Kusan: City of Wolves",
+      "title_original": "九山：狼之城 Kusan: City of Wolves",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA29617",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-071"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-071"
+      ]
+    },
+    {
+      "id": "the-knight-witch",
+      "title_zh": "魔骑少女",
+      "title_en": "The Knight Witch",
+      "title_original": "魔骑少女 The Knight Witch",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA08045",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-072"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-072"
+      ]
+    },
+    {
+      "id": "totally-accurate-battle-simulator",
+      "title_zh": "全面战争模拟器",
+      "title_en": "Totally Accurate Battle Simulator",
+      "title_original": "全面战争模拟器 Totally Accurate Battle Simulator",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA06081",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-073"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "TABS"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-073"
+      ]
+    },
+    {
+      "id": "clair-obscur-expedition-33",
+      "title_zh": "光与影：33号远征队",
+      "title_en": "Clair Obscur: Expedition 33",
+      "title_original": "光与影：33号远征队 Clair Obscur: Expedition 33",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA17599",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-074"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "原始备注：TGA2025 年度最佳；编号来源飞龙口袋（单源）。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-074"
+      ]
+    },
+    {
+      "id": "unicorn-overlord",
+      "title_zh": "圣兽之王",
+      "title_en": "Unicorn Overlord",
+      "title_original": "圣兽之王 Unicorn Overlord",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA09894",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-075"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA20318",
+          "raw": "Sony 官方页另见 PPSA20318（疑另一 SKU）",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "原始备注中的疑似另一 SKU，只能保留为未确认候选，不得并入正式 SKU",
+          "source_record_ids": [
+            "P-075"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-075"
+      ]
+    },
+    {
+      "id": "hellblade-ii-senuas-saga",
+      "title_zh": "地狱之刃2：塞娜的传说",
+      "title_en": "Senua's Saga: Hellblade II",
+      "title_original": "地狱之刃2：塞娜的传说 Senua's Saga: Hellblade II",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA25991",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-076"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "地狱之刃 II：塞娜的献祭（Xbox 官方简中）",
+        "塞娜的史诗（PKG 档案名）"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-076"
+      ]
+    },
+    {
+      "id": "resident-evil-2-remake",
+      "title_zh": "生化危机2 重制版",
+      "title_en": "Resident Evil 2",
+      "title_original": "生化危机2 重制版 Resident Evil 2",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA04290",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-077"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Resident Evil 2 Remake"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-077"
+      ]
+    },
+    {
+      "id": "resident-evil-3-remake",
+      "title_zh": "生化危机3 重制版",
+      "title_en": "Resident Evil 3",
+      "title_original": "生化危机3 重制版 Resident Evil 3",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA03954",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-078"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [
+        "Resident Evil 3 Remake"
+      ],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-078"
+      ]
+    },
+    {
+      "id": "reanimal",
+      "title_zh": "生灵重塑",
+      "title_en": "REANIMAL",
+      "title_original": "生灵重塑 REANIMAL",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA23372",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-079"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA29683",
+          "raw": "试玩 PPSA29683",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "备注中的试玩 SKU，未经核实",
+          "source_record_ids": [
+            "P-079"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-079"
+      ]
+    },
+    {
+      "id": "warhammer-40000-space-marine-2",
+      "title_zh": "战锤40K：星际战士2",
+      "title_en": "Warhammer 40,000: Space Marine 2",
+      "title_original": "战锤40K：星际战士2 Warhammer 40,000: Space Marine 2",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA04451",
+          "regions": [
+            "HK",
+            "EU"
+          ],
+          "region_raw": "港/欧",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-080"
+          ],
+          "region_labels": [
+            "港服",
+            "欧服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA04452",
+          "raw": "美服 04452；飞龙口袋黄金档为美服 04452",
+          "region": "US",
+          "confidence": "unconfirmed",
+          "reason": "备注中的美服编号，不得覆盖原始港/欧服 PPSA04451",
+          "source_record_ids": [
+            "P-080"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-080"
+      ]
+    },
+    {
+      "id": "returnal",
+      "title_zh": "死亡回归",
+      "title_en": "Returnal",
+      "title_original": "死亡回归 Returnal",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA01287",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-081"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": null,
+          "raw": "HP9000-PPSA01287",
+          "region": "AS",
+          "confidence": "unconfirmed",
+          "reason": "备注中的亚服 SKU 代码，非新的 PPSA 编号",
+          "source_record_ids": [
+            "P-081"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-081"
+      ]
+    },
+    {
+      "id": "demons-souls-remake",
+      "title_zh": "恶魔之魂 重制版",
+      "title_en": "Demon's Souls",
+      "title_original": "恶魔之魂 重制版 Demon's Souls",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA01340",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-082"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": null,
+          "raw": "HP9000-PPSA01340",
+          "region": "AS",
+          "confidence": "unconfirmed",
+          "reason": "备注中的亚服 SKU 代码，非新的 PPSA 编号",
+          "source_record_ids": [
+            "P-082"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-082"
+      ]
+    },
+    {
+      "id": "dying-light-2-stay-human",
+      "title_zh": "消逝的光芒2 人与仁之战",
+      "title_en": "Dying Light 2 Stay Human",
+      "title_original": "消逝的光芒2 人与仁之战 Dying Light 2 Stay Human",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA02261",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-083"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "原始备注记录 0.3.2 转换报错、换 ampr-emu-ng 0.3.3 后成功运行，为首个 0.3.3 成功案例。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-083"
+      ]
+    },
+    {
+      "id": "wrc-10",
+      "title_zh": "WRC 10 FIA 世界汽车拉力锦标赛",
+      "title_en": "WRC 10 FIA World Rally Championship",
+      "title_original": "WRC 10 FIA 世界汽车拉力锦标赛 WRC 10 FIA World Rally Championship",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA03589",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-084"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "原始备注记录 0.3.2 黑屏（问题表原条目）、更新 libSceAmpr-0.3.3.sprx 后正常运行；PPSA 为测试者提供。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-084"
+      ]
+    },
+    {
+      "id": "wuchang-fallen-feathers",
+      "title_zh": "明末：渊虚之羽",
+      "title_en": "WUCHANG: Fallen Feathers",
+      "title_original": "明末：渊虚之羽 WUCHANG: Fallen Feathers",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA09518",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "P-085"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": null,
+          "raw": "UP4040-PPSA09518",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "备注中的 SKU 代码（含豪华版同 ID），非新的 PPSA 编号",
+          "source_record_ids": [
+            "P-085"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "P-085"
+      ]
+    },
+    {
+      "id": "crimson-desert",
+      "title_zh": "赤色沙漠",
+      "title_en": "Crimson Desert",
+      "title_original": "赤色沙漠 Crimson Desert",
+      "platform": "PS5",
+      "skus": [],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "F-004"
+      ]
+    },
+    {
+      "id": "ratchet-and-clank-rift-apart",
+      "title_zh": "瑞奇与叮当：时空跳转",
+      "title_en": "Ratchet & Clank: Rift Apart",
+      "title_original": "瑞奇与叮当：时空跳转 Ratchet & Clank: Rift Apart",
+      "platform": "PS5",
+      "skus": [],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "F-005"
+      ]
+    },
+    {
+      "id": "god-of-war-ragnarok",
+      "title_zh": "战神：诸神黄昏",
+      "title_en": "God of War Ragnarök",
+      "title_original": "战神：诸神黄昏 God of War Ragnarök",
+      "platform": "PS5",
+      "skus": [],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "F-006"
+      ]
+    },
+    {
+      "id": "ninja-gaiden-4",
+      "title_zh": "忍者龙剑传4",
+      "title_en": "Ninja Gaiden 4",
+      "title_original": "忍者龙剑传4 Ninja Gaiden 4",
+      "platform": "PS5",
+      "skus": [],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "F-008"
+      ]
+    },
+    {
+      "id": "dirt-5",
+      "title_zh": "尘埃5",
+      "title_en": "DIRT 5",
+      "title_original": "尘埃5 DIRT 5",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA01551",
+          "regions": [
+            "UNKNOWN"
+          ],
+          "region_raw": null,
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "F-009"
+          ],
+          "region_labels": []
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "F-009"
+      ]
+    },
+    {
+      "id": "nioh-3",
+      "title_zh": "仁王３",
+      "title_en": "Nioh 3",
+      "title_original": "仁王３ Nioh 3",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA32786",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "港",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "F-010"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        },
+        {
+          "ppsa": "PPSA32785",
+          "regions": [
+            "EU"
+          ],
+          "region_raw": "欧",
+          "confidence": "confirmed",
+          "source": "ppsa_column",
+          "notes": null,
+          "source_record_ids": [
+            "F-010"
+          ],
+          "region_labels": [
+            "欧服"
+          ]
+        }
+      ],
+      "candidate_skus": [
+        {
+          "ppsa": "PPSA34974",
+          "raw": "试玩为 PPSA34974",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "备注中的试玩 SKU，未经核实",
+          "source_record_ids": [
+            "F-010"
+          ]
+        },
+        {
+          "ppsa": "PPSA34975",
+          "raw": "试玩为 PPSA34975",
+          "region": null,
+          "confidence": "unconfirmed",
+          "reason": "备注中的试玩 SKU，未经核实",
+          "source_record_ids": [
+            "F-010"
+          ]
+        }
+      ],
+      "aliases": [],
+      "description": null,
+      "notes": null,
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "F-010"
+      ]
+    }
+  ]
+}

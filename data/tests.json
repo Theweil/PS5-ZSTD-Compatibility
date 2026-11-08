@@ -1,0 +1,4011 @@
+{
+  "meta": {
+    "description": "Independent test reports. One source row may produce more than one report (e.g. P-044).",
+    "source_document": "docs/source-data-original.md",
+    "result_enum": [
+      "pass",
+      "fail",
+      "partial",
+      "unknown"
+    ],
+    "compression_enum": [
+      "zstd",
+      "lz4",
+      "unknown"
+    ],
+    "verification_enum": [
+      "community_report",
+      "maintainer_reproduced",
+      "single_source",
+      "unknown"
+    ],
+    "note": "No original record provides a test date, PS5 firmware, converter, runtime or mount tool as a structured field; all such fields are null unless explicitly present in notes."
+  },
+  "tests": [
+    {
+      "id": "test-0001",
+      "game_id": "trails-in-the-sky-1st",
+      "game_title_raw": "空之轨迹 the 1st Trails in the Sky 1st",
+      "ppsa": "PPSA30117",
+      "ppsa_raw": "PPSA30117(港)",
+      "ppsa_all": [
+        "PPSA30117"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-001"
+      ],
+      "source_table": "pass",
+      "source_row": 1,
+      "symptom": null,
+      "notes": "美服 28465",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0002",
+      "game_id": "trails-in-the-sky-2nd",
+      "game_title_raw": "空之轨迹 the 2nd Trails in the Sky 2nd",
+      "ppsa": "PPSA35304",
+      "ppsa_raw": "PPSA35304(港)",
+      "ppsa_all": [
+        "PPSA35304"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-002"
+      ],
+      "source_table": "pass",
+      "source_row": 2,
+      "symptom": null,
+      "notes": "2026-09-17 发售，简中",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0003",
+      "game_id": "control-resonant",
+      "game_title_raw": "控制：共振 CONTROL: Resonant",
+      "ppsa": "PPSA34547",
+      "ppsa_raw": "PPSA34547",
+      "ppsa_all": [
+        "PPSA34547"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "热心群友"
+      ],
+      "tester_raw": "热心群友",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-003"
+      ],
+      "source_table": "pass",
+      "source_row": 3,
+      "symptom": null,
+      "notes": "“控制：共振”即港服官方标题；原帖主未知",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0004",
+      "game_id": "efootball",
+      "game_title_raw": "eFootball™（胜利11人） eFootball",
+      "ppsa": "PPSA03071",
+      "ppsa_raw": "PPSA03071(港)",
+      "ppsa_all": [
+        "PPSA03071"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-004"
+      ],
+      "source_table": "pass",
+      "source_row": 4,
+      "symptom": null,
+      "notes": "免费 Live 版",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0005",
+      "game_id": "split-fiction",
+      "game_title_raw": "双影奇境 Split Fiction",
+      "ppsa": "PPSA08560",
+      "ppsa_raw": "PPSA08560",
+      "ppsa_all": [
+        "PPSA08560"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric",
+        "hmh715"
+      ],
+      "tester_raw": "nisec_eric / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-005"
+      ],
+      "source_table": "pass",
+      "source_row": 5,
+      "symptom": null,
+      "notes": "“分裂小说”系机翻已正名",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0006",
+      "game_id": "onimusha-way-of-the-sword",
+      "game_title_raw": "鬼武者：剑之道 Onimusha: Way of the Sword",
+      "ppsa": "PPSA27836",
+      "ppsa_raw": "PPSA27836",
+      "ppsa_all": [
+        "PPSA27836"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric",
+        "fdong"
+      ],
+      "tester_raw": "nisec_eric / fdong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.000",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-006"
+      ],
+      "source_table": "pass",
+      "source_row": 6,
+      "symptom": null,
+      "notes": "01.000 / 42G（fdong）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0007",
+      "game_id": "ea-sports-fc-27",
+      "game_title_raw": "EA SPORTS FC 27",
+      "ppsa": "PPSA34015",
+      "ppsa_raw": "PPSA34015",
+      "ppsa_all": [
+        "PPSA34015"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "reddit",
+        "hmh715"
+      ],
+      "tester_raw": "reddit / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-007"
+      ],
+      "source_table": "pass",
+      "source_row": 7,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0008",
+      "game_id": "gran-turismo-7",
+      "game_title_raw": "跑车浪漫旅 7（GT7） Gran Turismo 7",
+      "ppsa": "PPSA01317",
+      "ppsa_raw": "PPSA01317(美)/01318(亚)",
+      "ppsa_all": [
+        "PPSA01317",
+        "PPSA01318"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-008"
+      ],
+      "source_table": "pass",
+      "source_row": 8,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0009",
+      "game_id": "monster-hunter-wilds",
+      "game_title_raw": "怪物猎人：荒野 Monster Hunter Wilds",
+      "ppsa": "PPSA07862",
+      "ppsa_raw": "PPSA07862(美)",
+      "ppsa_all": [
+        "PPSA07862"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "椒盐洋芋"
+      ],
+      "tester_raw": "椒盐洋芋",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-009"
+      ],
+      "source_table": "pass",
+      "source_row": 9,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0010",
+      "game_id": "yakuza-kiwami-3-dark-ties",
+      "game_title_raw": "人中之龙 极3（如龙3极） Yakuza Kiwami 3 & Dark Ties",
+      "ppsa": "PPSA30223",
+      "ppsa_raw": "PPSA30223",
+      "ppsa_all": [
+        "PPSA30223"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "椒盐洋芋"
+      ],
+      "tester_raw": "椒盐洋芋",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-010"
+      ],
+      "source_table": "pass",
+      "source_row": 10,
+      "symptom": null,
+      "notes": "含 3 外传 Dark Ties",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0011",
+      "game_id": "wrc-generations",
+      "game_title_raw": "WRC Generations（WRC：世代） WRC Generations",
+      "ppsa": "PPSA07580",
+      "ppsa_raw": "PPSA07580(美)/07579(欧)",
+      "ppsa_all": [
+        "PPSA07580",
+        "PPSA07579"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "椒盐洋芋"
+      ],
+      "tester_raw": "椒盐洋芋",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-011"
+      ],
+      "source_table": "pass",
+      "source_row": 11,
+      "symptom": null,
+      "notes": "无官方中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0012",
+      "game_id": "rise-of-the-ronin",
+      "game_title_raw": "浪人崛起 Rise of the Ronin",
+      "ppsa": "PPSA04539",
+      "ppsa_raw": "PPSA04539(美)",
+      "ppsa_all": [
+        "PPSA04539"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "铉的小恶魔"
+      ],
+      "tester_raw": "铉的小恶魔",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-012"
+      ],
+      "source_table": "pass",
+      "source_row": 12,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0013",
+      "game_id": "looney-tunes-wacky-world-of-sports",
+      "game_title_raw": "乐一通：古怪运动世界 Looney Tunes: Wacky World of Sports",
+      "ppsa": "PPSA19563",
+      "ppsa_raw": "PPSA19563",
+      "ppsa_all": [
+        "PPSA19563"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-013"
+      ],
+      "source_table": "pass",
+      "source_row": 13,
+      "symptom": null,
+      "notes": "原“华纳群星”系机翻；官方无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0014",
+      "game_id": "gundam-breaker-4",
+      "game_title_raw": "高达破坏者4（官中：GUNDAM 创坏者4） Gundam Breaker 4",
+      "ppsa": "PPSA08065",
+      "ppsa_raw": "PPSA08065(美)",
+      "ppsa_all": [
+        "PPSA08065"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-014"
+      ],
+      "source_table": "pass",
+      "source_row": 14,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0015",
+      "game_id": "ace-combat-8-wings-of-theve",
+      "game_title_raw": "空战奇兵8：希孚之翼（皇牌空战8） ACE COMBAT 8: Wings of Theve",
+      "ppsa": "PPSA24913",
+      "ppsa_raw": "PPSA24913",
+      "ppsa_all": [
+        "PPSA24913"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "bmoon"
+      ],
+      "tester_raw": "bmoon",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-015"
+      ],
+      "source_table": "pass",
+      "source_row": 15,
+      "symptom": null,
+      "notes": "“空战奇兵”为系列官方中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0016",
+      "game_id": "ghost-of-tsushima-directors-cut",
+      "game_title_raw": "对马岛之魂 导演剪辑版 Ghost of Tsushima DC",
+      "ppsa": "PPSA02225",
+      "ppsa_raw": "PPSA02225(美)/03210(亚)",
+      "ppsa_all": [
+        "PPSA02225",
+        "PPSA03210"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "bmoon"
+      ],
+      "tester_raw": "bmoon",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-016"
+      ],
+      "source_table": "pass",
+      "source_row": 16,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0017",
+      "game_id": "ac4-black-flag-resynced",
+      "game_title_raw": "刺客信条：黑旗 同步重置 AC IV Black Flag: Resynced",
+      "ppsa": "PPSA28183",
+      "ppsa_raw": "PPSA28183",
+      "ppsa_all": [
+        "PPSA28183"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "bmoon"
+      ],
+      "tester_raw": "bmoon",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-017"
+      ],
+      "source_table": "pass",
+      "source_row": 17,
+      "symptom": null,
+      "notes": "官方繁中《刺客教條：黑旗 同步重置》",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0018",
+      "game_id": "stellar-blade",
+      "game_title_raw": "剑星 Stellar Blade",
+      "ppsa": "PPSA13197",
+      "ppsa_raw": "PPSA13197",
+      "ppsa_all": [
+        "PPSA13197"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "bmoon",
+        "hmh715"
+      ],
+      "tester_raw": "bmoon / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-018"
+      ],
+      "source_table": "pass",
+      "source_row": 18,
+      "symptom": null,
+      "notes": "官方中文名“剑星”（“星刃”非官方）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0019",
+      "game_id": "vertigo-2",
+      "game_title_raw": "眩晕2 Vertigo 2",
+      "ppsa": "PPSA18102",
+      "ppsa_raw": "PPSA18102",
+      "ppsa_all": [
+        "PPSA18102"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "kuramafly"
+      ],
+      "tester_raw": "kuramafly",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-019"
+      ],
+      "source_table": "pass",
+      "source_row": 19,
+      "symptom": null,
+      "notes": "PSVR2 必须，无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0020",
+      "game_id": "skydances-behemoth",
+      "game_title_raw": "巨兽贝西摩斯 Skydance's BEHEMOTH",
+      "ppsa": "PPSA04962",
+      "ppsa_raw": "PPSA04962",
+      "ppsa_all": [
+        "PPSA04962"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "kuramafly"
+      ],
+      "tester_raw": "kuramafly",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-020"
+      ],
+      "source_table": "pass",
+      "source_row": 20,
+      "symptom": null,
+      "notes": "PSVR2，官方无中文标题",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0021",
+      "game_id": "absolum",
+      "game_title_raw": "绝对魔权 Absolum",
+      "ppsa": "PPSA30856",
+      "ppsa_raw": "PPSA30856",
+      "ppsa_all": [
+        "PPSA30856"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-021"
+      ],
+      "source_table": "pass",
+      "source_row": 21,
+      "symptom": null,
+      "notes": "“绝对魔权”为官方中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0022",
+      "game_id": "hades-ii",
+      "game_title_raw": "哈迪斯2 Hades II",
+      "ppsa": "PPSA36082",
+      "ppsa_raw": "PPSA36082",
+      "ppsa_all": [
+        "PPSA36082"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-022"
+      ],
+      "source_table": "pass",
+      "source_row": 22,
+      "symptom": null,
+      "notes": "官方无中文标题",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0023",
+      "game_id": "pragmata",
+      "game_title_raw": "PRAGMATA（识质存在/实质存在） Pragmata",
+      "ppsa": "PPSA02530",
+      "ppsa_raw": "PPSA02530",
+      "ppsa_all": [
+        "PPSA02530"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.300.000",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-023"
+      ],
+      "source_table": "pass",
+      "source_row": 23,
+      "symptom": null,
+      "notes": "01.300.000 / 35G；官方无中文，两译名均为社区译",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0024",
+      "game_id": "kyoto-xanadu",
+      "game_title_raw": "亰都幻都 -樱花幻舞-（京都幻都） KYOTO XANADU -the Blooming Phantom-",
+      "ppsa": "PPSA36992",
+      "ppsa_raw": "PPSA36992",
+      "ppsa_all": [
+        "PPSA36992"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-024"
+      ],
+      "source_table": "pass",
+      "source_row": 24,
+      "symptom": null,
+      "notes": "Falcom 新作；官方用字为“亰”",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0025",
+      "game_id": "doa-xtreme-venus-vacation-prism",
+      "game_title_raw": "维纳斯璀璨假期（奶牌维纳斯假期） DOA Xtreme Venus Vacation PRISM",
+      "ppsa": "PPSA25411",
+      "ppsa_raw": "PPSA25411(日)",
+      "ppsa_all": [
+        "PPSA25411"
+      ],
+      "ppsa_status": "present",
+      "region": "JP",
+      "regions": [
+        "JP"
+      ],
+      "region_raw": "日",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "q751733367q"
+      ],
+      "tester_raw": "q751733367q",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-025"
+      ],
+      "source_table": "pass",
+      "source_row": 25,
+      "symptom": null,
+      "notes": "日服 ID（Koei 官方中文），港服 ID 未能核实",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0026",
+      "game_id": "ready-or-not",
+      "game_title_raw": "严阵以待 Ready or Not",
+      "ppsa": "PPSA18605",
+      "ppsa_raw": "PPSA18605",
+      "ppsa_all": [
+        "PPSA18605"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "q751733367q"
+      ],
+      "tester_raw": "q751733367q",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-026"
+      ],
+      "source_table": "pass",
+      "source_row": 26,
+      "symptom": null,
+      "notes": "通用中文名（原“严正以待”有误）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0027",
+      "game_id": "black-myth-wukong",
+      "game_title_raw": "黑神话：悟空（黑悟空） Black Myth: Wukong",
+      "ppsa": "PPSA23226",
+      "ppsa_raw": "PPSA23226",
+      "ppsa_all": [
+        "PPSA23226"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "快上楼",
+        "hmh715"
+      ],
+      "tester_raw": "快上楼 / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-027"
+      ],
+      "source_table": "pass",
+      "source_row": 27,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0028",
+      "game_id": "007-first-light",
+      "game_title_raw": "007：初露锋芒 007 First Light",
+      "ppsa": "PPSA11386",
+      "ppsa_raw": "PPSA11386",
+      "ppsa_all": [
+        "PPSA11386"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "fdong"
+      ],
+      "tester_raw": "fdong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.018",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-028"
+      ],
+      "source_table": "pass",
+      "source_row": 28,
+      "symptom": null,
+      "notes": "01.018 / 50G",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0029",
+      "game_id": "elden-ring",
+      "game_title_raw": "艾尔登法环 Elden Ring",
+      "ppsa": "PPSA04608",
+      "ppsa_raw": "PPSA04608",
+      "ppsa_all": [
+        "PPSA04608"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "fdong"
+      ],
+      "tester_raw": "fdong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.018.001",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-029"
+      ],
+      "source_table": "pass",
+      "source_row": 29,
+      "symptom": null,
+      "notes": "01.018.001 / 90G",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0030",
+      "game_id": "unidentified-p-030",
+      "game_title_raw": "⚠️ 共鸣瘟疫传说传承（未识别） 疑 A Plague Tale 系列",
+      "ppsa": "PPSA30601",
+      "ppsa_raw": "PPSA30601",
+      "ppsa_all": [
+        "PPSA30601"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "fdong"
+      ],
+      "tester_raw": "fdong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.002.000",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-030"
+      ],
+      "source_table": "pass",
+      "source_row": 30,
+      "symptom": null,
+      "notes": "01.002.000 / 66G；唯一未能识别的名称，建议核对原始下载名",
+      "history": [],
+      "game_identification": "unidentified"
+    },
+    {
+      "id": "test-0031",
+      "game_id": "lies-of-p",
+      "game_title_raw": "匹诺曹的谎言（全DLC） Lies of P",
+      "ppsa": "PPSA10621",
+      "ppsa_raw": "PPSA10621",
+      "ppsa_all": [
+        "PPSA10621"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "fdong"
+      ],
+      "tester_raw": "fdong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.012",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-031"
+      ],
+      "source_table": "pass",
+      "source_row": 31,
+      "symptom": null,
+      "notes": "01.012 / 53G",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0032",
+      "game_id": "yakuza-like-a-dragon",
+      "game_title_raw": "人中之龙7：光与暗的去向（如龙7） Yakuza: Like a Dragon",
+      "ppsa": "PPSA02690",
+      "ppsa_raw": "PPSA02690",
+      "ppsa_all": [
+        "PPSA02690"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "fdong"
+      ],
+      "tester_raw": "fdong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.003",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-032"
+      ],
+      "source_table": "pass",
+      "source_row": 32,
+      "symptom": null,
+      "notes": "01.003 / 43G",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0033",
+      "game_id": "death-stranding-2",
+      "game_title_raw": "死亡搁浅2：冥滩之上 Death Stranding 2",
+      "ppsa": "PPSA02015",
+      "ppsa_raw": "PPSA02015",
+      "ppsa_all": [
+        "PPSA02015"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.013",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-033"
+      ],
+      "source_table": "pass",
+      "source_row": 33,
+      "symptom": null,
+      "notes": "01.013 / 96G",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0034",
+      "game_id": "ghost-of-yotei",
+      "game_title_raw": "羊蹄山之魂 Ghost of Yotei",
+      "ppsa": "PPSA26344",
+      "ppsa_raw": "PPSA26344",
+      "ppsa_all": [
+        "PPSA26344"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zhangyun111"
+      ],
+      "tester_raw": "zhangyun111",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-034"
+      ],
+      "source_table": "pass",
+      "source_row": 34,
+      "symptom": null,
+      "notes": "官方简中；GitHub 反馈均失败；问题表亦收录",
+      "history": [
+        {
+          "kind": "external_report",
+          "description": "原始备注：GitHub 反馈均失败（未附链接，属外部反馈，非本项目独立报告）",
+          "result": "fail"
+        }
+      ],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0035",
+      "game_id": "octopath-traveler-0",
+      "game_title_raw": "歧路旅人0 Octopath Traveler 0",
+      "ppsa": "PPSA28495",
+      "ppsa_raw": "PPSA28495(港)",
+      "ppsa_all": [
+        "PPSA28495"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122"
+      ],
+      "tester_raw": "zylcw1122",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-035"
+      ],
+      "source_table": "pass",
+      "source_row": 35,
+      "symptom": null,
+      "notes": "日服 28492",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0036",
+      "game_id": "fatal-frame-ii-crimson-butterfly-remake",
+      "game_title_raw": "零 ～红蝶～ REMAKE Fatal Frame II: Crimson Butterfly Remake",
+      "ppsa": "PPSA32803",
+      "ppsa_raw": "PPSA32803(亚)",
+      "ppsa_all": [
+        "PPSA32803"
+      ],
+      "ppsa_status": "present",
+      "region": "AS",
+      "regions": [
+        "AS"
+      ],
+      "region_raw": "亚",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122"
+      ],
+      "tester_raw": "zylcw1122",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-036"
+      ],
+      "source_table": "pass",
+      "source_row": 36,
+      "symptom": null,
+      "notes": "欧美日 32802",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0037",
+      "game_id": "re4-remake-gold",
+      "game_title_raw": "生化危机4 重制版 黄金版 RE4 Remake Gold",
+      "ppsa": "PPSA07411",
+      "ppsa_raw": "PPSA07411(美)",
+      "ppsa_all": [
+        "PPSA07411"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122"
+      ],
+      "tester_raw": "zylcw1122",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-037"
+      ],
+      "source_table": "pass",
+      "source_row": 37,
+      "symptom": null,
+      "notes": "美服本体/黄金同 ID；亚服黄金版 09418",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0038",
+      "game_id": "final-fantasy-resonance",
+      "game_title_raw": "最终幻想：共鸣 FINAL FANTASY RESONANCE",
+      "ppsa": "PPSA34140",
+      "ppsa_raw": "PPSA34140(亚)",
+      "ppsa_all": [
+        "PPSA34140"
+      ],
+      "ppsa_status": "present",
+      "region": "AS",
+      "regions": [
+        "AS"
+      ],
+      "region_raw": "亚",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122"
+      ],
+      "tester_raw": "zylcw1122",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-038"
+      ],
+      "source_table": "pass",
+      "source_row": 38,
+      "symptom": null,
+      "notes": "国际版 31544；简中",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0039",
+      "game_id": "hollow-knight-voidheart-edition",
+      "game_title_raw": "空洞骑士 Hollow Knight: Voidheart Ed.",
+      "ppsa": "PPSA34971",
+      "ppsa_raw": "PPSA34971",
+      "ppsa_all": [
+        "PPSA34971"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122",
+        "hmh715"
+      ],
+      "tester_raw": "zylcw1122 / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-039"
+      ],
+      "source_table": "pass",
+      "source_row": 39,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0040",
+      "game_id": "like-a-dragon-infinite-wealth",
+      "game_title_raw": "人中之龙8（如龙8） Like a Dragon: Infinite Wealth",
+      "ppsa": "PPSA06435",
+      "ppsa_raw": "PPSA06435(美)",
+      "ppsa_all": [
+        "PPSA06435"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122"
+      ],
+      "tester_raw": "zylcw1122",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-040"
+      ],
+      "source_table": "pass",
+      "source_row": 40,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0041",
+      "game_id": "resident-evil-requiem",
+      "game_title_raw": "生化危机9：安魂曲（生化9） Resident Evil Requiem",
+      "ppsa": "PPSA30803",
+      "ppsa_raw": "PPSA30803",
+      "ppsa_all": [
+        "PPSA30803"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "jhmai1212",
+        "hmh715"
+      ],
+      "tester_raw": "jhmai1212 / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-041"
+      ],
+      "source_table": "pass",
+      "source_row": 41,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0042",
+      "game_id": "saros",
+      "game_title_raw": "沙罗周期（SAROS） SAROS",
+      "ppsa": "PPSA07634",
+      "ppsa_raw": "PPSA07634(港)",
+      "ppsa_all": [
+        "PPSA07634"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "jhmai1212"
+      ],
+      "tester_raw": "jhmai1212",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-042"
+      ],
+      "source_table": "pass",
+      "source_row": 42,
+      "symptom": null,
+      "notes": "“沙罗周期”即官方中文，非机翻；美服 07632",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0043",
+      "game_id": "street-fighter-6",
+      "game_title_raw": "街头霸王6（街霸6） Street Fighter 6",
+      "ppsa": "PPSA02632",
+      "ppsa_raw": "PPSA02632",
+      "ppsa_all": [
+        "PPSA02632"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "yueliang137"
+      ],
+      "tester_raw": "yueliang137",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-043"
+      ],
+      "source_table": "pass",
+      "source_row": 43,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0044",
+      "game_id": "marvels-wolverine",
+      "game_title_raw": "金刚狼 Marvel's Wolverine",
+      "ppsa": "PPSA03671",
+      "ppsa_raw": "PPSA03671",
+      "ppsa_all": [
+        "PPSA03671"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd / LZ4",
+      "compression_scope": "explicit",
+      "result": "unknown",
+      "verification": "community_report",
+      "tester": [
+        "tiga6367"
+      ],
+      "tester_raw": "tiga6367 / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-044"
+      ],
+      "source_table": "pass",
+      "source_row": 44,
+      "symptom": null,
+      "notes": "tiga6367 版本存疑（zstd），hmh715 为 LZ4；问题表亦收录",
+      "history": [
+        {
+          "kind": "source_classification",
+          "description": "原始记录位于通过表（P-044）",
+          "result": null
+        }
+      ],
+      "game_identification": "confirmed",
+      "result_note": "原记录位于通过表，但备注明确“tiga6367 版本存疑（zstd）”，故单条报告结果记为 unknown（存疑），不视为已确认通过。",
+      "derivation": "P-044 拆分：ZSTD 部分（tiga6367）"
+    },
+    {
+      "id": "test-0045",
+      "game_id": "marvels-wolverine",
+      "game_title_raw": "金刚狼 Marvel's Wolverine",
+      "ppsa": "PPSA03671",
+      "ppsa_raw": "PPSA03671",
+      "ppsa_all": [
+        "PPSA03671"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "lz4",
+      "compression_raw": "zstd / LZ4",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "tiga6367 / hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-044"
+      ],
+      "source_table": "pass",
+      "source_row": 44,
+      "symptom": null,
+      "notes": "tiga6367 版本存疑（zstd），hmh715 为 LZ4；问题表亦收录",
+      "history": [],
+      "game_identification": "confirmed",
+      "derivation": "P-044 拆分：LZ4 部分（hmh715）"
+    },
+    {
+      "id": "test-0046",
+      "game_id": "kingdom-hearts-collection-i-iii",
+      "game_title_raw": "王国之心3 ⚠️ KINGDOM HEARTS Collection [I～III]",
+      "ppsa": "PPSA35901",
+      "ppsa_raw": "PPSA35901(美)",
+      "ppsa_all": [
+        "PPSA35901"
+      ],
+      "ppsa_status": "present",
+      "region": "US",
+      "regions": [
+        "US"
+      ],
+      "region_raw": "美",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "chenlidong"
+      ],
+      "tester_raw": "chenlidong",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-045"
+      ],
+      "source_table": "pass",
+      "source_row": 45,
+      "symptom": null,
+      "notes": "KH3 无 PS5 独立版（PS4=CUSA15072），所测疑为此合集",
+      "history": [],
+      "game_identification": "uncertain"
+    },
+    {
+      "id": "test-0047",
+      "game_id": "castlevania-belmonts-curse",
+      "game_title_raw": "恶魔城：贝尔蒙特诅咒 Castlevania: Belmont's Curse",
+      "ppsa": "PPSA35399",
+      "ppsa_raw": "PPSA35399",
+      "ppsa_all": [
+        "PPSA35399"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zgp_110"
+      ],
+      "tester_raw": "zgp_110",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-046"
+      ],
+      "source_table": "pass",
+      "source_row": 46,
+      "symptom": null,
+      "notes": "官方无中文标题，社区译名",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0048",
+      "game_id": "overcooked-all-you-can-eat",
+      "game_title_raw": "胡闹厨房：全都好吃 Overcooked! All You Can Eat",
+      "ppsa": "PPSA01528",
+      "ppsa_raw": "PPSA01528",
+      "ppsa_all": [
+        "PPSA01528"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-047"
+      ],
+      "source_table": "pass",
+      "source_row": 47,
+      "symptom": null,
+      "notes": "中文名 zylcw1122",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0049",
+      "game_id": "cod-black-ops-cold-war",
+      "game_title_raw": "使命召唤：黑色行动冷战 COD: Black Ops Cold War",
+      "ppsa": "PPSA02053",
+      "ppsa_raw": "PPSA02053",
+      "ppsa_all": [
+        "PPSA02053"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-048"
+      ],
+      "source_table": "pass",
+      "source_row": 48,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0050",
+      "game_id": "sonic-frontiers",
+      "game_title_raw": "索尼克：未知边境 Sonic Frontiers",
+      "ppsa": "PPSA03831",
+      "ppsa_raw": "PPSA03831",
+      "ppsa_all": [
+        "PPSA03831"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.041.000",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-049"
+      ],
+      "source_table": "pass",
+      "source_row": 49,
+      "symptom": null,
+      "notes": "01.041.000",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0051",
+      "game_id": "tmnt-cowabunga-collection",
+      "game_title_raw": "忍者神龟：考瓦邦加合集 TMNT: The Cowabunga Collection",
+      "ppsa": "PPSA04489",
+      "ppsa_raw": "PPSA04489",
+      "ppsa_all": [
+        "PPSA04489"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-050"
+      ],
+      "source_table": "pass",
+      "source_row": 50,
+      "symptom": null,
+      "notes": "官方无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0052",
+      "game_id": "tiebreak-grand-slam-edition",
+      "game_title_raw": "TIEBREAK 大满贯版（ATP/WTA） TIEBREAK – Grand Slam Edition",
+      "ppsa": "PPSA14453",
+      "ppsa_raw": "PPSA14453",
+      "ppsa_all": [
+        "PPSA14453"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-051"
+      ],
+      "source_table": "pass",
+      "source_row": 51,
+      "symptom": null,
+      "notes": "官方无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0053",
+      "game_id": "contra-operation-galuga",
+      "game_title_raw": "魂斗罗：加鲁加行动 Contra: Operation Galuga",
+      "ppsa": "PPSA15368",
+      "ppsa_raw": "PPSA15368",
+      "ppsa_all": [
+        "PPSA15368"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-052"
+      ],
+      "source_table": "pass",
+      "source_row": 52,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0054",
+      "game_id": "richman-11",
+      "game_title_raw": "富甲天下11 Richman 11",
+      "ppsa": "PPSA16960",
+      "ppsa_raw": "PPSA16960",
+      "ppsa_all": [
+        "PPSA16960"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-053"
+      ],
+      "source_table": "pass",
+      "source_row": 53,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0055",
+      "game_id": "astro-bot",
+      "game_title_raw": "宇宙机器人 ASTRO BOT",
+      "ppsa": "PPSA21567",
+      "ppsa_raw": "PPSA21567",
+      "ppsa_all": [
+        "PPSA21567"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "lz4",
+      "compression_raw": "LZ4",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-054"
+      ],
+      "source_table": "pass",
+      "source_row": 54,
+      "symptom": null,
+      "notes": "问题表亦收录（卡 logo，结果冲突）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0056",
+      "game_id": "cod-modern-warfare-2",
+      "game_title_raw": "使命召唤：现代战争2 COD: Modern Warfare 2",
+      "ppsa": "PPSA23015",
+      "ppsa_raw": "PPSA23015",
+      "ppsa_all": [
+        "PPSA23015"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-055"
+      ],
+      "source_table": "pass",
+      "source_row": 55,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0057",
+      "game_id": "lego-voyagers",
+      "game_title_raw": "乐高旅行者 LEGO Voyagers",
+      "ppsa": "PPSA23732",
+      "ppsa_raw": "PPSA23732",
+      "ppsa_all": [
+        "PPSA23732"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-056"
+      ],
+      "source_table": "pass",
+      "source_row": 56,
+      "symptom": null,
+      "notes": "粉丝译名，官方无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0058",
+      "game_id": "cod-modern-warfare-3",
+      "game_title_raw": "使命召唤：现代战争3 COD: Modern Warfare 3",
+      "ppsa": "PPSA24266",
+      "ppsa_raw": "PPSA24266",
+      "ppsa_all": [
+        "PPSA24266"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-057"
+      ],
+      "source_table": "pass",
+      "source_row": 57,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0059",
+      "game_id": "one-piece-pirate-warriors-4",
+      "game_title_raw": "航海王：海贼无双4 One Piece: Pirate Warriors 4",
+      "ppsa": "PPSA27500",
+      "ppsa_raw": "PPSA27500",
+      "ppsa_all": [
+        "PPSA27500"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-058"
+      ],
+      "source_table": "pass",
+      "source_row": 58,
+      "symptom": null,
+      "notes": "Steam 官中“ONE PIECE 海贼无双4”",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0060",
+      "game_id": "star-wars-galactic-racer",
+      "game_title_raw": "星球大战：银河赛车手 Star Wars: Galactic Racer",
+      "ppsa": "PPSA28416",
+      "ppsa_raw": "PPSA28416",
+      "ppsa_all": [
+        "PPSA28416"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-059"
+      ],
+      "source_table": "pass",
+      "source_row": 59,
+      "symptom": null,
+      "notes": "官方简中即“银河赛车手”",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0061",
+      "game_id": "silent-hill-townfall",
+      "game_title_raw": "寂静岭：Townfall SILENT HILL: Townfall",
+      "ppsa": "PPSA33286",
+      "ppsa_raw": "PPSA33286",
+      "ppsa_all": [
+        "PPSA33286"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-060"
+      ],
+      "source_table": "pass",
+      "source_row": 60,
+      "symptom": null,
+      "notes": "“落镇”系机翻勿用，官方无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0062",
+      "game_id": "toy-story-3-complete-edition",
+      "game_title_raw": "玩具总动员3：完整版 Toy Story 3: Complete Edition",
+      "ppsa": "PPSA33626",
+      "ppsa_raw": "PPSA33626",
+      "ppsa_all": [
+        "PPSA33626"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-061"
+      ],
+      "source_table": "pass",
+      "source_row": 61,
+      "symptom": null,
+      "notes": "2026-10 复刻，官方无中文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0063",
+      "game_id": "it-takes-two",
+      "game_title_raw": "双人成行 It Takes Two",
+      "ppsa": "PPSA02424",
+      "ppsa_raw": "PPSA02424",
+      "ppsa_all": [
+        "PPSA02424"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": "01.500.000",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-062"
+      ],
+      "source_table": "pass",
+      "source_row": 62,
+      "symptom": null,
+      "notes": "01.500.000",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0064",
+      "game_id": "the-last-of-us-part-i",
+      "game_title_raw": "最后生还者 第一部 The Last of Us Part I",
+      "ppsa": "PPSA07644",
+      "ppsa_raw": "PPSA07644",
+      "ppsa_all": [
+        "PPSA07644"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-063"
+      ],
+      "source_table": "pass",
+      "source_row": 63,
+      "symptom": null,
+      "notes": "即“美末日1”；问题表待确认（结果冲突）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0065",
+      "game_id": "sonic-racing-crossworlds",
+      "game_title_raw": "索尼克赛车：交叉世界 Sonic Racing: CrossWorlds",
+      "ppsa": "PPSA08804",
+      "ppsa_raw": "PPSA08804",
+      "ppsa_all": [
+        "PPSA08804"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-064"
+      ],
+      "source_table": "pass",
+      "source_row": 64,
+      "symptom": null,
+      "notes": "官方名“交叉世界”（原“跨世界”有误）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0066",
+      "game_id": "lego-batman-legacy-of-the-dark-knight",
+      "game_title_raw": "乐高蝙蝠侠：黑暗骑士之遗 LEGO Batman: Legacy of the Dark Knight",
+      "ppsa": "PPSA16833",
+      "ppsa_raw": "PPSA16833",
+      "ppsa_all": [
+        "PPSA16833"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-065"
+      ],
+      "source_table": "pass",
+      "source_row": 65,
+      "symptom": null,
+      "notes": "2026-05-26 新作，非 2008 老乐高蝙蝠侠",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0067",
+      "game_id": "assassins-creed-shadows",
+      "game_title_raw": "刺客信条：影 Assassin's Creed Shadows",
+      "ppsa": "PPSA20397",
+      "ppsa_raw": "PPSA20397",
+      "ppsa_all": [
+        "PPSA20397"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-066"
+      ],
+      "source_table": "pass",
+      "source_row": 66,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0068",
+      "game_id": "nba-2k27",
+      "game_title_raw": "NBA 2K27",
+      "ppsa": "PPSA35889",
+      "ppsa_raw": "PPSA35889",
+      "ppsa_all": [
+        "PPSA35889"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "hmh715"
+      ],
+      "tester_raw": "hmh715",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-067"
+      ],
+      "source_table": "pass",
+      "source_row": 67,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0069",
+      "game_id": "achilles-survivor",
+      "game_title_raw": "阿喀琉斯：幸存者 Achilles: Survivor",
+      "ppsa": "PPSA30454",
+      "ppsa_raw": "PPSA30454",
+      "ppsa_all": [
+        "PPSA30454"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "aiwo1986"
+      ],
+      "tester_raw": "aiwo1986",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-068"
+      ],
+      "source_table": "pass",
+      "source_row": 68,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0070",
+      "game_id": "ultros",
+      "game_title_raw": "奥特罗斯 Ultros",
+      "ppsa": "PPSA16280",
+      "ppsa_raw": "PPSA16280",
+      "ppsa_all": [
+        "PPSA16280"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "aiwo1986"
+      ],
+      "tester_raw": "aiwo1986",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-069"
+      ],
+      "source_table": "pass",
+      "source_row": 69,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0071",
+      "game_id": "bionic-bay",
+      "game_title_raw": "换影循迹 Bionic Bay",
+      "ppsa": "PPSA23767",
+      "ppsa_raw": "PPSA23767",
+      "ppsa_all": [
+        "PPSA23767"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "aiwo1986"
+      ],
+      "tester_raw": "aiwo1986",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-070"
+      ],
+      "source_table": "pass",
+      "source_row": 70,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0072",
+      "game_id": "kusan-city-of-wolves",
+      "game_title_raw": "九山：狼之城 Kusan: City of Wolves",
+      "ppsa": "PPSA29617",
+      "ppsa_raw": "PPSA29617",
+      "ppsa_all": [
+        "PPSA29617"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "aiwo1986"
+      ],
+      "tester_raw": "aiwo1986",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-071"
+      ],
+      "source_table": "pass",
+      "source_row": 71,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0073",
+      "game_id": "the-knight-witch",
+      "game_title_raw": "魔骑少女 The Knight Witch",
+      "ppsa": "PPSA08045",
+      "ppsa_raw": "PPSA08045",
+      "ppsa_all": [
+        "PPSA08045"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "aiwo1986"
+      ],
+      "tester_raw": "aiwo1986",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-072"
+      ],
+      "source_table": "pass",
+      "source_row": 72,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0074",
+      "game_id": "totally-accurate-battle-simulator",
+      "game_title_raw": "全面战争模拟器 Totally Accurate Battle Simulator",
+      "ppsa": "PPSA06081",
+      "ppsa_raw": "PPSA06081",
+      "ppsa_all": [
+        "PPSA06081"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "aiwo1986"
+      ],
+      "tester_raw": "aiwo1986",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-073"
+      ],
+      "source_table": "pass",
+      "source_row": 73,
+      "symptom": null,
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0075",
+      "game_id": "clair-obscur-expedition-33",
+      "game_title_raw": "光与影：33号远征队 Clair Obscur: Expedition 33",
+      "ppsa": "PPSA17599",
+      "ppsa_raw": "PPSA17599",
+      "ppsa_all": [
+        "PPSA17599"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "single_source",
+      "tester": [
+        "rjwnjc"
+      ],
+      "tester_raw": "rjwnjc",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-074"
+      ],
+      "source_table": "pass",
+      "source_row": 74,
+      "symptom": null,
+      "notes": "TGA2025 年度最佳；编号来源飞龙口袋（单源）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0076",
+      "game_id": "unicorn-overlord",
+      "game_title_raw": "圣兽之王 Unicorn Overlord",
+      "ppsa": "PPSA09894",
+      "ppsa_raw": "PPSA09894",
+      "ppsa_all": [
+        "PPSA09894"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zylcw1122"
+      ],
+      "tester_raw": "zylcw1122",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-075"
+      ],
+      "source_table": "pass",
+      "source_row": 75,
+      "symptom": null,
+      "notes": "Sony 官方页另见 PPSA20318（疑另一 SKU）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0077",
+      "game_id": "hellblade-ii-senuas-saga",
+      "game_title_raw": "地狱之刃2：塞娜的传说 Senua's Saga: Hellblade II",
+      "ppsa": "PPSA25991",
+      "ppsa_raw": "PPSA25991(港)",
+      "ppsa_all": [
+        "PPSA25991"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "mukecool"
+      ],
+      "tester_raw": "mukecool",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-076"
+      ],
+      "source_table": "pass",
+      "source_row": 76,
+      "symptom": null,
+      "notes": "Xbox 官方简中《地狱之刃 II：塞娜的献祭》；PKG 档案名“塞娜的史诗”",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0078",
+      "game_id": "resident-evil-2-remake",
+      "game_title_raw": "生化危机2 重制版 Resident Evil 2",
+      "ppsa": "PPSA04290",
+      "ppsa_raw": "PPSA04290(港)",
+      "ppsa_all": [
+        "PPSA04290"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "mukecool"
+      ],
+      "tester_raw": "mukecool",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-077"
+      ],
+      "source_table": "pass",
+      "source_row": 77,
+      "symptom": null,
+      "notes": "PS5 原生版；PSN 港服名保留英文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0079",
+      "game_id": "resident-evil-3-remake",
+      "game_title_raw": "生化危机3 重制版 Resident Evil 3",
+      "ppsa": "PPSA03954",
+      "ppsa_raw": "PPSA03954(港)",
+      "ppsa_all": [
+        "PPSA03954"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "mukecool"
+      ],
+      "tester_raw": "mukecool",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-078"
+      ],
+      "source_table": "pass",
+      "source_row": 78,
+      "symptom": null,
+      "notes": "PS5 原生版；PSN 港服名保留英文",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0080",
+      "game_id": "reanimal",
+      "game_title_raw": "生灵重塑 REANIMAL",
+      "ppsa": "PPSA23372",
+      "ppsa_raw": "PPSA23372(港)",
+      "ppsa_all": [
+        "PPSA23372"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "mukecool"
+      ],
+      "tester_raw": "mukecool",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-079"
+      ],
+      "source_table": "pass",
+      "source_row": 79,
+      "symptom": null,
+      "notes": "“生灵重塑”即 Steam 官方简中名（Tarsier/THQ Nordic）；试玩 PPSA29683",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0081",
+      "game_id": "warhammer-40000-space-marine-2",
+      "game_title_raw": "战锤40K：星际战士2 Warhammer 40,000: Space Marine 2",
+      "ppsa": "PPSA04451",
+      "ppsa_raw": "PPSA04451(港/欧)",
+      "ppsa_all": [
+        "PPSA04451"
+      ],
+      "ppsa_status": "present",
+      "region": "MULTI",
+      "regions": [
+        "HK",
+        "EU"
+      ],
+      "region_raw": "港/欧",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "mukecool"
+      ],
+      "tester_raw": "mukecool",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-080"
+      ],
+      "source_table": "pass",
+      "source_row": 80,
+      "symptom": null,
+      "notes": "美服 04452；飞龙口袋黄金档为美服 04452",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0082",
+      "game_id": "returnal",
+      "game_title_raw": "死亡回归 Returnal",
+      "ppsa": "PPSA01287",
+      "ppsa_raw": "PPSA01287(港)",
+      "ppsa_all": [
+        "PPSA01287"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "www14213"
+      ],
+      "tester_raw": "www14213",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-081"
+      ],
+      "source_table": "pass",
+      "source_row": 81,
+      "symptom": null,
+      "notes": "亚服 SKU HP9000-PPSA01287",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0083",
+      "game_id": "demons-souls-remake",
+      "game_title_raw": "恶魔之魂 重制版 Demon's Souls",
+      "ppsa": "PPSA01340",
+      "ppsa_raw": "PPSA01340(港)",
+      "ppsa_all": [
+        "PPSA01340"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "www14213"
+      ],
+      "tester_raw": "www14213",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-082"
+      ],
+      "source_table": "pass",
+      "source_row": 82,
+      "symptom": null,
+      "notes": "亚服 SKU HP9000-PPSA01340",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0084",
+      "game_id": "dying-light-2-stay-human",
+      "game_title_raw": "消逝的光芒2 人与仁之战 Dying Light 2 Stay Human",
+      "ppsa": "PPSA02261",
+      "ppsa_raw": "PPSA02261(港)",
+      "ppsa_all": [
+        "PPSA02261"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "mukecool"
+      ],
+      "tester_raw": "mukecool",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-083"
+      ],
+      "source_table": "pass",
+      "source_row": 83,
+      "symptom": null,
+      "notes": "0.3.2 下转换报错（见修订记录）；换 ampr-emu-ng 0.3.3 后成功运行——首个 0.3.3 成功案例",
+      "history": [
+        {
+          "kind": "prior_state",
+          "description": "0.3.2 下转换报错（见修订记录）",
+          "result": "fail"
+        },
+        {
+          "kind": "environment_change",
+          "description": "换 ampr-emu-ng 0.3.3 后成功运行——首个 0.3.3 成功案例",
+          "result": "pass"
+        }
+      ],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0085",
+      "game_id": "wrc-10",
+      "game_title_raw": "WRC 10 FIA 世界汽车拉力锦标赛 WRC 10 FIA World Rally Championship",
+      "ppsa": "PPSA03589",
+      "ppsa_raw": "PPSA03589",
+      "ppsa_all": [
+        "PPSA03589"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "椒盐洋芋"
+      ],
+      "tester_raw": "椒盐洋芋",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-084"
+      ],
+      "source_table": "pass",
+      "source_row": 84,
+      "symptom": null,
+      "notes": "0.3.2 黑屏（问题表原条目）；更新 libSceAmpr-0.3.3.sprx 后正常运行——0.3.3 成功案例；PPSA 为测试者提供",
+      "history": [
+        {
+          "kind": "prior_state",
+          "description": "0.3.2 黑屏（问题表原条目）",
+          "result": "fail"
+        },
+        {
+          "kind": "environment_change",
+          "description": "更新 libSceAmpr-0.3.3.sprx 后正常运行——0.3.3 成功案例",
+          "result": "pass"
+        }
+      ],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0086",
+      "game_id": "wuchang-fallen-feathers",
+      "game_title_raw": "明末：渊虚之羽 WUCHANG: Fallen Feathers",
+      "ppsa": "PPSA09518",
+      "ppsa_raw": "PPSA09518",
+      "ppsa_all": [
+        "PPSA09518"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "wupeng2"
+      ],
+      "tester_raw": "wupeng2",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "P-085"
+      ],
+      "source_table": "pass",
+      "source_row": 85,
+      "symptom": null,
+      "notes": "官方简中名“明末：渊虚之羽”；SKU UP4040-PPSA09518（含豪华版同 ID）",
+      "history": [],
+      "game_identification": "confirmed"
+    },
+    {
+      "id": "test-0087",
+      "game_id": "astro-bot",
+      "game_title_raw": "宇宙机器人（小机器人2） ASTRO BOT",
+      "ppsa": "PPSA21567",
+      "ppsa_raw": "PPSA21567",
+      "ppsa_all": [
+        "PPSA21567"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-001"
+      ],
+      "source_table": "problem",
+      "source_row": 1,
+      "symptom": "卡 logo",
+      "notes": "GitHub issue 追踪中；有人用 0.5.2 转换成功但小文件数 > 40000；与 P-054 冲突（hmh715 LZ4 通过）",
+      "history": [
+        {
+          "kind": "third_party_claim",
+          "description": "原始备注：有人用 0.5.2 转换成功但小文件数 > 40000（第三方转述，未作为独立测试报告）",
+          "result": null
+        }
+      ],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0088",
+      "game_id": "ghost-of-yotei",
+      "game_title_raw": "羊蹄山之魂 Ghost of Yotei",
+      "ppsa": "PPSA26344",
+      "ppsa_raw": "PPSA26344",
+      "ppsa_all": [
+        "PPSA26344"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-002"
+      ],
+      "source_table": "problem",
+      "source_row": 2,
+      "symptom": "卡 logo",
+      "notes": "与 P-034 冲突（zhangyun111 通过，GitHub 均失败）",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0089",
+      "game_id": "marvels-wolverine",
+      "game_title_raw": "金刚狼 Marvel's Wolverine",
+      "ppsa": "PPSA03671",
+      "ppsa_raw": "PPSA03671",
+      "ppsa_all": [
+        "PPSA03671"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-003"
+      ],
+      "source_table": "problem",
+      "source_row": 3,
+      "symptom": "黑屏",
+      "notes": "与 P-044 冲突（tiga6367 存疑 / hmh715 LZ4 通过）",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0090",
+      "game_id": "crimson-desert",
+      "game_title_raw": "赤色沙漠 Crimson Desert",
+      "ppsa": null,
+      "ppsa_raw": "—",
+      "ppsa_all": [],
+      "ppsa_status": "missing",
+      "region": "UNKNOWN",
+      "regions": [],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-004"
+      ],
+      "source_table": "problem",
+      "source_row": 4,
+      "symptom": "黑屏",
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0091",
+      "game_id": "ratchet-and-clank-rift-apart",
+      "game_title_raw": "瑞奇与叮当：时空跳转 Ratchet & Clank: Rift Apart",
+      "ppsa": null,
+      "ppsa_raw": "—",
+      "ppsa_all": [],
+      "ppsa_status": "missing",
+      "region": "UNKNOWN",
+      "regions": [],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-005"
+      ],
+      "source_table": "problem",
+      "source_row": 5,
+      "symptom": "黑屏",
+      "notes": "官方中文名“时空跳转”",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0092",
+      "game_id": "god-of-war-ragnarok",
+      "game_title_raw": "战神：诸神黄昏 God of War Ragnarök",
+      "ppsa": null,
+      "ppsa_raw": "—",
+      "ppsa_all": [],
+      "ppsa_status": "missing",
+      "region": "UNKNOWN",
+      "regions": [],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-006"
+      ],
+      "source_table": "problem",
+      "source_row": 6,
+      "symptom": "黑屏",
+      "notes": "官方中文名“诸神黄昏”",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0093",
+      "game_id": "the-last-of-us-part-i",
+      "game_title_raw": "最后生还者 第一部（美末日1） The Last of Us Part I",
+      "ppsa": "PPSA07644",
+      "ppsa_raw": "PPSA07644",
+      "ppsa_all": [
+        "PPSA07644"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "unknown",
+      "verification": "community_report",
+      "tester": [
+        "nisec_eric"
+      ],
+      "tester_raw": "nisec_eric",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-007"
+      ],
+      "source_table": "problem",
+      "source_row": 7,
+      "symptom": "待确认",
+      "notes": "外网称可运行；P-063 hmh715 通过",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0094",
+      "game_id": "ninja-gaiden-4",
+      "game_title_raw": "忍者龙剑传4 Ninja Gaiden 4",
+      "ppsa": null,
+      "ppsa_raw": "—",
+      "ppsa_all": [],
+      "ppsa_status": "missing",
+      "region": "UNKNOWN",
+      "regions": [],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "www14213"
+      ],
+      "tester_raw": "www14213",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-008"
+      ],
+      "source_table": "problem",
+      "source_row": 8,
+      "symptom": "运行失败",
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0095",
+      "game_id": "dirt-5",
+      "game_title_raw": "尘埃5 DIRT 5",
+      "ppsa": "PPSA01551",
+      "ppsa_raw": "PPSA01551",
+      "ppsa_all": [
+        "PPSA01551"
+      ],
+      "ppsa_status": "present",
+      "region": "UNKNOWN",
+      "regions": [
+        "UNKNOWN"
+      ],
+      "region_raw": null,
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "yttx1228"
+      ],
+      "tester_raw": "yttx1228",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-009"
+      ],
+      "source_table": "problem",
+      "source_row": 9,
+      "symptom": "无法运行",
+      "notes": "—",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0096",
+      "game_id": "nioh-3",
+      "game_title_raw": "仁王３ Nioh 3",
+      "ppsa": "PPSA32786",
+      "ppsa_raw": "PPSA32786(港)/32785(欧)",
+      "ppsa_all": [
+        "PPSA32786",
+        "PPSA32785"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "港",
+      "compression": "unknown",
+      "compression_raw": null,
+      "compression_scope": "zstd_issue_scope",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "kofdaibin"
+      ],
+      "tester_raw": "kofdaibin",
+      "tested_at": null,
+      "ps5_firmware": null,
+      "game_version": null,
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "F-010"
+      ],
+      "source_table": "problem",
+      "source_row": 10,
+      "symptom": "signal 11 出错",
+      "notes": "港服页 SKU 直出；试玩为 PPSA34974/34975",
+      "history": [],
+      "game_identification": "confirmed",
+      "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    }
+  ]
+}

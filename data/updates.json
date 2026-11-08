@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "description": "Project and dataset change log shown on the website. Dates here are PROJECT event dates, never invented test dates.",
+    "note": "Test reports in tests.json have tested_at = null because the original community list provided no test dates."
+  },
+  "updates": [
+    {
+      "id": "update-2026-11-08-01",
+      "date": "2026-11-08",
+      "type": "initial_migration",
+      "title_zh": "初始数据迁移完成",
+      "title_en": "Initial data migration completed",
+      "detail_zh": "导入通过表 85 条、问题表 10 条，共 95 条原始记录；建立 91 款独立游戏与 96 条独立测试报告。原始表格逐字存档于 docs/source-data-original.md。",
+      "detail_en": "Imported 85 pass-table and 10 problem-table rows (95 original records), establishing 91 distinct games and 96 independent test reports. The verbatim tables are archived in docs/source-data-original.md.",
+      "related_source_ids": ["P-001", "F-001"]
+    },
+    {
+      "id": "update-2026-11-08-02",
+      "date": "2026-11-08",
+      "type": "data_model",
+      "title_zh": "建立游戏 / SKU / 测试报告三层数据模型",
+      "title_en": "Established the game / SKU / test-report data model",
+      "detail_zh": "区分原始记录、独立游戏与独立测试报告；P-044 拆分为 ZSTD 与 LZ4 两条报告；疑似 SKU 单独存为未确认候选；P-034/F-002 等冲突报告全部保留。",
+      "detail_en": "Separated original rows, distinct games and independent reports. P-044 was split into ZSTD and LZ4 reports; suspected SKUs are kept as unconfirmed candidates; conflicting reports such as P-034/F-002 are all retained.",
+      "related_source_ids": ["P-034", "P-044", "F-002"]
+    },
+    {
+      "id": "update-2026-11-08-03",
+      "date": "2026-11-08",
+      "type": "tooling",
+      "title_zh": "上线数据校验与自动统计",
+      "title_en": "Added data validation and automatic statistics",
+      "detail_zh": "新增 JSON Schema、Node.js 校验脚本、自动统计脚本与 GitHub Actions 校验工作流；README 统计数字由脚本核对。",
+      "detail_en": "Added JSON Schemas, a Node.js validator, an automatic statistics script and a GitHub Actions validation workflow; README figures are checked by script.",
+      "related_source_ids": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "regions": [
+    {
+      "code": "HK",
+      "label_zh": "港服（中国香港）",
+      "label_en": "Hong Kong, China (PSN HK)",
+      "note": "原始标注“港”"
+    },
+    {
+      "code": "US",
+      "label_zh": "美服",
+      "label_en": "United States (PSN US)",
+      "note": "原始标注“美”"
+    },
+    {
+      "code": "EU",
+      "label_zh": "欧服",
+      "label_en": "Europe (PSN EU)",
+      "note": "原始标注“欧”"
+    },
+    {
+      "code": "JP",
+      "label_zh": "日服",
+      "label_en": "Japan (PSN JP)",
+      "note": "原始标注“日”"
+    },
+    {
+      "code": "AS",
+      "label_zh": "亚服",
+      "label_en": "Asia (PSN AS)",
+      "note": "原始标注“亚”"
+    },
+    {
+      "code": "MULTI",
+      "label_zh": "多地区",
+      "label_en": "Multiple regions",
+      "note": "同一 PPSA 标注多个地区，如“港/欧”"
+    },
+    {
+      "code": "UNKNOWN",
+      "label_zh": "地区未注明",
+      "label_en": "Region not specified",
+      "note": "原始资料未标注地区，不得推断"
+    }
+  ]
+}

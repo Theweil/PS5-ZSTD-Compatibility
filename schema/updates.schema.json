@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theweil.github.io/PS5-ZSTD-Compatibility/schema/updates.schema.json",
+  "title": "PS5 ZSTD Compatibility Database — update log",
+  "type": "object",
+  "required": ["meta", "updates"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": { "type": "object" },
+    "updates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "date", "type", "title_zh", "title_en", "detail_zh", "detail_en", "related_source_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+          "type": { "type": "string", "minLength": 1 },
+          "title_zh": { "type": "string" },
+          "title_en": { "type": "string" },
+          "detail_zh": { "type": "string" },
+          "detail_en": { "type": "string" },
+          "related_source_ids": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+          }
+        }
+      }
+    }
+  }
+}

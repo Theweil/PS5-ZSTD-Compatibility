@@ -1,0 +1,22 @@
+# Generated build output (produced by scripts/build-site.mjs, never commit)
+dist/
+site/data/
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Never commit secrets, game files, PKGs or copyrighted binaries
+*.pkg
+*.key
+*.pem
+.env
+.env.*
+!.env.example

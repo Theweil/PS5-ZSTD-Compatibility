@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theweil.github.io/PS5-ZSTD-Compatibility/schema/game.schema.json",
+  "title": "PS5 ZSTD Compatibility Database — games document",
+  "description": "Validates data/games.json. One game record per distinct game; SKUs and tests are separate concerns.",
+  "type": "object",
+  "required": ["meta", "games"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": { "type": "object" },
+    "games": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/game" }
+    }
+  },
+  "definitions": {
+    "regionCode": {
+      "type": "string",
+      "enum": ["HK", "US", "EU", "JP", "AS", "MULTI", "UNKNOWN"]
+    },
+    "ppsa": {
+      "type": ["string", "null"],
+      "pattern": "^PPSA[0-9]{5}$"
+    },
+    "sku": {
+      "type": "object",
+      "required": ["ppsa", "regions", "confidence", "source_record_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "ppsa": { "$ref": "#/definitions/ppsa" },
+        "regions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/regionCode" }
+        },
+        "region_raw": { "type": ["string", "null"] },
+        "region_labels": { "type": "array", "items": { "type": "string" } },
+        "confidence": { "type": "string", "enum": ["confirmed", "unconfirmed"] },
+        "source": { "type": "string" },
+        "source_record_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "candidateSku": {
+      "type": "object",
+      "required": ["ppsa", "raw", "confidence", "source_record_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "ppsa": { "$ref": "#/definitions/ppsa" },
+        "raw": { "type": "string", "minLength": 1 },
+        "region": { "type": ["string", "null"] },
+        "confidence": { "type": "string", "enum": ["unconfirmed"] },
+        "reason": { "type": ["string", "null"] },
+        "source_record_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+        }
+      }
+    },
+    "game": {
+      "type": "object",
+      "required": [
+        "id", "title_zh", "title_en", "title_original", "platform",
+        "skus", "candidate_skus", "aliases", "description", "notes",
+        "game_identification", "source_record_ids"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title_zh": { "type": ["string", "null"] },
+        "title_en": { "type": ["string", "null"] },
+        "title_original": { "type": "string", "minLength": 1 },
+        "platform": { "type": "string", "const": "PS5" },
+        "skus": { "type": "array", "items": { "$ref": "#/definitions/sku" } },
+        "candidate_skus": { "type": "array", "items": { "$ref": "#/definitions/candidateSku" } },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "description": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] },
+        "game_identification": {
+          "type": "string",
+          "enum": ["confirmed", "uncertain", "unidentified"]
+        },
+        "source_record_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+        }
+      }
+    }
+  }
+}
