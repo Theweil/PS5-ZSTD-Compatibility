@@ -98,6 +98,8 @@ Issue      → verification → JSON update → npm test    → PR            �
 4. 原始清单中标注「未识别」「存疑」的游戏（如 `P-030`、`P-045`）**不得自行猜测替换**。
 5. 修改后运行 `npm ci && npm test`；如统计数字变化，运行 `npm run stats -- --write` 同步 README。
 
+> **只改游戏描述说明？** 属于最轻量的变更：在 `data/games.json` 按 `id` 填 `description_zh` / `description_en` / `description`（值为 `null` 表示无说明），跑 `npm test`、`CHANGELOG.md` 记一条、提 PR 即可。描述不影响统计，无需更新 README 快照。详见 [`docs/DATA-MODEL.md`「修改游戏描述说明」](docs/DATA-MODEL.md)。
+
 ---
 
 ## 7. 直接提交 PR / Direct JSON PRs

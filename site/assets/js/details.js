@@ -32,6 +32,32 @@ function kv(label, value, t) {
   return `<div class="kv"><dt>${esc(label)}</dt><dd>${na(value, t)}</dd></div>`;
 }
 
+/** Full-width row for long free-text descriptions. */
+function kvWide(label, value, t) {
+  return `<div class="kv wide"><dt>${esc(label)}</dt><dd>${na(value, t)}</dd></div>`;
+}
+
+/**
+ * A game description can be written in three optional places:
+ *   description_zh / description_en  -> language-specific
+ *   description                      -> language-neutral fallback
+ * Missing fields are rendered as "未提供" (never guessed). If only the other
+ * language exists we still show it, but label it clearly as a fallback.
+ */
+function pickDescription(g, lang) {
+  const zh = g.description_zh || null;
+  const en = g.description_en || null;
+  const generic = g.description || null;
+  if (lang === 'en') {
+    if (en) return { label: 'Description', value: en };
+    if (generic) return { label: 'Description', value: generic };
+    return { label: 'Description (Chinese only)', value: zh };
+  }
+  if (zh) return { label: '游戏说明', value: zh };
+  if (generic) return { label: '游戏说明', value: generic };
+  return { label: '游戏说明（仅英文）', value: en };
+}
+
 function regionLabel(code, t) {
   return t('region_' + code) || code;
 }
@@ -41,6 +67,7 @@ export function renderDetail(row, { t, lang }) {
   const L = (zh, en) => (lang === 'en' ? en : zh);
   const tests = row._tests || row.tests;
   const html = [];
+  const desc = pickDescription(g, lang);
 
   // ---- conflict / caution / identification banners ----
   if (row.conflicts && row.conflicts.length) {
@@ -83,6 +110,7 @@ export function renderDetail(row, { t, lang }) {
       ${kv(L('聚合状态（当前查询）', 'Aggregated status (current query)'), t(STATUS_LABEL[row._status || row.status] || 'resultUnknown'), t)}
       ${kv(L('别名', 'Aliases'), (g.aliases || []).length ? g.aliases.join(' / ') : null, t)}
       ${kv(L('维护者备注', 'Maintainer notes'), g.notes, t)}
+      ${kvWide(desc.label, desc.value, t)}
     </dl></section>`);
 
   // ---- SKUs ----

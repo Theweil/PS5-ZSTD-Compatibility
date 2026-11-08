@@ -7,6 +7,19 @@
 
 ---
 
+## [Unreleased]
+
+### Added — 描述说明可编辑 / Editable game descriptions
+
+- `schema/game.schema.json`：`games.json` 新增可选 `description_zh` / `description_en` 双语字段（向后兼容，现有 91 条记录无需改动）。
+- `site/assets/js/details.js`：详情「基础信息」新增整行「游戏说明」，按界面语言选择 `description_zh` / `description_en`，回退 `description`；只有另一种语言时明确标注，不编造译文；无说明显示「未提供」。
+- `site/assets/js/data.js`：三个描述字段与 `notes` 进入搜索索引。
+- `site/assets/css/style.css`：新增 `.kv.wide` 整行样式，支持长文本换行。
+- `docs/DATA-MODEL.md`、`docs/CONTRIBUTING.md`、`CONTRIBUTING.md`：补充「修改游戏描述说明」操作说明，明确 `description*` / `notes` / 逐字原始备注的区别。
+- **未向 91 条游戏写入任何示例描述内容**（不编造说明）。
+
+---
+
 ## [1.0.0] - 2026-11-08
 
 ### Added — 数据与模型 / Data & model

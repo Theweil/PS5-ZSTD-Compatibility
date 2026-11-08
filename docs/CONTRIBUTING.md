@@ -11,7 +11,7 @@ For the full contributor workflow, issue forms and PR checklist see [CONTRIBUTIN
 | --- | --- | --- |
 | `docs/source-data-original.md` | **只读，永不修改** | 95 行原始表格的逐字存档 |
 | `data/sources.json` | 仅当新增原始清单时追加 | 逐字镜像；`raw_line` 必须与存档完全一致 |
-| `data/games.json` | 新增游戏 / 名称 / SKU 变更 | 一款游戏一条记录；正式 SKU 只来自 PPSA 列 |
+| `data/games.json` | 新增游戏 / **描述说明** / 名称 / SKU 变更 | 一款游戏一条记录；正式 SKU 只来自 PPSA 列 |
 | `data/tests.json` | 新增独立测试 / 修正结果 | 一次独立报告一条记录；必带 `source_record_ids` |
 | `data/regions.json` | 地区代码表扩展 | 不随意新增推断地区 |
 | `data/updates.json` | 每次数据或项目事件 | 只记项目事件日期，**不是**测试日期 |
@@ -37,6 +37,16 @@ For the full contributor workflow, issue forms and PR checklist see [CONTRIBUTIN
 - `P-044` 的 ZSTD / LZ4 被合并；`P-034`/`F-002` 等冲突报告被覆盖；候选 SKU 被提升为正式 SKU
 - 社区来源记录被标记为 `maintainer_reproduced`，或出现补造的测试日期
 - README 的 `STATS-SNAPSHOT` 与 JSON 自动统计不一致
+
+## 修改游戏描述说明 / Editing game descriptions
+
+在 `data/games.json` 中按 `id` 找到游戏，填写 `description_zh`（中文）、`description_en`（英文）或 `description`（通用）。三者都允许 `null`；`description` **必须保留键**，删除时改成 `null`。
+
+- 只改这三个字段即可，网站详情会按当前界面语言自动选择并显示；同时这三个字段也会进入搜索索引。
+- **不要**改 `title_original`（原始名称逐字存档）或 `tests.json` 里的 `notes`（CI 逐字校验）。
+- `notes`（`games.json`）是维护者备注，与面向读者的 `description*` 不同，不要混用。
+- 描述变更不影响统计，`npm run stats -- --write` **不需要**；但 `npm test` 必须跑，`CHANGELOG.md` 必须记一条。
+- 详细示例见 [DATA-MODEL.md](DATA-MODEL.md#修改游戏描述说明最常见的一次数据变更)。
 
 ## 命名约定 / Naming
 

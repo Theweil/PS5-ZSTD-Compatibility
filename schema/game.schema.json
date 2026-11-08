@@ -81,6 +81,8 @@
         "candidate_skus": { "type": "array", "items": { "$ref": "#/definitions/candidateSku" } },
         "aliases": { "type": "array", "items": { "type": "string" } },
         "description": { "type": ["string", "null"] },
+        "description_zh": { "type": ["string", "null"] },
+        "description_en": { "type": ["string", "null"] },
         "notes": { "type": ["string", "null"] },
         "game_identification": {
           "type": "string",
