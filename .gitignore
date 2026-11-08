@@ -1,3 +1,6 @@
+# Local workspace metadata (not part of the published project)
+.workbuddy/
+
 # Generated build output (produced by scripts/build-site.mjs, never commit)
 dist/
 site/data/
