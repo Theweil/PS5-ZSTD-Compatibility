@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "Project and dataset change log shown on the website. Dates here are PROJECT event dates, never invented test dates.",
-    "note": "Test reports in tests.json have tested_at = null because the original community list provided no test dates."
+    "note": "Reports migrated from the original community list have tested_at = null (the source gave no dates). Reports submitted later through Issue forms keep the date the tester actually provided."
   },
   "updates": [
     {
@@ -33,6 +33,16 @@
       "detail_zh": "新增 JSON Schema、Node.js 校验脚本、自动统计脚本与 GitHub Actions 校验工作流；README 统计数字由脚本核对。",
       "detail_en": "Added JSON Schemas, a Node.js validator, an automatic statistics script and a GitHub Actions validation workflow; README figures are checked by script.",
       "related_source_ids": []
+    },
+    {
+      "id": "update-2026-11-09-01",
+      "date": "2026-11-09",
+      "type": "community_reports",
+      "title_zh": "收录 2 条社区测试报告",
+      "title_en": "Added 2 community test reports",
+      "detail_zh": "核实并收录 Issue #3（Dragon Quest VII Reimagined · PPSA17942 · ZSTD 失败）与 Issue #4（动物井 / Animal Well · PPSA22520 · ZSTD 通过）。社区提交使用 I-nnn 来源 ID，与 95 条逐字原始存档分开管理。",
+      "detail_en": "Verified and added Issue #3 (Dragon Quest VII Reimagined, PPSA17942, ZSTD fail) and Issue #4 (Animal Well, PPSA22520, ZSTD pass). Community submissions use I-nnn source ids and stay separate from the 95 verbatim archived rows.",
+      "related_source_ids": ["I-003", "I-004"]
     }
   ]
 }

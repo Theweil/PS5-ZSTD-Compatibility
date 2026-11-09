@@ -23,7 +23,7 @@
           "detail_en": { "type": "string" },
           "related_source_ids": {
             "type": "array",
-            "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+            "items": { "type": "string", "pattern": "^(?:[PF]-[0-9]{3}|I-[0-9]{3})$" }
           }
         }
       }

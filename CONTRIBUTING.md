@@ -24,6 +24,15 @@ Issue      → verification → JSON update → npm test    → PR            �
 
 合并到 `main` 之前，任何数据都不会出现在公开网站上。
 
+### 新增 Issue 报告如何变成网站上的一条记录
+
+1. **核实**表单内容（PPSA、压缩格式、结果、测试者），未填项保持未知；把报告**逐字转录**到 `data/tests.json`。
+2. 分配 `source_type: "issue"`、`source_record_ids: ["I-0nn"]`（编号 = GitHub Issue 编号补齐 3 位）、`issue_number` / `issue_url` / `submitted_at`；`source_table: "issue"`，`source_row` = Issue 编号。**不要**为它编造 `P-xxx` / `F-xxx`，也**不要**改逐字存档。
+3. 若游戏还不存在，在 `data/games.json` 新建游戏实体（SKU 与游戏的来源 ID 同样用 `I-nnn`）；在 `data/updates.json` 记一条，首页「最近更新」就会显示。
+4. `npm run stats -- --write` 同步 README 快照与统计表 → `npm test` 全绿 → `CHANGELOG.md` 记一条 → 提 PR → 合并 `main` → Pages 自动发布。
+
+字段定义与校验规则见 [`docs/DATA-MODEL.md` 第 3.1 节](docs/DATA-MODEL.md)。
+
 ---
 
 ## 2. 什么是必需信息 / Required vs. optional

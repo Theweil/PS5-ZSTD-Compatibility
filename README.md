@@ -27,7 +27,7 @@
 - 明确展示互相矛盾的报告，列出相反结果的具体报告 ID。
 - 查看项目更新记录，并通过 Issue / PR 参与长期维护。
 
-它不是一份 README 名单：数据分成 **95 条原始记录 → 91 款独立游戏 → 96 条独立测试报告** 三层，全部以仓库中的 JSON 为唯一数据源。
+它不是一份 README 名单：数据分成 **95 条原始记录 → 93 款独立游戏 → 98 条独立测试报告** 三层，全部以仓库中的 JSON 为唯一数据源。社区新提交的报告使用 `I-nnn` 来源 ID，与 `P-xxx` / `F-xxx` 逐字存档分开管理。
 
 ## 核心功能
 
@@ -51,22 +51,22 @@
 | 原始记录合计 | **95** | 社区清单表格行数（85 通过表 + 10 问题表） |
 | 通过表原始记录 | 85 | **不是** 85 款经独立验证的游戏 |
 | 问题表原始记录 | 10 | 该表没有压缩格式列 |
-| 独立游戏 | **91** | 去重后的游戏实体 |
-| 独立测试报告 | **96** | `P-044` 按 zstd / LZ4 拆成两条 |
-| 正式 SKU / 不同 PPSA | 91 | 仅来自 PPSA 列 |
+| 独立游戏 | **93** | 去重后的游戏实体（91 款来自原始清单 + 2 款来自社区 Issue） |
+| 独立测试报告 | **98** | `P-044` 拆成两条，另含 2 条社区 Issue 报告 |
+| 正式 SKU / 不同 PPSA | 93 | 原始清单 91 + 社区提交 2 |
 | 未确认候选 SKU | 14 | 只出现在备注中，永不并入正式 SKU |
-| 不同测试者 | 25 | 原始昵称逐字保留 |
-| ZSTD 测试报告 | **84** | 仅 `compression=zstd` |
+| 不同测试者 | 27 | 原始昵称逐字保留 |
+| ZSTD 测试报告 | **86** | 仅 `compression=zstd` |
 | LZ4 测试报告 | **2** | 仅 `compression=lz4` |
 | 格式未注明报告 | 10 | 问题表 10 行，不计入任何格式 |
-| 单条结果：通过 / 失败 / 部分 / 无法判断 | 85 / 9 / 0 / 2 | 单条报告结果 |
-| 聚合状态：通过 / 失败 / 冲突 / 待确认 | **81 / 6 / 1 / 3** | 无筛选时的游戏聚合状态 |
+| 单条结果：通过 / 失败 / 部分 / 无法判断 | 86 / 10 / 0 / 2 | 单条报告结果 |
+| 聚合状态：通过 / 失败 / 冲突 / 待确认 | **82 / 7 / 1 / 3** | 无筛选时的游戏聚合状态 |
 | 冲突 | 1 组（1 款游戏） | 0 组明确冲突 + 1 组范围推断冲突 |
 | 跨格式分歧提示 | 2 条（2 款游戏） | 不作为同格式冲突 |
 | 缺少 PPSA 的报告 | 4 | 显示为「待确认」 |
-| 社区报告 / 单一来源 | 95 / 1 | `verification` |
+| 社区报告 / 单一来源 | 97 / 1 | `verification` |
 | **维护者独立复现** | **0** | 社区报告绝不冒充独立复现 |
-| 有测试日期 / 证据链接的报告 | 0 / 0 | 原始资料未提供，不补造 |
+| 有测试日期 / 证据链接的报告 | 2 / 0 | 2 条日期来自 Issue 表单如实记录；原始 95 条存档无日期，不补造 |
 
 ## 测试结果含义（摘要）
 
@@ -82,7 +82,7 @@
 
 ## 数据如何更新
 
-1. 社区通过 Issue 表单提交 → 管理员核实 → 更新 `data/*.json`（原始存档 `docs/source-data-original.md` **永不修改**）。
+1. 社区通过 Issue 表单提交 → 管理员核实 → 更新 `data/*.json`（原始存档 `docs/source-data-original.md` **永不修改**）。Issue 报告写入 `games.json` / `tests.json`，来源 ID 用 `I-nnn` 并保留 `issue_url`，详见 [docs/DATA-MODEL.md](docs/DATA-MODEL.md)。
 2. `npm test` 自动校验 JSON 语法、JSON Schema、ID 唯一性、PPSA 可追溯性、95 条原始记录覆盖率、冲突保留规则与 README 统计一致性。
 3. Pull Request 审核合并到 `main` → `deploy.yml` 自动构建 `dist/` 并发布到 GitHub Pages。
 4. 网站通过 `fetch(..., {cache:'no-store'})` 读取 JSON；**JSON 一变，统计、列表、详情同步更新，不需要手改 HTML**。
@@ -149,9 +149,9 @@ scripts/     validate-data.mjs generate-stats.mjs build-site.mjs serve.mjs
 
 **Core features:** bilingual UI (中文 / English), dark & light themes, live statistics computed from JSON, search by Chinese/English title, alias, PPSA (including abbreviated digits) and tester, filters for status / compression / region / tester, sorting, and a detail view showing every regional SKU, unconfirmed candidate SKU, independent test report, conflict banner, cross-format caution, environment fields and history. No login, no backend, no framework.
 
-**Data model:** **95 verbatim source rows** (`docs/source-data-original.md` + `data/sources.json`) → **91 distinct games** (`data/games.json`) → **96 independent test reports** (`data/tests.json`). 85 pass-table rows are **not** 85 independently verified games. ZSTD and LZ4 are never mixed; the 10 problem-table rows have no compression column and keep `compression: "unknown"`. Opposing reports are all retained (e.g. `P-034` pass vs `F-002` fail → `conflict`); `P-044` is split into separate ZSTD and LZ4 reports.
+**Data model:** **95 verbatim source rows** (`docs/source-data-original.md` + `data/sources.json`) → **93 distinct games** (`data/games.json`) → **98 independent test reports** (`data/tests.json`). 85 pass-table rows are **not** 85 independently verified games. ZSTD and LZ4 are never mixed; the 10 problem-table rows have no compression column and keep `compression: "unknown"`. Opposing reports are all retained (e.g. `P-034` pass vs `F-002` fail → `conflict`); `P-044` is split into separate ZSTD and LZ4 reports. Reports submitted later through GitHub Issues use `I-nnn` provenance ids and never enter the verbatim archive.
 
-**Key figures:** 95 original rows (85 pass + 10 problem), 91 games, 96 reports (84 ZSTD / 2 LZ4 / 10 format-unstated), 91 confirmed SKUs + 14 unconfirmed candidates, 25 testers, 81 passed / 6 failed / 1 conflict / 3 needs-confirmation games, **0 maintainer reproductions**, 0 invented test dates or evidence links.
+**Key figures:** 95 original rows (85 pass + 10 problem), 93 games, 98 reports (86 ZSTD / 2 LZ4 / 10 format-unstated), 93 confirmed SKUs + 14 unconfirmed candidates, 27 testers, 82 passed / 7 failed / 1 conflict / 3 needs-confirmation games, **0 maintainer reproductions**, 2 reports with a test date stated in their Issue form, 0 invented dates or evidence links.
 
 **Status meanings:** per-report `pass` / `fail` / `partial` / `unknown`; aggregated `passed` / `failed` / `conflict` / `needs_confirmation`. A pass never overwrites a fail; a ZSTD pass never implies an LZ4 pass. `scope_inferred` conflicts are explicitly labelled conflict *clues* from the ZSTD issue-collection scope, never test data. See [STATUS-DEFINITIONS.md](docs/STATUS-DEFINITIONS.md).
 
@@ -166,28 +166,28 @@ scripts/     validate-data.mjs generate-stats.mjs build-site.mjs serve.mjs
   "source_records_total": 95,
   "source_pass_records": 85,
   "source_problem_records": 10,
-  "distinct_games": 91,
-  "distinct_ppsa": 91,
-  "confirmed_skus": 91,
+  "distinct_games": 93,
+  "distinct_ppsa": 93,
+  "confirmed_skus": 93,
   "candidate_skus": 14,
-  "distinct_testers": 25,
-  "test_reports_total": 96,
-  "zstd_reports": 84,
+  "distinct_testers": 27,
+  "test_reports_total": 98,
+  "zstd_reports": 86,
   "lz4_reports": 2,
   "unknown_compression_reports": 10,
-  "pass_reports": 85,
-  "fail_reports": 9,
+  "pass_reports": 86,
+  "fail_reports": 10,
   "partial_reports": 0,
   "unknown_reports": 2,
-  "community_reports": 95,
+  "community_reports": 97,
   "single_source_reports": 1,
   "maintainer_reproductions": 0,
-  "reports_with_test_date": 0,
+  "reports_with_test_date": 2,
   "reports_with_evidence": 0,
   "reports_missing_ppsa": 4,
   "needs_confirmation_reports": 11,
-  "status_passed_games": 81,
-  "status_failed_games": 6,
+  "status_passed_games": 82,
+  "status_failed_games": 7,
   "status_conflict_games": 1,
   "status_needs_confirmation_games": 3,
   "conflict_groups": 1,

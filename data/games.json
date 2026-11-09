@@ -1,7 +1,8 @@
 {
   "meta": {
     "description": "Game base records. One record per distinct game, not per test.",
-    "platform": "PS5"
+    "platform": "PS5",
+    "issue_provenance": "Records with I-nnn source ids come from verified GitHub \"new test\" Issues; P-xxx/F-xxx remain the 95 verbatim archived rows."
   },
   "games": [
     {
@@ -3118,6 +3119,72 @@
       "game_identification": "confirmed",
       "source_record_ids": [
         "F-010"
+      ]
+    },
+    {
+      "id": "dragon-quest-vii-reimagined",
+      "title_zh": null,
+      "title_en": "Dragon Quest VII Reimagined",
+      "title_original": "Dragon Quest VII Reimagined",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA17942",
+          "regions": [
+            "EU"
+          ],
+          "region_raw": "EU / 欧服",
+          "confidence": "confirmed",
+          "source": "issue_form",
+          "notes": null,
+          "source_record_ids": [
+            "I-003"
+          ],
+          "region_labels": [
+            "欧服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "来源：GitHub Issue #3（new-test 表单）。中文名未提供，title_zh 保持 null，不猜测译名。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "I-003"
+      ]
+    },
+    {
+      "id": "animal-well",
+      "title_zh": "动物井",
+      "title_en": "Animal Well",
+      "title_original": "动物井 Animal Well",
+      "platform": "PS5",
+      "skus": [
+        {
+          "ppsa": "PPSA22520",
+          "regions": [
+            "HK"
+          ],
+          "region_raw": "HK / 港服（中国香港）",
+          "confidence": "confirmed",
+          "source": "issue_form",
+          "notes": null,
+          "source_record_ids": [
+            "I-004"
+          ],
+          "region_labels": [
+            "港服"
+          ]
+        }
+      ],
+      "candidate_skus": [],
+      "aliases": [],
+      "description": null,
+      "notes": "来源：GitHub Issue #4（new-test 表单）。与 reanimal（REANIMAL）是不同游戏，未合并。",
+      "game_identification": "confirmed",
+      "source_record_ids": [
+        "I-004"
       ]
     }
   ]

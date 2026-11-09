@@ -9,6 +9,15 @@
 
 ## [Unreleased]
 
+### Added — 收录 2 条社区测试报告 / Added 2 community test reports
+
+- 新增 `I-nnn` 来源 ID 体系：通过 GitHub Issue 表单提交的报告使用 `source_type: "issue"`，与 95 条 `P-xxx` / `F-xxx` 逐字存档分开管理；`schema/test.schema.json`、`schema/game.schema.json`、`schema/updates.schema.json` 与 `scripts/validate-data.mjs` 同步扩展并校验 Issue 来源（Issue 编号、链接、来源表、验证级别）。
+- `data/tests.json` 新增 `test-0097`（Issue #3：Dragon Quest VII Reimagined，PPSA17942，EU，ZSTD `fail`，固件 13.60，游戏版本 01.001，运行库 0.3.2，测试者 iMr_PrO_GaMeR）与 `test-0098`（Issue #4：动物井 / Animal Well，PPSA22520，HK，ZSTD `pass`，固件 12.20，游戏版本 v1.000.011，测试者 zo）。两条均逐字转录表单，未提供的字段保持 `null` / `[]`，日期原文 `2026-11-8` 仅按 `YYYY-MM-DD` 规范化并注明。
+- `data/games.json` 新增 `dragon-quest-vii-reimagined`（中文名未提供，`title_zh: null`，不猜测）与 `animal-well` 两款游戏，共 **93** 款。
+- `data/updates.json` 新增首页「最近更新」条目；`site/assets/js/details.js` 让 Issue 报告显示为可点击的 `Issue #n`，并把「原始备注」改为「提交说明」。
+- `README.md`、`docs/DATA-MODEL.md`、`CONTRIBUTING.md`、`docs/CONTRIBUTING.md`：同步统计数字与 Issue 入库规范。
+- `npm test` 全部通过；95 条原始记录与 `docs/source-data-original.md` 逐字一致，**原始存档未改动**。（涉及：`I-003` / `I-004`；来源：Issue #3 / #4）
+
 ### Added — 描述说明可编辑 / Editable game descriptions
 
 - `schema/game.schema.json`：`games.json` 新增可选 `description_zh` / `description_en` 双语字段（向后兼容，现有 91 条记录无需改动）。

@@ -41,7 +41,7 @@
         "source_record_ids": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+          "items": { "type": "string", "pattern": "^(?:[PF]-[0-9]{3}|I-[0-9]{3})$" }
         },
         "notes": { "type": ["string", "null"] }
       }
@@ -59,7 +59,7 @@
         "source_record_ids": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+          "items": { "type": "string", "pattern": "^(?:[PF]-[0-9]{3}|I-[0-9]{3})$" }
         }
       }
     },
@@ -91,7 +91,7 @@
         "source_record_ids": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string", "pattern": "^[PF]-[0-9]{3}$" }
+          "items": { "type": "string", "pattern": "^(?:[PF]-[0-9]{3}|I-[0-9]{3})$" }
         }
       }
     }

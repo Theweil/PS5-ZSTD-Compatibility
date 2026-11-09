@@ -142,6 +142,13 @@ export function renderDetail(row, { t, lang }) {
     const compCls = test.compression === 'zstd' ? 'zstd' : test.compression === 'lz4' ? 'lz4' : 'unknown';
     const compText = test.compression === 'unknown' ? t('compressionUnknown') : test.compression.toUpperCase();
     const resultCls = test.result === RESULT.PASS ? 'passed' : test.result === RESULT.FAIL ? 'failed' : 'needs_confirmation';
+    const isIssue = test.source_type === 'issue';
+    const sourceLink = isIssue
+      ? `<a class="source-link" href="${esc(test.issue_url)}" target="_blank" rel="noopener noreferrer">${esc('Issue #' + test.issue_number)} ↗</a>`
+      : `<a class="source-link" href="https://github.com/Theweil/PS5-ZSTD-Compatibility/blob/main/docs/source-data-original.md" target="_blank" rel="noopener noreferrer">${esc(test.source_record_ids.join(', '))} ↗</a>`;
+    const sourceText = isIssue
+      ? L('来源：', 'Source: ') + L('社区提交 Issue', 'community Issue') + ' #' + test.issue_number
+      : L('来源：', 'Source: ') + (test.source_table === 'pass' ? L('通过表', 'pass table') : L('问题表', 'problem table')) + ' #' + test.source_row;
     const env = [
       [L('PPSA', 'PPSA'), test.ppsa],
       [L('地区', 'Region'), (test.regions || []).map((r) => regionLabel(r, t)).join(' / ') || null],
@@ -161,13 +168,13 @@ export function renderDetail(row, { t, lang }) {
         ${chip(compText, compCls)}
         ${(test.tester || []).map((x) => chip('👤 ' + x)).join('')}
         <span class="spacer"></span>
-        <a class="source-link" href="https://github.com/Theweil/PS5-ZSTD-Compatibility/blob/main/docs/source-data-original.md" target="_blank" rel="noopener noreferrer">${esc(test.source_record_ids.join(', '))} ↗</a>
+        ${sourceLink}
       </div>
       <div class="test-env">${env.map(([k, v]) => `<div><b>${esc(k)}：</b>${na(v, t)}</div>`).join('')}</div>
-      <div class="gc-chips">${chip(L('原始格式列：', 'Raw format column: ') + (test.compression_raw === null ? L('无（问题表没有该列）', 'none (no such column)') : test.compression_raw), 'mono')}
-        ${chip(L('来源：', 'Source: ') + (test.source_table === 'pass' ? L('通过表', 'pass table') : L('问题表', 'problem table')) + ' #' + test.source_row, 'mono')}
+      <div class="gc-chips">${chip((isIssue ? L('提交格式：', 'Reported format: ') : L('原始格式列：', 'Raw format column: ')) + (test.compression_raw === null ? L('无（问题表没有该列）', 'none (no such column)') : test.compression_raw), 'mono')}
+        ${chip(sourceText, 'mono')}
         ${test.derivation ? chip(test.derivation, 'candidate') : ''}</div>
-      ${test.notes ? `<div class="test-notes"><b>${esc(L('原始备注：', 'Original notes: '))}</b>${esc(test.notes)}</div>` : ''}
+      ${test.notes ? `<div class="test-notes"><b>${esc(isIssue ? L('提交说明：', 'Submission notes: ') : L('原始备注：', 'Original notes: '))}</b>${esc(test.notes)}</div>` : ''}
       ${test.result_note ? `<div class="callout info">${esc(test.result_note)}</div>` : ''}
       ${test.compression_note ? `<div class="callout info">${esc(test.compression_note)}</div>` : ''}
       ${(test.history || []).length ? `<div><b style="font-size:11px;color:var(--faint)">${esc(L('历史记录 / 备注中的先前状态：', 'History / prior states mentioned in notes:'))}</b>

@@ -15,7 +15,8 @@
 辅助数据：`data/regions.json`（地区代码表）、`data/updates.json`（项目更新记录）。
 
 > 95 是**原始表格行数**，不是 95 款游戏，也不是 95 次经过独立验证的测试。
-> 96 条测试报告 > 95 条原始记录，是因为 `P-044` 同时含 ZSTD 与 LZ4 信息，按规则必须拆成两条。
+> 初始迁移的 96 条报告 > 95 条原始记录，是因为 `P-044` 同时含 ZSTD 与 LZ4 信息，按规则必须拆成两条。
+> 当前为 **93 款游戏 / 98 条报告**：多出的 2 条来自社区 Issue（#3、#4），使用 `I-nnn` 来源 ID，不属于 95 条逐字存档。详见第 3.1 节。
 
 ## 2. `games.json`
 
@@ -118,6 +119,24 @@
 
 `zstd_issue_scope` **不是**测试数据：这 10 条记录不计入 ZSTD 报告数，也不计入 LZ4 报告数。它只用于把"通过表成功报告 + 问题表失败报告"识别为**范围推断冲突线索**（见 `STATUS-DEFINITIONS.md`）。
 
+### 3.1 社区 Issue 报告（`I-nnn`）
+
+`P-xxx` / `F-xxx` **只属于** 95 条逐字存档。后来的社区提交不能编造新的 P/F 编号，也不能改动 `docs/source-data-original.md`，而是走独立通道：
+
+| 字段 | 取值 |
+| --- | --- |
+| `source_type` | `"issue"`（95 条存档报告省略此字段，按 `"archive"` 处理） |
+| `source_record_ids` | `["I-003"]` 等，编号 = GitHub Issue 编号补齐 3 位 |
+| `source_table` / `source_row` | `"issue"` / Issue 编号 |
+| `issue_number` / `issue_url` / `submitted_by` / `submitted_at` | 回溯到提交本身；`issue_url` 必须是本仓库 Issue 链接 |
+| `game_identification` | 按核实结果填 `confirmed` / `uncertain` |
+| `verification` | `community_report`，不得标为 `maintainer_reproduced` |
+
+- `tested_at`、`ps5_firmware`、`game_version`、`runtime_version` 等**按表单如实填写**；表单未填的保持 `null` / `[]`，不猜测。日期只做格式规范化（如 `2026-11-8` → `2026-11-08`），并在 `notes` 注明原文。
+- 逐字保真校验（`notes` / `tester_raw` / `game_title_raw` / `ppsa_raw` 对照原始行）**只适用于存档报告**；Issue 报告以表单原文为准，`notes` 记录来源与任何规范化。
+- `games.json` 中对应游戏与 SKU 的 `source_record_ids` 同样使用 `I-nnn`，不得与 `P-xxx` / `F-xxx` 混用（CI 会拒绝）。
+- **入库步骤**：核实 Issue → `tests.json` 追加一条（必要时 `games.json` 追加一款）→ `updates.json` 记一条（首页「最近更新」）→ `npm run stats -- --write` 同步 README → `npm test` → `CHANGELOG.md` → PR → 合并 `main` → Pages 自动发布。网站列表、统计与详情全部由 JSON 实时计算，**不用改 HTML**。
+
 ## 4. 冲突与拆分规则的具体落地
 
 | 原始记录 | 处理 |
@@ -157,6 +176,6 @@ Three layers, never conflated: **95 verbatim source rows** → **91 distinct gam
 
 `games.json` holds one record per game with confirmed `skus[]` (from the PPSA column only) and `candidate_skus[]` (numbers found only in notes, always `unconfirmed`). Regions are never inferred; unlabelled PPSAs use `UNKNOWN`, missing PPSAs use `null` + `ppsa_status: "missing"`. To edit a game description, set `description_zh` / `description_en` (or the language-neutral `description`) on that game's `id`, then run `npm test`, add a `CHANGELOG.md` entry and open a PR; the site reads the JSON at runtime, so no HTML changes are needed.
 
-`tests.json` holds one record per independent report. All original community rows have `tested_at: null`, `verification: "community_report"` and no invented firmware/converter/runtime values. The problem table has no compression column, so all ten rows keep `compression: "unknown"` with a `zstd_issue_scope` context flag that is **not** counted as test data.
+`tests.json` holds one record per independent report. All original community rows have `tested_at: null`, `verification: "community_report"` and no invented firmware/converter/runtime values. The problem table has no compression column, so all ten rows keep `compression: "unknown"` with a `zstd_issue_scope` context flag that is **not** counted as test data. Reports submitted later through GitHub Issues use `I-nnn` provenance ids (section 3.1), never enter the verbatim archive, and keep the structured fields the form actually provided.
 
 Conflicting reports are retained, never overwritten. `P-044` is split into separate ZSTD and LZ4 reports. Aggregation lives in one shared ES module (`site/assets/js/data.js`) used by both the browser and the CI scripts.

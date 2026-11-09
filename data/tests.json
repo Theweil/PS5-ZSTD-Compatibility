@@ -19,7 +19,12 @@
       "single_source",
       "unknown"
     ],
-    "note": "No original record provides a test date, PS5 firmware, converter, runtime or mount tool as a structured field; all such fields are null unless explicitly present in notes."
+    "note": "None of the 95 original archived records provides a test date, PS5 firmware, converter, runtime or mount tool as a structured field; all such fields are null unless explicitly present in notes. Reports with source_type=issue are transcribed from the Issue form instead.",
+    "source_type_enum": [
+      "archive",
+      "issue"
+    ],
+    "issue_source_note": "source_type=issue reports use I-nnn ids and link back to the submitting GitHub Issue. The 95 verbatim archive rows are never modified."
   },
   "tests": [
     {
@@ -4006,6 +4011,100 @@
       "history": [],
       "game_identification": "confirmed",
       "compression_note": "原始问题表没有压缩格式列；该表属于 ZSTD 问题收集范围，此上下文仅作冲突线索，不能当作明确的压缩格式测试数据。"
+    },
+    {
+      "id": "test-0097",
+      "game_id": "dragon-quest-vii-reimagined",
+      "game_title_raw": "Dragon Quest VII Reimagined",
+      "ppsa": "PPSA17942",
+      "ppsa_raw": "PPSA17942",
+      "ppsa_all": [
+        "PPSA17942"
+      ],
+      "ppsa_status": "present",
+      "region": "EU",
+      "regions": [
+        "EU"
+      ],
+      "region_raw": "EU / 欧服",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "fail",
+      "verification": "community_report",
+      "tester": [
+        "iMr_PrO_GaMeR"
+      ],
+      "tester_raw": "iMr_PrO_GaMeR",
+      "tested_at": "2026-11-08",
+      "ps5_firmware": "13.60",
+      "game_version": "01.001",
+      "converter": null,
+      "runtime_version": "0.3.2",
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "I-003"
+      ],
+      "source_table": "issue",
+      "source_row": 3,
+      "symptom": "Crash during launching the game [zstd]",
+      "notes": "来源：GitHub Issue #3「Crash during launching the game [zstd]」（new-test 表单）。症状取自 Issue 标题，表单症状栏为空；转换器、挂载工具与证据链接未提供，保持 null / 空。",
+      "history": [],
+      "game_identification": "confirmed",
+      "derivation": "社区 Issue 表单提交，逐字转录；未回填任何未提供字段。",
+      "source_type": "issue",
+      "issue_number": 3,
+      "issue_url": "https://github.com/Theweil/PS5-ZSTD-Compatibility/issues/3",
+      "submitted_by": "imrprogamer",
+      "submitted_at": "2026-11-08"
+    },
+    {
+      "id": "test-0098",
+      "game_id": "animal-well",
+      "game_title_raw": "动物井 Animal Well",
+      "ppsa": "PPSA22520",
+      "ppsa_raw": "PPSA22520",
+      "ppsa_all": [
+        "PPSA22520"
+      ],
+      "ppsa_status": "present",
+      "region": "HK",
+      "regions": [
+        "HK"
+      ],
+      "region_raw": "HK / 港服（中国香港）",
+      "compression": "zstd",
+      "compression_raw": "zstd",
+      "compression_scope": "explicit",
+      "result": "pass",
+      "verification": "community_report",
+      "tester": [
+        "zo"
+      ],
+      "tester_raw": "zo",
+      "tested_at": "2026-11-08",
+      "ps5_firmware": "12.20",
+      "game_version": "v1.000.011",
+      "converter": null,
+      "runtime_version": null,
+      "mount_tool": null,
+      "evidence": [],
+      "source_record_ids": [
+        "I-004"
+      ],
+      "source_table": "issue",
+      "source_row": 4,
+      "symptom": null,
+      "notes": "来源：GitHub Issue #4「动物井 测试压缩工具效果 最后成功」（new-test 表单）。测试日期原文「2026-11-8」按 YYYY-MM-DD 规范化为 2026-11-08；转换器、运行库、挂载工具、症状与证据链接未提供，保持 null / 空。",
+      "history": [],
+      "game_identification": "confirmed",
+      "derivation": "社区 Issue 表单提交，逐字转录；未回填任何未提供字段。",
+      "source_type": "issue",
+      "issue_number": 4,
+      "issue_url": "https://github.com/Theweil/PS5-ZSTD-Compatibility/issues/4",
+      "submitted_by": "4nolove",
+      "submitted_at": "2026-11-09"
     }
   ]
 }

@@ -10,9 +10,9 @@ For the full contributor workflow, issue forms and PR checklist see [CONTRIBUTIN
 | 文件 | 谁可以改 | 说明 |
 | --- | --- | --- |
 | `docs/source-data-original.md` | **只读，永不修改** | 95 行原始表格的逐字存档 |
-| `data/sources.json` | 仅当新增原始清单时追加 | 逐字镜像；`raw_line` 必须与存档完全一致 |
+| `data/sources.json` | 仅当新增原始清单时追加 | 逐字镜像；`raw_line` 必须与存档完全一致。社区 Issue 报告**不写入**此文件 |
 | `data/games.json` | 新增游戏 / **描述说明** / 名称 / SKU 变更 | 一款游戏一条记录；正式 SKU 只来自 PPSA 列 |
-| `data/tests.json` | 新增独立测试 / 修正结果 | 一次独立报告一条记录；必带 `source_record_ids` |
+| `data/tests.json` | 新增独立测试 / 修正结果 | 一次独立报告一条记录；必带 `source_record_ids`（存档用 `P/F-nnn`，社区提交用 `I-nnn`） |
 | `data/regions.json` | 地区代码表扩展 | 不随意新增推断地区 |
 | `data/updates.json` | 每次数据或项目事件 | 只记项目事件日期，**不是**测试日期 |
 | `schema/*.schema.json` | 数据模型变更 | 必须与 JSON 同步 |
@@ -35,7 +35,7 @@ For the full contributor workflow, issue forms and PR checklist see [CONTRIBUTIN
 - `P-001`…`P-085` / `F-001`…`F-010` 任一缺失，或某条原始记录没有任何测试引用
 - `raw_line` / `notes` / `tester_raw` / `game_title_raw` / `ppsa_raw` 与原始存档不一致
 - `P-044` 的 ZSTD / LZ4 被合并；`P-034`/`F-002` 等冲突报告被覆盖；候选 SKU 被提升为正式 SKU
-- 社区来源记录被标记为 `maintainer_reproduced`，或出现补造的测试日期
+- 社区来源记录被标记为 `maintainer_reproduced`，出现补造的测试日期，或 Issue 报告缺少 `issue_url` / `I-nnn` 来源 ID
 - README 的 `STATS-SNAPSHOT` 与 JSON 自动统计不一致
 
 ## 修改游戏描述说明 / Editing game descriptions
@@ -53,3 +53,4 @@ For the full contributor workflow, issue forms and PR checklist see [CONTRIBUTIN
 - `games.json` 的 `id`：小写 kebab-case slug，稳定不变；跨表重复出现的游戏共用一个 id。
 - `tests.json` 的 `id`：`test-0001` 递增，不复用、不重排。
 - 新增正式测试报告若对应一条新的原始记录，先在 `sources.json` 追加该记录并分配 `P-xxx` / `F-xxx`。
+- 社区 Issue 表单提交用 `I-nnn`（编号 = Issue 号，补齐 3 位），并在 `tests.json` 写 `source_type: "issue"` + `issue_url`；`sources.json` 与逐字存档保持 95 条不变。

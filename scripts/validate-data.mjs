@@ -135,13 +135,38 @@ for (const r of records) {
 if (!errors.length) ok('PPSA format + original PPSA traceability verified');
 
 // ---- 6. game_id references ----
+// Two provenance kinds:
+//   archive -> P-xxx / F-xxx, must resolve to the 95 verbatim source rows
+//   issue   -> I-nnn, a GitHub "new test" Issue; NEVER part of the archive
+const ISSUE_ID_RE = /^I-[0-9]{3}$/;
+const ISSUE_URL_RE = /^https:\/\/github\.com\/Theweil\/PS5-ZSTD-Compatibility\/issues\/[0-9]+$/;
+const issueReports = tests.filter((t) => t.source_type === 'issue');
 for (const t of tests) {
   if (!gamesById.has(t.game_id)) fail(`${t.id}: invalid game_id reference "${t.game_id}"`);
-  for (const sid of t.source_record_ids) {
-    if (!bySourceId.has(sid)) fail(`${t.id}: invalid source_record_id reference "${sid}"`);
+  if (t.source_type === 'issue') {
+    if (t.source_table !== 'issue') fail(`${t.id}: issue reports must use source_table=issue`);
+    if (!t.source_record_ids.every((sid) => ISSUE_ID_RE.test(sid))) fail(`${t.id}: issue reports must use I-nnn source ids`);
+    if (!Number.isInteger(t.issue_number) || t.issue_number < 1) fail(`${t.id}: missing issue_number`);
+    if (t.source_row !== t.issue_number) fail(`${t.id}: source_row must equal the Issue number`);
+    if (typeof t.issue_url !== 'string' || !ISSUE_URL_RE.test(t.issue_url)) fail(`${t.id}: invalid issue_url`);
+    const expectedId = `I-${String(t.issue_number).padStart(3, '0')}`;
+    if (!t.source_record_ids.includes(expectedId)) fail(`${t.id}: source id must match Issue #${t.issue_number} (${expectedId})`);
+    if (t.verification === 'maintainer_reproduced') fail(`${t.id}: a community Issue is not a maintainer reproduction`);
+    if (t.compression_scope === 'zstd_issue_scope') fail(`${t.id}: issue reports must state their own compression format`);
+  } else {
+    for (const sid of t.source_record_ids) {
+      if (!bySourceId.has(sid)) fail(`${t.id}: invalid source_record_id reference "${sid}"`);
+    }
   }
 }
-ok('test -> game / source references valid');
+// An Issue-sourced game must not be attributed to a verbatim archive row.
+for (const g of games) {
+  if (g.source_record_ids.some((sid) => ISSUE_ID_RE.test(sid))
+    && g.source_record_ids.some((sid) => bySourceId.has(sid))) {
+    fail(`${g.id}: cannot mix issue provenance with archive rows`);
+  }
+}
+ok(`test -> game / source references valid (${issueReports.length} community Issue reports)`);
 
 // ---- 7/8. enums + source fidelity ----
 const ALLOWED_COMP = new Set(['zstd', 'lz4', 'unknown']);
