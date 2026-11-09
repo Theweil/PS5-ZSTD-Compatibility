@@ -24,6 +24,25 @@ Issue      → verification → JSON update → npm test    → PR            �
 
 合并到 `main` 之前，任何数据都不会出现在公开网站上。
 
+### 维护者一键收录 / One-click import (recommended)
+
+仓库内置 `.github/workflows/issue-to-pr.yml` + `scripts/issue-to-data.mjs`。维护者**不必拉代码、不必手工改 JSON**：
+
+1. 核实 `new-test` Issue 的内容（PPSA、压缩格式、结果、测试者；未知项是否已填 `unknown`）。
+2. 用任一方式表达审核通过（只有仓库所有者 `Theweil` 的操作会触发，可在 workflow 的 `if` 里加维护者）：
+   - 给 Issue 评论 `/approve`（**推荐，零配置**）；或
+   - 给 Issue 打 `approved` 标签（需在仓库标签列表里预先创建一次）。
+3. 工作流自动完成：解析表单 → 生成 `tests.json` 一条（必要时 `games.json` 一款）+ `updates.json` 一条 → 同步 README 统计快照 / 表格 / 中英文摘要与 `CHANGELOG.md` → 运行 `npm test` → 推送分支并创建 PR，并在 Issue 里留一条带 PR 链接的评论。
+4. 核对 PR 内容后点 **Merge** → `deploy.yml` 自动发布，刷新网站即显示。
+
+要点：
+
+- **审核仍是闸门**：工作流只生成 PR，不自动合并、不自动发布；合并后的 `deploy.yml` 会再跑一次完整 `npm test`。
+- **幂等**：同一个 Issue 只会导入一次；重复审核会跳过（改数据请走「修正数据库记录」流程）。需要重跑时移除标签后重新添加，或再评论一次 `/approve`。
+- 由 `GITHUB_TOKEN` 创建的 PR，其 PR 检查可能显示 `Approve workflows to run`，点一次即可；即使不点，合并后 `deploy.yml` 仍会完整校验。
+- 表单字段不合规（如 PPSA 不是完整编号、日期格式错误）时工作流失败，**不创建 PR**，并会在 Issue 留下带日志链接的评论。
+- 手工改 JSON 仍然是合法的备用方式，步骤见下一节。
+
 ### 新增 Issue 报告如何变成网站上的一条记录
 
 1. **核实**表单内容（PPSA、压缩格式、结果、测试者），未填项保持未知；把报告**逐字转录**到 `data/tests.json`。

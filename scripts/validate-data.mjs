@@ -138,7 +138,7 @@ if (!errors.length) ok('PPSA format + original PPSA traceability verified');
 // Two provenance kinds:
 //   archive -> P-xxx / F-xxx, must resolve to the 95 verbatim source rows
 //   issue   -> I-nnn, a GitHub "new test" Issue; NEVER part of the archive
-const ISSUE_ID_RE = /^I-[0-9]{3}$/;
+const ISSUE_ID_RE = /^I-[0-9]{3,}$/;
 const ISSUE_URL_RE = /^https:\/\/github\.com\/Theweil\/PS5-ZSTD-Compatibility\/issues\/[0-9]+$/;
 const issueReports = tests.filter((t) => t.source_type === 'issue');
 for (const t of tests) {

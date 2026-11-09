@@ -135,7 +135,8 @@
 - `tested_at`、`ps5_firmware`、`game_version`、`runtime_version` 等**按表单如实填写**；表单未填的保持 `null` / `[]`，不猜测。日期只做格式规范化（如 `2026-11-8` → `2026-11-08`），并在 `notes` 注明原文。
 - 逐字保真校验（`notes` / `tester_raw` / `game_title_raw` / `ppsa_raw` 对照原始行）**只适用于存档报告**；Issue 报告以表单原文为准，`notes` 记录来源与任何规范化。
 - `games.json` 中对应游戏与 SKU 的 `source_record_ids` 同样使用 `I-nnn`，不得与 `P-xxx` / `F-xxx` 混用（CI 会拒绝）。
-- **入库步骤**：核实 Issue → `tests.json` 追加一条（必要时 `games.json` 追加一款）→ `updates.json` 记一条（首页「最近更新」）→ `npm run stats -- --write` 同步 README → `npm test` → `CHANGELOG.md` → PR → 合并 `main` → Pages 自动发布。网站列表、统计与详情全部由 JSON 实时计算，**不用改 HTML**。
+- **入库步骤（推荐，自动化）**：核实 Issue → 评论 `/approve` 或打 `approved` 标签 → `issue-to-pr.yml` 调用 `scripts/issue-to-data.mjs` 生成 `tests.json`（必要时 `games.json`）、`updates.json`、README 统计与 CHANGELOG → `npm test` → 自动开 PR → 维护者合并 `main` → Pages 自动发布。
+- **入库步骤（手工备用）**：核实 Issue → 追加 `tests.json` 一条（必要时 `games.json` 一款）→ `updates.json` 记一条 → `npm run stats -- --write` 同步 README → `npm test` → `CHANGELOG.md` → PR → 合并 `main`。网站列表、统计与详情全部由 JSON 实时计算，**不用改 HTML**。
 
 ## 4. 冲突与拆分规则的具体落地
 

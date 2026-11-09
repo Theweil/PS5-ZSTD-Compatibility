@@ -9,6 +9,13 @@
 
 ## [Unreleased]
 
+### Added — 审核即自动生成 PR / Approved Issue to PR automation
+
+- 新增 `.github/workflows/issue-to-pr.yml`：维护者给 `new-test` Issue 打 `approved` 标签或评论 `/approve` 时，自动把表单转成数据变更、跑 `npm test` 并创建 PR；**不自动合并、不自动发布**，合并 `main` 后由 `deploy.yml` 发布。只有仓库所有者的审核动作会触发，同一 Issue 幂等。
+- 新增 `scripts/issue-to-data.mjs`：解析 Issue Form 字段 → 分配 `I-nnn` 来源 ID 与 `test-XXXX` → 写入 `tests.json`（必要时复用/新建 `games.json` 游戏与 SKU）、`updates.json` → 同步 README 统计快照 / 表格 / 中英文摘要 → 追加 `CHANGELOG.md`。未知项保持 `null` / `[]`，日期只做格式规范化；95 条逐字存档永不改动。
+- `schema/{game,test,updates}.schema.json` 与 `scripts/validate-data.mjs`：`I-nnn` 来源 ID 支持 3 位及以上编号（对应 4 位数 Issue 号）。
+- `README.md`、`CONTRIBUTING.md`、`docs/CONTRIBUTING.md`、`docs/DATA-MODEL.md`：补充一键收录流程说明，并把 README 统计说明列改为不含易变数字的表述（便于脚本同步）。
+
 ### Added — 收录 2 条社区测试报告 / Added 2 community test reports
 
 - 新增 `I-nnn` 来源 ID 体系：通过 GitHub Issue 表单提交的报告使用 `source_type: "issue"`，与 95 条 `P-xxx` / `F-xxx` 逐字存档分开管理；`schema/test.schema.json`、`schema/game.schema.json`、`schema/updates.schema.json` 与 `scripts/validate-data.mjs` 同步扩展并校验 Issue 来源（Issue 编号、链接、来源表、验证级别）。

@@ -26,6 +26,12 @@ For the full contributor workflow, issue forms and PR checklist see [CONTRIBUTIN
 3. **跑校验**：`npm ci && npm test`；统计变化时再跑 `npm run stats -- --write`。
 4. **提 PR**：使用模板勾选数据准确性清单，等待审核。
 
+## 维护者一键收录 / One-click maintainer import
+
+`issue-to-pr.yml` + `issue-to-data.mjs` 会把审核过的 `new-test` Issue 自动翻译成完整数据变更并开 PR：在 Issue 评论 `/approve`（或打 `approved` 标签）→ 工作流生成 `tests.json` / `games.json` / `updates.json` / README 统计 / CHANGELOG → `npm test` → 自动创建 PR → 维护者点 Merge → Pages 自动发布。只有仓库所有者的审核动作会触发；同一 Issue 只导入一次。详见根目录 [CONTRIBUTING.md](../CONTRIBUTING.md)。
+
+这一流程是为了避免两件容易出错的事：忘记同步 README 的 `STATS-SNAPSHOT`（`npm test` 会直接失败），以及把社区提交误挂到 `P-xxx` / `F-xxx` 逐字存档上。工作流使用 `I-nnn` 来源 ID，从不改 `sources.json` 与逐字存档。
+
 ## CI 会拒绝的情况 / CI will fail when
 
 - 出现重复 `id` / `test id` / `source_record_id`

@@ -12,7 +12,10 @@
       "title_en": "Initial data migration completed",
       "detail_zh": "导入通过表 85 条、问题表 10 条，共 95 条原始记录；建立 91 款独立游戏与 96 条独立测试报告。原始表格逐字存档于 docs/source-data-original.md。",
       "detail_en": "Imported 85 pass-table and 10 problem-table rows (95 original records), establishing 91 distinct games and 96 independent test reports. The verbatim tables are archived in docs/source-data-original.md.",
-      "related_source_ids": ["P-001", "F-001"]
+      "related_source_ids": [
+        "P-001",
+        "F-001"
+      ]
     },
     {
       "id": "update-2026-11-08-02",
@@ -22,7 +25,11 @@
       "title_en": "Established the game / SKU / test-report data model",
       "detail_zh": "区分原始记录、独立游戏与独立测试报告；P-044 拆分为 ZSTD 与 LZ4 两条报告；疑似 SKU 单独存为未确认候选；P-034/F-002 等冲突报告全部保留。",
       "detail_en": "Separated original rows, distinct games and independent reports. P-044 was split into ZSTD and LZ4 reports; suspected SKUs are kept as unconfirmed candidates; conflicting reports such as P-034/F-002 are all retained.",
-      "related_source_ids": ["P-034", "P-044", "F-002"]
+      "related_source_ids": [
+        "P-034",
+        "P-044",
+        "F-002"
+      ]
     },
     {
       "id": "update-2026-11-08-03",
@@ -42,7 +49,10 @@
       "title_en": "Added 2 community test reports",
       "detail_zh": "核实并收录 Issue #3（Dragon Quest VII Reimagined · PPSA17942 · ZSTD 失败）与 Issue #4（动物井 / Animal Well · PPSA22520 · ZSTD 通过）。社区提交使用 I-nnn 来源 ID，与 95 条逐字原始存档分开管理。",
       "detail_en": "Verified and added Issue #3 (Dragon Quest VII Reimagined, PPSA17942, ZSTD fail) and Issue #4 (Animal Well, PPSA22520, ZSTD pass). Community submissions use I-nnn source ids and stay separate from the 95 verbatim archived rows.",
-      "related_source_ids": ["I-003", "I-004"]
+      "related_source_ids": [
+        "I-003",
+        "I-004"
+      ]
     }
   ]
 }

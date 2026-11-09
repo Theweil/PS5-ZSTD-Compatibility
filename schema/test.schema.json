@@ -95,7 +95,7 @@
         "source_record_ids": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string", "pattern": "^(?:[PF]-[0-9]{3}|I-[0-9]{3})$" }
+          "items": { "type": "string", "pattern": "^(?:[PF]-[0-9]{3}|I-[0-9]{3,})$" }
         },
         "source_type": { "type": "string", "enum": ["archive", "issue"] },
         "issue_number": { "type": "integer", "minimum": 1 },
